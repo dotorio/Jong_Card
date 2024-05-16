@@ -1,0 +1,62 @@
+[
+{
+    "model": "cards.benefit",
+    "pk": 1,
+    "fields": {
+        "card": 1,
+        "convenience_store": "10%",
+        "telecom": "0",
+        "fuel": "60/L",
+        "OTT": "10%",
+        "cafe": "10%",
+        "food": "10%",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "10%",
+        "online_shopping": "0",
+        "offline_shopping": "10%",
+        "delivery": "10%",
+        "details": "전월 실적 : 5만원, 스트리밍 : 유튜브 프리미엄(건당 최소이용금액 3천원), 편의점 : GS25, CU(건당 최소이용금액 5천원), 음식 : 패스트푸드점(건당 최소이용금액 7천원), 대중교통 : 버스, 지하철(건당 최소이용금액 1만원)"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 2,
+    "fields": {
+        "card": 2,
+        "convenience_store": "10%",
+        "telecom": "10%",
+        "fuel": "10%",
+        "OTT": "10%",
+        "cafe": "10%",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "아아아아"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 3,
+    "fields": {
+        "card": 3,
+        "convenience_store": "10%",
+        "telecom": "10%",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "0",
+        "food": "0",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "상세내역"
+    }
+}
+]

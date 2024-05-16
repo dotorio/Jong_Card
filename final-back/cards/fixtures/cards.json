@@ -1,0 +1,35 @@
+[
+{
+    "model": "cards.card",
+    "pk": 1,
+    "fields": {
+        "cardBigCategory": "신용카드",
+        "cardSmallCategory": "할인",
+        "cardCompany": "국민은행",
+        "cardName": "나라사랑카드",
+        "annualFee": "10000원"
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 2,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "국민은행",
+        "cardName": "나라나라카드",
+        "annualFee": "0원"
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 3,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "신한은행",
+        "cardName": "나라기쁨카드",
+        "annualFee": "10원"
+    }
+}
+]
