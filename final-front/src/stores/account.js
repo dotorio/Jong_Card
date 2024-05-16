@@ -7,8 +7,8 @@ import { useRouter } from 'vue-router'
 // router.push({ name: 'home' })
 export const useAccountStore = defineStore('account', () => {
   const router = useRouter()
-  let id = 0
-
+  let id = 7
+  const user_id = ref(null)
   const API_URL = 'http://127.0.0.1:8000'
 
   const isLogin = ref(false)
@@ -51,7 +51,8 @@ export const useAccountStore = defineStore('account', () => {
       }
     })
       .then(res => {  
-        router.push({  name: 'home'} )
+        router.push({  name: 'home' } )
+        user_id.value = username
         console.log('로그인 완료!')
         isLogin.value = res.data
         
@@ -64,8 +65,9 @@ export const useAccountStore = defineStore('account', () => {
 
   const logout = function () {
     isLogin.value = null
+    user_id.value = null
   }
 
 
-  return { isLogin, signUp, login, logout }
+  return { user_id, isLogin, signUp, login, logout }
 })
