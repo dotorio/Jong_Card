@@ -13,7 +13,7 @@
               <span>작성자</span>
             </div>
           </div>
-          <ArticleItem 
+          <ArticleItem
           v-for="article in articleStore.articleList" :key="article.id"
           :article="article"
           />
@@ -39,8 +39,9 @@ onMounted(() => {
 
 const router = useRouter()
 const goWrite = function () {
-  router.push({ name: 'article-write', params: { username: 'user11'} })
+  router.push({ name: 'article-write', params: { username: accountStore.userName } })
 }
+
 
 </script>
 
