@@ -3,22 +3,26 @@
     "model": "cards.card",
     "pk": 1,
     "fields": {
-        "cardBigCategory": "신용카드",
+        "cardBigCategory": "신용",
         "cardSmallCategory": "할인",
-        "cardCompany": "국민은행",
-        "cardName": "나라사랑카드",
-        "annualFee": "10000원"
+        "cardCompany": "KB국민카드",
+        "cardName": "K-패스카드",
+        "annualFee": "8000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09321",
+        "like_users": []
     }
 },
 {
     "model": "cards.card",
     "pk": 2,
     "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "국민은행",
-        "cardName": "나라나라카드",
-        "annualFee": "0원"
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "KB국민카드",
+        "cardName": "K-패스체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09322",
+        "like_users": []
     }
 },
 {
@@ -26,10 +30,103 @@
     "pk": 3,
     "fields": {
         "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "WE:SH All 카드",
+        "annualFee": "20000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09122",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 4,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "My WE:SH 카드",
+        "annualFee": "15000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09123",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 5,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "Our WE:SH 카드",
+        "annualFee": "15000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09124",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 6,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "톡톡 with카드",
+        "annualFee": "12000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09272",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 7,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "마이핏카드(할인형)",
+        "annualFee": "10000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09248",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 8,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "Easy on카드",
+        "annualFee": "20000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09244",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 9,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "굿데이올림카드",
+        "annualFee": "15000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09063",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 10,
+    "fields": {
+        "cardBigCategory": "신용",
         "cardSmallCategory": "적립",
-        "cardCompany": "신한은행",
-        "cardName": "나라기쁨카드",
-        "annualFee": "10원"
+        "cardCompany": "KB국민카드",
+        "cardName": "톡톡 my living카드",
+        "annualFee": "12000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09205",
+        "like_users": []
     }
 }
 ]

@@ -4,19 +4,19 @@
     "pk": 1,
     "fields": {
         "card": 1,
-        "convenience_store": "10%",
-        "telecom": "0",
-        "fuel": "60/L",
-        "OTT": "10%",
-        "cafe": "10%",
-        "food": "10%",
-        "public_transport": "0",
-        "hospital": "0",
-        "movie": "10%",
+        "convenience_store": "5%",
+        "telecom": "5%",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "5%",
+        "food": "5%",
+        "public_transport": "10%",
+        "hospital": "5%",
+        "movie": "5%",
         "online_shopping": "0",
-        "offline_shopping": "10%",
-        "delivery": "10%",
-        "details": "전월 실적 : 5만원, 스트리밍 : 유튜브 프리미엄(건당 최소이용금액 3천원), 편의점 : GS25, CU(건당 최소이용금액 5천원), 음식 : 패스트푸드점(건당 최소이용금액 7천원), 대중교통 : 버스, 지하철(건당 최소이용금액 1만원)"
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 30만원\r\n대중교통 : 버스, 지하철\r\n통신요금 : SK, KT, LG, LiivM\r\n병원/약국 : 약국 업종\r\n영화 : CGV, 롯데시네마\r\n음식 : 패스트푸드 업종"
     }
 },
 {
@@ -24,19 +24,19 @@
     "pk": 2,
     "fields": {
         "card": 2,
-        "convenience_store": "10%",
-        "telecom": "10%",
-        "fuel": "10%",
-        "OTT": "10%",
-        "cafe": "10%",
-        "food": "0",
+        "convenience_store": "1%",
+        "telecom": "1%",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "1%",
+        "food": "1%",
         "public_transport": "10%",
-        "hospital": "0",
-        "movie": "0",
+        "hospital": "1%",
+        "movie": "1%",
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "아아아아"
+        "details": "전월 실적 : 20만원\r\n대중교통 : 버스, 지하철\r\n통신요금 : SK, KT, LG, LiivM\r\n병원/약국 : 약국 업종\r\n영화 : CGV, 롯데시네마\r\n음식 : 패스트푸드 업종"
     }
 },
 {
@@ -44,7 +44,147 @@
     "pk": 3,
     "fields": {
         "card": 3,
+        "convenience_store": "1%",
+        "telecom": "5%",
+        "fuel": "0",
+        "OTT": "10%",
+        "cafe": "1%",
+        "food": "1%",
+        "public_transport": "0",
+        "hospital": "1%",
+        "movie": "1%",
+        "online_shopping": "50%",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 40만원(온라인 쇼핑, OTT, 통신요금 해당)\r\n온라인 쇼핑 : 네이버플러스, 쿠팡 로켓와우\r\nOTT : 넷플릭스, 유튜브 프리미엄, 웨이브, 티빙, 디즈니플러스\r\n통신요금 : SKT, KT, LG U+, Liiv M"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 4,
+    "fields": {
+        "card": 4,
         "convenience_store": "10%",
+        "telecom": "10%",
+        "fuel": "0",
+        "OTT": "30%",
+        "cafe": "5%",
+        "food": "10%",
+        "public_transport": "5%",
+        "hospital": "0",
+        "movie": "30%",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 40만원\r\n편의점 : GS25, CU\r\n대중교통 : 택시\r\n배달 : 배달의 민족, 요기요, 마켓컬리\r\n영화 : CGV, 롯데시네마, 메가박스\r\n통신 요금 : SKT, KT, LG U+, Liiv M\r\nOTT : 넷플릭스, 유튜브 프리미엄, 웨이브, 티빙, 디즈니플러스"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 5,
+    "fields": {
+        "card": 5,
+        "convenience_store": "10%",
+        "telecom": "10%",
+        "fuel": "5%",
+        "OTT": "0",
+        "cafe": "10%",
+        "food": "5%",
+        "public_transport": "0",
+        "hospital": "10%",
+        "movie": "10%",
+        "online_shopping": "0",
+        "offline_shopping": "5%",
+        "delivery": "5%",
+        "details": "전월 실적 : 40만원\r\n쇼핑 : 대형마트, 백화점, SSM(이마트 에브리데이/롯데슈퍼/홈플러스 익스프레스)\r\n주유 : SK주유소, SK충전소\r\n배달 : 배달의 민족, 요기요\r\n병원/약국 : 약국 5%\r\n편의점 : CU, CS25\r\n통신요금 : SKT, KT, LG U+, Liiv M"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 6,
+    "fields": {
+        "card": 6,
+        "convenience_store": "0",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "20%",
+        "cafe": "50%",
+        "food": "0",
+        "public_transport": "5%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "10%",
+        "offline_shopping": "0",
+        "delivery": "5%",
+        "details": "전월 실적 : 40만원\r\n커피 : 스타벅스\r\nOTT : 유튜브 프리미엄, 넷플릭스, 웨이브, 티빙\r\n온라인 쇼핑 : 온라인 간편결제\r\n배달 : 배달의민족, 요기요\r\n대중교통 : 버스, 지하철"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 7,
+    "fields": {
+        "card": 7,
+        "convenience_store": "5%",
+        "telecom": "5%",
+        "fuel": "5%",
+        "OTT": "0",
+        "cafe": "5%",
+        "food": "5%",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "5%",
+        "offline_shopping": "5%",
+        "delivery": "5%",
+        "details": "전월 실적 : 30만원\r\n음식 : VIPS, 아웃백\r\n커피 : 스타벅스, 커피빈\r\n편의점 : GS25, CU\r\n쇼핑 : 이마트, 롯데마트\r\n주유 : SK에너지, GS칼텍스\r\n통신 : SKT/KT/LG U+\r\n온라인쇼핑 : 쿠팡, G마켓\r\n배달 : 배달의 민족"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 8,
+    "fields": {
+        "card": 8,
+        "convenience_store": "5%",
+        "telecom": "5%",
+        "fuel": "5%",
+        "OTT": "0",
+        "cafe": "5%",
+        "food": "5%",
+        "public_transport": "5%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "5%",
+        "offline_shopping": "5%",
+        "delivery": "5%",
+        "details": "전월 실적 : 50만원\r\n온라인 쇼핑 : G마켓, 옥션, 11번가, 쿠팡, 티몬, 위메프\r\n배달 : 배달의 민족, 마켓컬리\r\n쇼핑 : 백화점\r\n커피 : 스타벅스, 커피빈\r\n편의점 : GS25, CU\r\n대중교통 : 버스/지하철\r\n이동통신 : SKT, KT, LG U+"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 9,
+    "fields": {
+        "card": 9,
+        "convenience_store": "0",
+        "telecom": "10%",
+        "fuel": "60원/L",
+        "OTT": "0",
+        "cafe": "0",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "10%",
+        "delivery": "0",
+        "details": "전월 실적 : 30만원\r\n쇼핑 : 이마트, 롯데마트, 홈플러스"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 10,
+    "fields": {
+        "card": 10,
+        "convenience_store": "0",
         "telecom": "10%",
         "fuel": "0",
         "OTT": "0",
@@ -53,10 +193,10 @@
         "public_transport": "0",
         "hospital": "0",
         "movie": "0",
-        "online_shopping": "0",
-        "offline_shopping": "0",
-        "delivery": "0",
-        "details": "상세내역"
+        "online_shopping": "10%",
+        "offline_shopping": "10%",
+        "delivery": "10%",
+        "details": "전월실적 : 30만원\r\n온라인 쇼핑 : 네이버쇼핑, 11번가, G마켓, 옥션, SSG.COM, 롯데ON, 인터파크, 마켓컬리, 쿠팡\r\n쇼핑 : 이마트, 롯데마트, 홈플러스, 농협하나로마트\r\n통신 : SKT, KT, LG U+, Liiv M\r\n배달 : 배달의 민족, 쿠팡이츠, 요기요"
     }
 }
 ]
