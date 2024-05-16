@@ -1,4 +1,5 @@
 from .models import Article
+
 from rest_framework import serializers
 
 class ArticleSerializer(serializers.ModelSerializer):
@@ -6,3 +7,5 @@ class ArticleSerializer(serializers.ModelSerializer):
         model = Article
         fields = '__all__'
         read_only_fields = ('username',)
+
+
