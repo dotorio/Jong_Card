@@ -35,10 +35,10 @@ def article_detail(request, article_pk):
             return Response(serializer.data)
         
 @api_view(['POST'])
-def article_create(request, user_pk):
-    user = User.objects.get(pk=user_pk)
+def article_create(request, username):
+    user = User.objects.get(username=username)
     serializer = ArticleSerializer(data=request.data)
     if serializer.is_valid(raise_exception=True):
-        serializer.save(user_id=user)
+        serializer.save(username=user)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
         

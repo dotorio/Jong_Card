@@ -5,4 +5,4 @@ class ArticleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Article
         fields = '__all__'
-        read_only_fields = ('user_id',)
+        read_only_fields = ('username',)
