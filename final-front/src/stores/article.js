@@ -7,25 +7,60 @@ import { useAccountStore } from './account'
 
 export const useArticleStore = defineStore('article', () => {
   const API_URL = 'http://127.0.0.1:8000'
+  const articleList = ref(null)
+  // const username = ref(null)
+  const accountStore = useAccountStore()
+  
+
+  const getArticle = function () {
+    articleList.value = []
+    axios({
+      method: 'get',
+      url: `${API_URL}/articles/`
+    })
+      .then(res => {
+        // console.log(accountStore.userList)
+        res.data.forEach(article => {
+          accountStore.userList.forEach(user => {
+            if (article.username === user.id) {
+              articleList.value.push({
+                title: article.title, 
+                username: user.username
+              })
+            }
+          });
+        });
+        
+        // console.log(accountStore.userList)
+      })
+      .catch(err => {
+        console.log(err)
+      })
+
+  }
+  
   const write = function (payload) {
     const title = payload.title
     const content = payload.content
     const accountStore = useAccountStore()
 
+    
+
     axios({
       method: 'post',
-      url: `${API_URL}/articles/${accountStore.user_id}/write/`,
+      url: `${API_URL}/articles/${accountStore.userName}/write/`,
       data: {
         title, content
       }
     })
       .then(res => {
         console.log('문의 작성!')
+        accountStore.articleWrite(res.data[1])
       })
       .catch(err => {
         console.log(err)
       })
   }
 
-  return { write }
+  return { articleList, getArticle, write }
 })

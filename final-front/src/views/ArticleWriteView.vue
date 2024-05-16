@@ -33,6 +33,7 @@ const articleWrite = function () {
   articleStore.write(payload)
   title.value = null
   content.value = null
+  router.push({name: 'article'})
 }
 </script>
 

@@ -17,7 +17,7 @@ export const useCardStore = defineStore('card', () => {
       .then(res => {
         // console.log(res.data)
         cardList.value = res.data
-        console.log(res.data)
+        // console.log(res.data)
         // localStorage.setItem('cardList', JSON.stringify(res.data))
         benefitList.value = cardsort(cardList)
         // console.log(benefitList.value)

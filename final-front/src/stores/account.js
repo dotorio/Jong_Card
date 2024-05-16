@@ -2,21 +2,37 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import axios from 'axios'
 import { useRouter } from 'vue-router'
-
+import { useArticleStore } from './article'
 
 // router.push({ name: 'home' })
 export const useAccountStore = defineStore('account', () => {
   const router = useRouter()
-  let id = 7
-  const user_id = ref(null)
+  const userList = ref(null)
+  const userName = ref(null)
   const API_URL = 'http://127.0.0.1:8000'
+  const articleStore = useArticleStore()
 
   const isLogin = ref(false)
+
+  const getUserList = function () {
+    axios({
+      method: 'get',
+      url: `${API_URL}/user/`
+    })
+      .then(res => {
+        userList.value = res.data
+        articleStore.getArticle()
+      })
+      .catch(err => {
+        console.log(err)
+      })
+  }
 
   const signUp = function (payload) {
     const username = payload.username
     const password1 = payload.password1
     const password2 = payload.password2
+    
 
     axios({
       method: 'post',
@@ -32,6 +48,8 @@ export const useAccountStore = defineStore('account', () => {
           password: password1
         }
         login(payload)
+        
+
       })
       .catch(err => {
         console.log(err)
@@ -52,22 +70,24 @@ export const useAccountStore = defineStore('account', () => {
     })
       .then(res => {  
         router.push({  name: 'home' } )
-        user_id.value = username
+        userName.value = username
         console.log('로그인 완료!')
         isLogin.value = res.data
-        
       })
       .catch(err => {
         console.log(err)
       })
 
   }
+  const articleWrite = function (username) {
+    userName.value = username
+  }
 
   const logout = function () {
     isLogin.value = null
-    user_id.value = null
+    userName.value = null
   }
 
 
-  return { user_id, isLogin, signUp, login, logout }
+  return { userName, userList, isLogin, getUserList, signUp, login, logout, articleWrite }
 })

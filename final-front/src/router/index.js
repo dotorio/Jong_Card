@@ -31,6 +31,12 @@ const router = createRouter({
       path: '/article',
       name: 'article',
       component: ArticleView,
+      beforeEnter: (to, from) => {
+        const accountStore = useAccountStore()
+        if (!accountStore.isLogin) {
+          return { name: 'account'}
+        }
+      }
     },
     {
       path: '/article/write/:username',
