@@ -40,5 +40,5 @@ def article_create(request, username):
     serializer = ArticleSerializer(data=request.data)
     if serializer.is_valid(raise_exception=True):
         serializer.save(username=user)
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response([serializer.data, user.username], status=status.HTTP_201_CREATED)
         
