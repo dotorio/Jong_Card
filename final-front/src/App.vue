@@ -1,6 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import NavMenu from './components/NavMenu.vue';
+import { useCardStore } from './stores/card';
+import { onMounted } from 'vue'
+
+const store = useCardStore()
+
+onMounted(() => {
+  store.updateCardList()
+})
 
 </script>
 

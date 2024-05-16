@@ -3,6 +3,7 @@ import HomeView from '@/views/HomeView.vue'
 import AccountView from '@/views/AccountView.vue'
 import ArticleView from '@/views/ArticleView.vue'
 import ArticleWriteView from '@/views/ArticleWriteView.vue'
+import CardRecommendView from '@/views/CardRecommendView.vue'
 
 import { useAccountStore } from '@/stores/account'
 
@@ -35,7 +36,12 @@ const router = createRouter({
       path: '/article/write/:username',
       name: 'article-write',
       component: ArticleWriteView,
-    }
+    },
+    {
+      path: '/card-recommend',
+      name: 'card-recommend',
+      component: CardRecommendView
+    },
 
     
   ]
