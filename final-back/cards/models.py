@@ -1,10 +1,10 @@
 from django.db import models
-from django.contrib.auth.models import User
 from django.conf import settings
 
 # Create your models here.
 class Card(models.Model):
     # 신용카드:1, 체크카드:2
+    like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_cards')
     cardBigCategory = models.CharField(max_length=50)
     # 할인: 1, 적립: 2
     cardSmallCategory = models.CharField(max_length=50)
@@ -19,10 +19,7 @@ class Card(models.Model):
     # 3 = 3만원 초과, 5만원 이하
     # 4 = 5만원 초과
     annualFee = models.CharField(max_length=50)
-
-    like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_cards')
-
-
+    site = models.TextField()
     
     
 
@@ -57,6 +54,3 @@ class Benefit(models.Model):
     details = models.TextField() 
 
 
-class Like(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    card = models.ForeignKey(Card, on_delete=models.CASCADE)
