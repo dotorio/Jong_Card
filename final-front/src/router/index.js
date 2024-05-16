@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import AccountView from '@/views/AccountView.vue'
+import ArticleView from '@/views/ArticleView.vue'
+import ArticleWriteView from '@/views/ArticleWriteView.vue'
+
 import { useAccountStore } from '@/stores/account'
 
 
@@ -22,8 +25,17 @@ const router = createRouter({
           return { name: 'home'}
         }
       }
-
     },
+    {
+      path: '/article',
+      name: 'article',
+      component: ArticleView,
+    },
+    {
+      path: '/article/write/:username',
+      name: 'article-write',
+      component: ArticleWriteView,
+    }
 
     
   ]

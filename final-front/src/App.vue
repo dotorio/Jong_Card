@@ -12,7 +12,9 @@ import NavMenu from './components/NavMenu.vue';
 </template>
 
 <style scoped>
-
+* {
+  font-family: 'NEXON Lv2 Gothic';
+}
 
 
 
