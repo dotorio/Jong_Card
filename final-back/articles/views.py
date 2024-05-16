@@ -8,18 +8,11 @@ from .models import Article
 from .serializers import ArticleSerializer
 
 # Create your views here.
-@api_view(['GET', 'POST'])
+@api_view(['GET'])
 def article_list(request):
-    if request.method == 'GET':
-
-        articles = Article.objects.all()
-        serializer = ArticleSerializer(articles, many=True)
-        return Response(serializer.data)
-    # elif request.method == 'POST':
-    #     serializer = ArticleSerializer(data=request.data)
-    #     if serializer.is_valid(raise_exception=True):
-    #         serializer.save()
-    #         return Response(serializer.data, status=status.HTTP_201_CREATED)
+    articles = Article.objects.all()
+    serializer = ArticleSerializer(articles, many=True)
+    return Response(serializer.data)
         
         
     
