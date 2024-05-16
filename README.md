@@ -1,93 +1,90 @@
-# final-pjt
+<img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=300&section=header&text=Jong%20Card&fontSize=90" />
+
+## 목차
+### [Skills](#skills)  |  [기획](#1-기획)  |  [목업](#2-목업디자인)
 
 
 
-## Getting started
+## Skills
+### Back
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+### Front
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## 1. 기획
+> 카드 혜택 별 추천 웹 사이트
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+![기획 마인드맵](./READMEIMG/기획/mindmap.png)
 
-## Add your files
+### 주요 기능
+#### `1. 할인율 시각적으로 보여주기`
+- 각 혜택별로 얼마나 할인이 되는지를 대표 제품의 가격으로 확인할 수 있게 만들자!
+> ex ) 커피: ~~5000원~~    = 4500원 
+ 
+#### `2. 정렬 기능` 
+- 카드사
+- 카드 혜택 유/무 
+- 좋아요순
+  
+#### `3. 로그인 / 회원가입 기능`
+- 로그인/회원가입 기능은 필수!
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+#### `4. 문의글 작성하기 - (로그인 필요)`
+- 로그인한 사용자가 궁금한 점을 문의할 수 있는 문의글 게시판을 만들자!
+- 정렬 기능 추가 `(고려)`
 
-```
-cd existing_repo
-git remote add origin https://lab.ssafy.com/kjd742388/final-pjt.git
-git branch -M master
-git push -uf origin master
-```
+#### `5. 카드 키우기 -(로그인 필요)`
+- 사이트에 사용 시간을 늘리기 위해서 고안한 기능
+- 미션을 수행하면 카드에 경험치를 획득할 수 있음
+- 레벨업 할때마다 이미지를 변경시켜 새로움을 느끼게 할 예정
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://lab.ssafy.com/kjd742388/final-pjt/-/settings/integrations)
+## 2. 목업(디자인)
+### `메인 페이지`
+![메인페이지](./READMEIMG/목업/mainpage.png)
+- 네비게이션바는 최대한 심플하게 갈 예정
+- 헤더부분은 `캐러셀`을 구현하여 추천 카드를 보여줄 예정
+- 주요 기능들에 들어갈 수 있는 아이콘을 만든다
+- 공지사항과 문의글을 볼 수 있는 영역을 밑에 둔다 `(변경 가능)`
 
-## Collaborate with your team
+### `광고 헤더`
+![광고 헤더](./READMEIMG/목업/header.png)
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- `JongCard`의 시그니처 캐릭터를 활용하여 광고성 헤더`(슬라이드 이미지 활용)`를 만들 예정
 
-## Test and Deploy
+### `카드 추천 및 혜택 정렬 페이지`
+![카드추천](./READMEIMG/목업/cardrecommand.png)
+  - 상단에 각 혜택별로 선택할 수 있는 버튼을 만든다
+  - 버튼을 누르면 해당 혜택이 있는 카드를 정렬해서 다시 나타낸다
+  - 각 카드별 좋아요 버튼도 넣을 예정!
 
-Use the built-in continuous integration in GitLab.
+### `카드 혜택 상세페이지`
+![혜택 상세](./READMEIMG/목업/cardrecommanddetail.png)
+- 혜택별 대표 상품을 할인율에 따라 가격차이를 시각적으로 보여준다
+- 혜택이 없는 메뉴는 비활성화
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+### `로그인/회원가입`
+![로그인/회원가입](./READMEIMG/목업/login.png)
+> 회원가입: 닉네임, 비밀번호, 비밀번호확인
+>
+> 로그인: 닉네임, 비밀번호
+- 회원가입과 로그인 버튼을 누르면 각각에 입력해야할 창이 바뀌게 할 예정
 
-***
+### `카드 키우기`
+![카드키우기](./READMEIMG/목업/growcard.png)
+- 카드를 누르면 동전이 떨어지는 효과
+- 미션을 수행하면 경험치 증가
+- 레벨업을 하면 카드가 바뀜
 
-# Editing this README
+### `문의글 게시판`
+![문의글](./READMEIMG/목업/ask.png) 
+![문의글 작성](./READMEIMG/목업/ask2.png)
+- 심플하게 만들 예정!
+- 더미 데이터를 추가하여 여러 페이지를 만들어서 넘어가게 만들 `예정`
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
 
-## Suggestions for a good README
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
