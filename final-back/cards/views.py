@@ -40,6 +40,12 @@ def likes_card_toggle(request, username, card_id):
 
 def get_recommend_cards(username):
     recommend_card_list = []
+
+    if not username:
+        for card in cards:
+            recommend_card_list.append(CardFullSerializer(card).data)
+        return recommend_card_list
+    
     user = User.objects.get(username=username)
     print(user)
     # 1. 그 유저가 좋아요한 카드 가져오기
