@@ -41,14 +41,16 @@ const accountStore = useAccountStore()
 const isLogin = ref(false)
 const check = ref(false)
 
-if (accountStore.isLogin){
-  cardStore.userLikeCards.forEach(element => {
-    console.log(element)
-    if (element.id === cardId) {
-      check.value = true
-    }
-  });
-}
+setTimeout(() => {
+  if (accountStore.isLogin){
+    cardStore.userLikeCards.forEach(element => {
+      // console.log(element)
+      if (element.id === cardId) {
+        check.value = true
+      }
+    });
+  }
+}, 500)
 
 if(!accountStore.userName) {
   isLogin.value = true

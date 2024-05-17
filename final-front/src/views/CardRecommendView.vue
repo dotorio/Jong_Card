@@ -40,7 +40,9 @@ import { useCardStore } from '@/stores/card'
 import CardItem from '@/components/CardItem.vue'
 
 const store = useCardStore()
-
+onMounted(() => {
+  store.updateCardList()
+})
 // 전제 카드 리스트
 const cardList = ref(null) 
 // 정렬 기준을 선택할 때마다 새로 생길 리스트
