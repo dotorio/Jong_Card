@@ -6,6 +6,7 @@ import { useAccountStore } from './account'
 
 
 export const useCardStore = defineStore('card', () => {
+  const accountStore = useAccountStore()
   const cardList = ref(null)
   const benefitList = ref(null)
   const API_URL = 'http://127.0.0.1:8000'
@@ -14,7 +15,11 @@ export const useCardStore = defineStore('card', () => {
 
     axios({
       method: 'get',
+<<<<<<< HEAD
       url: `${API_URL}/cards/${accountStore.userName}/update-card-list/`
+=======
+      url: `${API_URL}/cards/${accountStore.userName}/update-card-list`
+>>>>>>> front
     })
       .then(res => {
         cardList.value = res.data
@@ -29,4 +34,4 @@ export const useCardStore = defineStore('card', () => {
       })
   }
   return { cardList, benefitList, updateCardList }
-})
+}, { persist:true })

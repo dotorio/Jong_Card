@@ -8,7 +8,7 @@ import ArticleUpdateView from '@/views/article/ArticleUpdateView.vue'
 import CardRecommendView from '@/views/CardRecommendView.vue'
 
 import { useAccountStore } from '@/stores/account'
-
+import { useCardStore } from '@/stores/card'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -65,7 +65,11 @@ const router = createRouter({
     {
       path: '/card-recommend',
       name: 'card-recommend',
-      component: CardRecommendView
+      component: CardRecommendView,
+      beforeEnter: (to, from) => {
+        const cardStore = useCardStore()
+        cardStore.updateCardList()
+      }
     },
 
     
