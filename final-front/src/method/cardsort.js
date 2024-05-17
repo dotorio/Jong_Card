@@ -11,7 +11,10 @@ export const cardsort = function(cardList) {
   const online_shopping = []
   const offline_shopping = []
   const delivery = []
+
+  console.log(cardList.value)
   cardList.value.forEach(element => {
+
     if (element.benefit[0].convenience_store === '0') {
       convenience_store.push(false)
     } else {
