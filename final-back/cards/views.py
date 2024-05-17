@@ -20,23 +20,21 @@ def update_card_list(request, username):
     
     return Response(recommend_card_list)
     
-@api_view(['POST'])
+@api_view(['GET','POST'])
 def likes_card_toggle(request, username, card_id):
     user = get_object_or_404(User, username=username)
-    print(user)
-    card = get_object_or_404(Card, id=card_id)
-
     # 좋아요 취소 또는 추가
-    if card.like_users.filter(id=user.id).exists():
-        card.like_users.remove(user)
-        action = "unliked"
-    else:
-        card.like_users.add(user)
-        action = "liked"
+    if request.method == 'POST':
+        card = get_object_or_404(Card, id=card_id)
+        if card.like_users.filter(id=user.id).exists():
+            card.like_users.remove(user)
+            action = "unliked"
+        else:
+            card.like_users.add(user)
+            action = "liked"
+        card.save()
     
-    card.save()
-
-    return Response({"action": action, "card": CardSerializer(card).data}, status=status.HTTP_200_OK)
+    return Response({"card": CardSerializer(user.like_cards.all(), many=True).data}, status=status.HTTP_200_OK)
 
 def get_recommend_cards(username):
     recommend_card_list = []
