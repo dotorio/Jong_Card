@@ -62,7 +62,8 @@ const selectedOptions = ref({
 })
 
 // 초기 세팅
-cardList.value = store.cardList
+// cardList.value = store.cardList
+cardList.value = JSON.parse(localStorage.getItem('cardList'))
 newCardList.value = cardList.value
 // 정렬 기준 별 포함/미포함(true/false) 리스트
 const benefitList = store.benefitList
@@ -84,7 +85,6 @@ const selectBenefit = ref({
 })
 // 정렬 기준 버튼이 클릭 됐을 때 실행
 const sortCard = function(event) {
-  
   // 눌려진 버튼의 클래스를 가져옴 -> 정렬 기준
   const clickBenefitStr = event.target.getAttribute('class')
   const clickBenefit = clickBenefitStr.split(' ')[0]
@@ -98,7 +98,7 @@ const sortCard = function(event) {
     selectedOptions.value[clickBenefit].push('active')
   }
   selectBenefit.value[clickBenefit] = !selectBenefit.value[clickBenefit]
-  
+
   // 최종적으로 정렬된 카드의 Boolean 값
   const isSelected = []
 
@@ -107,11 +107,8 @@ const sortCard = function(event) {
     isSelected.push(true)
   })
   newCardList.value = []
-  
   // console.log(benefitList)
   // 모든 정렬 기준을 순회
-  console.log(selectBenefit.value)
-  console.log(benefitList)
   Object.keys(selectBenefit.value).forEach(element => {
     // console.log(element)
     // 만약 정렬 기준이 활성화 되어있다면
@@ -129,7 +126,6 @@ const sortCard = function(event) {
       })
     }
   })
-  console.log('실행')
   // 위에 코드를 다 실행하면 정렬된 카드가 된다.
   // newCardList에 하나씩 추가
   cardList.value.forEach(card => {

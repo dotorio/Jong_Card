@@ -67,6 +67,7 @@ const router = createRouter({
       name: 'card-recommend',
       component: CardRecommendView,
       beforeEnter: (to, from) => {
+        console.log('카드')
         const cardStore = useCardStore()
         cardStore.updateCardList()
       }

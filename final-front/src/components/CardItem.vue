@@ -3,7 +3,8 @@
     <div class="card">
       <form action="" @submit.prevent="likeCard">
         <img :src="`src/assets/cards/${cardId}.svg`" alt="#">
-        <input type="submit" value="하트">
+        <input type="submit" value="하트"
+        :disabled="isLogin">
       </form>
 
       <p :class="cardClass">{{ cardName }}</p>
@@ -26,6 +27,14 @@ const check = ref([`${props.cardInfo.id}`])
 const cardClass = ref([
   `card-${props.cardInfo.id}`])
 const accountStore = useAccountStore()
+
+const isLogin = ref(false)
+
+
+if(!accountStore.userName) {
+  console.log('asdads')
+  isLogin.value = true
+}
 
 
 const likeCard = function () {

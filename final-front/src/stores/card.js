@@ -23,11 +23,12 @@ export const useCardStore = defineStore('card', () => {
         // localStorage.setItem('cardList', JSON.stringify(res.data))
         // console.log(res.data)
         benefitList.value = cardsort(cardList)
-        console.log(benefitList.value)
+        console.log(cardList.value)
+        localStorage.setItem('cardList', JSON.stringify(cardList.value))
       })
       .catch(err => {
         console.log(err)
       })
   }
   return { cardList, benefitList, updateCardList }
-}, { persist:true })
+})
