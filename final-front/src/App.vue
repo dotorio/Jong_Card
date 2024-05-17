@@ -13,9 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <nav>
-    <NavMenu />
-  </nav>
+  <NavMenu />
   <RouterView />
 </template>
 

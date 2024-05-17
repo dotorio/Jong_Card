@@ -27,7 +27,7 @@ const article = ref(null)
 
 
 onMounted(() => {
-  articleStore.articleList.forEach(element => {
+  articleStore.articleTotal.forEach(element => {
   if (String(element.id) === route.params.article_id) {
     id.value = element.id
     title.value = element.title

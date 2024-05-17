@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container">
+    <div class="nav">
       <div class="logo">
         <RouterLink :to="{name: 'home'}"><img src="../assets/homelogo.svg" alt="home"></RouterLink>
       </div>
@@ -27,7 +27,7 @@ const logout = function () {
 </script>
 
 <style scoped>
-.container {
+.nav {
   height: 80px;
   padding: 0 20px 0 20px;
   /* background-color: blueviolet; */

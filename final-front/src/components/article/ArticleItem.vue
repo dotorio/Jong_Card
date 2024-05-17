@@ -68,7 +68,7 @@ span {
   font-size: 20px;
   margin-top: 15px;
 }
-.detail:hover {
+.detail {
   transition: all 1s;
   background-color: rgb(211, 211, 211);
 }

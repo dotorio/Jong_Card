@@ -1,10 +1,16 @@
 <template>
   <div>
     <div v-if="article">
-      <span>제목: {{ article.title }}</span>
-      <span>내용: {{ article.content }}</span>
-
-      <button type="button" @click="goUpdate">수정하기</button>
+      <div class="container">
+        <div>
+          제목: {{ article.title }}
+        </div>
+        <div>
+          내용: {{ article.content }}
+        </div>
+        <button type="button" @click="goUpdate">수정하기</button>
+        <button type="button" @click="Delete">삭제하기</button>
+      </div>
     </div>
 
   </div>
@@ -41,6 +47,20 @@ const article = ref(null)
 
 const goUpdate = function () {
   router.push({name: 'article-update', params: { article_id: article.id }})
+}
+
+const Delete = function () {
+  axios({
+    method: 'delete',
+    url: `${API_URL}/articles/${route.params.article_id}/detail/`
+  })
+    .then(res => {
+      console.log('문의글 삭제!')
+      router.push({name: 'article'})
+    })
+    .catch(err => {
+      console.log(err)
+    })
 }
 </script>
 

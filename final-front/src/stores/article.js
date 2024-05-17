@@ -6,6 +6,7 @@ import { useAccountStore } from './account'
 
 export const useArticleStore = defineStore('article', () => {
   const API_URL = 'http://127.0.0.1:8000'
+  const articleTotal = ref([])
   const articleList = ref(null)
   const pageGruop = ref(null)
   const currentPage = ref(1)
@@ -16,7 +17,19 @@ export const useArticleStore = defineStore('article', () => {
     currentPage.value = page
   }
 
+  const beforePage = function () {
+    currentPage.value--
+    if (currentPage.value === 0) {
+      currentPage.value = 1
+    }
+  }
 
+  const afterPage = function () {
+    currentPage.value++
+    if (currentPage.value === pageGruop.value+1) {
+      currentPage.value = pageGruop.value
+    }
+  }
   const getArticle = function () {
     articleList.value = []
     let articlePart = []
@@ -31,6 +44,12 @@ export const useArticleStore = defineStore('article', () => {
           accountStore.userList.forEach(user => {
             if (article.username === user.id) {
               articlePart.push({
+                id: article.id,
+                title: article.title,
+                content: article.content,
+                username: user.username
+              })
+              articleTotal.value.push({
                 id: article.id,
                 title: article.title,
                 content: article.content,
@@ -104,5 +123,5 @@ export const useArticleStore = defineStore('article', () => {
       })
   }
 
-  return { articleList, currentPage, pageGruop, updatePage, getArticle, write, update}
+  return { articleTotal, articleList, currentPage, pageGruop, updatePage, getArticle, write, update, beforePage, afterPage}
 })

@@ -1,18 +1,7 @@
 <template>
   <div>
     <h2>문의글 게시판</h2>
-    <hr>
-    <nav aria-label="Page navigation example">
-      <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-        <li class="page-item"
-        v-for="page in articleStore.pageGruop" :key="page"
-        @click="changeCurrentPage(page)"
-        ><a class="page-link" href="#">{{ page }}</a></li>
-        
-        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-      </ul>
-    </nav>
+    
     <hr>
     <div class="container">
         <button class="write" type="button" @click="goWrite">작성하기</button>
@@ -30,7 +19,19 @@
           :articlePart="articlePart"
           :partId="articlePart.id"
           />
+          <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"  @click="beforeCurrentPage"><a class="page-link" href="#">이전</a></li>
+            <li class="page-item"
+            v-for="page in articleStore.pageGruop" :key="page"
+            @click="changeCurrentPage(page)"
+            ><a class="page-link" href="#">{{ page }}</a></li>
+            
+            <li class="page-item" @click=afterCurrentPage><a class="page-link" href="#">다음</a></li>
+          </ul>
+        </nav>
         </div>
+        
     </div>
   </div>
 </template>
@@ -50,13 +51,28 @@ onMounted(() => {
   
 })
 
+
 const router = useRouter()
 const goWrite = function () {
-  router.push({ name: 'article-write', params: { username: accountStore.userName } })
+  if (!accountStore.isLogin){
+    router.push({name: 'account'})
+  } else {
+    router.push({ name: 'article-write', params: { username: accountStore.userName } })
+  }
 }
 
 const changeCurrentPage = function (page) {
   articleStore.updatePage(page)
+}
+
+const beforeCurrentPage = function () {
+  console.log('이전!')
+  articleStore.beforePage()
+}
+
+const afterCurrentPage = function () {
+  console.log('다음')
+  articleStore.afterPage()
 }
 </script>
 
@@ -65,6 +81,10 @@ const changeCurrentPage = function (page) {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+.pagination {
+  margin: 20px auto;
+
 }
 .article-header {
   height: 50px;
