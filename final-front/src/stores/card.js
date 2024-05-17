@@ -15,11 +15,7 @@ export const useCardStore = defineStore('card', () => {
 
     axios({
       method: 'get',
-<<<<<<< HEAD
       url: `${API_URL}/cards/${accountStore.userName}/update-card-list/`
-=======
-      url: `${API_URL}/cards/${accountStore.userName}/update-card-list`
->>>>>>> front
     })
       .then(res => {
         cardList.value = res.data
