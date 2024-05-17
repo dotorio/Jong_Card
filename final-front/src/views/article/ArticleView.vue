@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Advertisement />
     <h2>문의글 게시판</h2>
     
     <hr>
@@ -42,6 +43,7 @@ import { onMounted, onUpdated } from 'vue'
 import { useArticleStore } from '@/stores/article'
 import { useAccountStore } from '@/stores/account'
 import ArticleList from '@/components/article/ArticleList.vue'
+import Advertisement from '@/components/Advertisement.vue'
 
 const articleStore = useArticleStore()
 const accountStore = useAccountStore()

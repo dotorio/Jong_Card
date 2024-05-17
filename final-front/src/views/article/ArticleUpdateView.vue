@@ -1,5 +1,6 @@
 <template>
   <div >
+    <Advertisement />
     <h2>문의글 수정</h2>
     <hr>
     <form v-if="title" action="" @submit.prevent="articleUpdate"  class="article">
@@ -15,6 +16,7 @@
 import { ref, onMounted } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 import { useArticleStore } from '@/stores/article.js'
+import Advertisement from '@/components/Advertisement.vue';
 
 
 const route = useRoute()

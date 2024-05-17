@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Advertisement />
     <div v-if="article">
       <div class="container">
         <div>
@@ -21,6 +22,7 @@ import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useAccountStore } from '@/stores/account'
 import { useArticleStore } from '@/stores/article'
+import Advertisement from '@/components/Advertisement.vue'
 import axios from 'axios'
 const API_URL = 'http://127.0.0.1:8000'
 const accountStore = useAccountStore()

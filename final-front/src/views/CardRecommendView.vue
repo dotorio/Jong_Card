@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Advertisement />
     <h1>카드 추천</h1>
     <div class="cards" v-if="cardList">
       <hr>
@@ -38,6 +39,7 @@
 import { ref, onMounted } from 'vue'
 import { useCardStore } from '@/stores/card'
 import CardItem from '@/components/CardItem.vue'
+import Advertisement from '@/components/Advertisement.vue';
 
 const store = useCardStore()
 onMounted(() => {
