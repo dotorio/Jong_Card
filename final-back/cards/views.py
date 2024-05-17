@@ -56,8 +56,7 @@ def get_recommend_cards(username):
         
 
         for card in popular_cards:
-            if card not in liked_cards:
-                recommend_card_list.append(CardFullSerializer(card).data)
+            recommend_card_list.append(CardFullSerializer(card).data)
         return recommend_card_list
 
     
@@ -67,8 +66,7 @@ def get_recommend_cards(username):
     for related_user_id in related_user_ids:
         user_liked_cards = Card.objects.filter(like_users__id=related_user_id)
         for card in user_liked_cards:
-            if card not in liked_cards:
-                weight_counter[card.id] += 1
+            weight_counter[card.id] += 1
 
     # 4. 가중치가 높은 순서대로 카드 추천
     recommended_cards = [Card.objects.get(id=card_id) for card_id, _ in weight_counter.most_common()]
@@ -78,7 +76,6 @@ def get_recommend_cards(username):
 
     all_cards = Card.objects.exclude(id__in=[card.id for card in recommended_cards])
     for card in all_cards:
-        if card not in liked_cards:
-            recommend_card_list.append(CardFullSerializer(card).data)
+        recommend_card_list.append(CardFullSerializer(card).data)
 
     return recommend_card_list
