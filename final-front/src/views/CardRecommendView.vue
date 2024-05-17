@@ -109,6 +109,7 @@ const sortCard = function(event) {
   newCardList.value = []
   // console.log(benefitList)
   // 모든 정렬 기준을 순회
+  // console.log(store.benefitList)
   Object.keys(selectBenefit.value).forEach(element => {
     // console.log(element)
     // 만약 정렬 기준이 활성화 되어있다면
@@ -119,7 +120,7 @@ const sortCard = function(event) {
         const id = card.id - 1
         // console.log(benefitList[element][id])
         // 만약 해당 정렬 기준을 포함하고 있지 않고, isSelected 값이 true라면 
-        if (!benefitList[element][id] && isSelected[id]) {
+        if (!store.benefitList[element][id] && isSelected[id]) {
           // 정렬된 카드에서 제외
           isSelected[id] = false
         }

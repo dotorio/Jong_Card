@@ -66,15 +66,16 @@ const router = createRouter({
       path: '/card-recommend',
       name: 'card-recommend',
       component: CardRecommendView,
-      beforeEnter: (to, from) => {
-        console.log('카드')
-        const cardStore = useCardStore()
-        cardStore.updateCardList()
-      }
     },
 
     
   ]
+})
+
+router.beforeEach((to, from) => {
+  // console.log('카드')
+  const cardStore = useCardStore()
+  cardStore.updateCardList()
 })
 
 export default router
