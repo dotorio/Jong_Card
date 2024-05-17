@@ -31,7 +31,7 @@ const accountStore = useAccountStore()
 const likeCard = function () {
   axios({
     method: 'post',
-    url: `http://127.0.0.1:8000/cards/${accountStore.userName}/${props.cardInfo}/likes_card_toggle/`
+    url: `http://127.0.0.1:8000/cards/${accountStore.userName}/${props.cardInfo.id}/likes_card_toggle/`
   })
   .then(res => {
     console.log('좋아요 성공')

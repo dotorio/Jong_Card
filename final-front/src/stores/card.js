@@ -2,15 +2,18 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import { cardsort } from '@/method/cardsort'
 import axios from 'axios'
+import { useAccountStore } from './account'
+
 
 export const useCardStore = defineStore('card', () => {
+  const accountStore = useAccountStore()
   const cardList = ref(null)
   const benefitList = ref(null)
   const API_URL = 'http://127.0.0.1:8000'
   const updateCardList = function() {
     axios({
       method: 'get',
-      url: `${API_URL}/cards/update-card-list`
+      url: `${API_URL}/cards/${accountStore.userName}/update-card-list`
     })
       .then(res => {
         // console.log(res.data)
@@ -25,4 +28,4 @@ export const useCardStore = defineStore('card', () => {
       })
   }
   return { cardList, benefitList, updateCardList }
-})
+}, { persist:true })
