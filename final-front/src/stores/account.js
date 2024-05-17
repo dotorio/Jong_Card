@@ -90,4 +90,4 @@ export const useAccountStore = defineStore('account', () => {
 
 
   return { userName, userList, isLogin, getUserList, signUp, login, logout, articleWrite }
-})
+}, { persist: true })

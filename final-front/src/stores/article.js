@@ -72,7 +72,7 @@ export const useArticleStore = defineStore('article', () => {
             'articleList': articlePart
           })
         pageGruop.value = articleList.value.length
-        console.log(articleList.value)
+        // console.log(articleList.value)
       })
       .catch(err => {
         console.log(err)

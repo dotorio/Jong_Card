@@ -6,8 +6,6 @@ import axios from 'axios'
 export const useCardStore = defineStore('card', () => {
   const cardList = ref(null)
   const benefitList = ref(null)
-  
-
   const API_URL = 'http://127.0.0.1:8000'
   const updateCardList = function() {
     axios({
