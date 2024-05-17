@@ -9,6 +9,9 @@
       </div>
     </div>
   </div>
+  <!-- <div>
+    {{props.article}}
+  </div> -->
 </template>
 
 <script setup>

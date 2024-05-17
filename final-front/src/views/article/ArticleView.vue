@@ -2,6 +2,18 @@
   <div>
     <h2>문의글 게시판</h2>
     <hr>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"
+        v-for="page in articleStore.pageGruop" :key="page"
+        @click="changeCurrentPage(page)"
+        ><a class="page-link" href="#">{{ page }}</a></li>
+        
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+    <hr>
     <div class="container">
         <button class="write" type="button" @click="goWrite">작성하기</button>
         <div class="articles">
@@ -13,9 +25,10 @@
               <span>작성자</span>
             </div>
           </div>
-          <ArticleItem
-          v-for="article in articleStore.articleList" :key="article.id"
-          :article="article"
+          <ArticleList
+          v-for="articlePart in articleStore.articleList" :key="articlePart.id"
+          :articlePart="articlePart"
+          :partId="articlePart.id"
           />
         </div>
     </div>
@@ -24,10 +37,10 @@
 
 <script setup>
 import { RouterLink, useRouter } from 'vue-router';
-import { onMounted } from 'vue'
+import { onMounted, onUpdated } from 'vue'
 import { useArticleStore } from '@/stores/article'
 import { useAccountStore } from '@/stores/account'
-import ArticleItem from '@/components/article/ArticleItem.vue'
+import ArticleList from '@/components/article/ArticleList.vue'
 
 const articleStore = useArticleStore()
 const accountStore = useAccountStore()
@@ -42,7 +55,9 @@ const goWrite = function () {
   router.push({ name: 'article-write', params: { username: accountStore.userName } })
 }
 
-
+const changeCurrentPage = function (page) {
+  articleStore.updatePage(page)
+}
 </script>
 
 <style scoped>

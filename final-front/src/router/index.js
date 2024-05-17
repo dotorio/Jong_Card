@@ -33,6 +33,12 @@ const router = createRouter({
       path: '/article',
       name: 'article',
       component: ArticleView,
+      
+    },
+    {
+      path: '/article/write/:username',
+      name: 'article-write',
+      component: ArticleWriteView,
       beforeEnter: (to, from) => {
         const accountStore = useAccountStore()
         if (!accountStore.isLogin) {
@@ -41,14 +47,15 @@ const router = createRouter({
       }
     },
     {
-      path: '/article/write/:username',
-      name: 'article-write',
-      component: ArticleWriteView,
-    },
-    {
       path: '/article/update/:article_id',
       name: 'article-update',
       component: ArticleUpdateView,
+      beforeEnter: (to, from) => {
+        const accountStore = useAccountStore()
+        if (!accountStore.isLogin) {
+          return { name: 'account'}
+        }
+      }
     },
     {
       path: '/article/:article_id',
