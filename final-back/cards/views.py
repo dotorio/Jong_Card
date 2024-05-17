@@ -41,7 +41,7 @@ def likes_card_toggle(request, username, card_id):
 def get_recommend_cards(username):
     recommend_card_list = []
 
-    if not username:
+    if username == 'null':
         for card in cards:
             recommend_card_list.append(CardFullSerializer(card).data)
         return recommend_card_list
