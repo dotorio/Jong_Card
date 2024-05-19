@@ -5,6 +5,7 @@ import ArticleView from '@/views/article/ArticleView.vue'
 import ArticleWriteView from '@/views/article/ArticleWriteView.vue'
 import ArticleDetailView from '@/views/article/ArticleDetailView.vue'
 import ArticleUpdateView from '@/views/article/ArticleUpdateView.vue'
+import MyPageView from '@/views/MyPageView.vue'
 import CardRecommendView from '@/views/CardRecommendView.vue'
 import CardGrowView from '@/views/CardGrowView.vue'
 
@@ -69,9 +70,20 @@ const router = createRouter({
       component: CardRecommendView,
     },
     {
-      path: '/card-grow',
+      path: '/card-grow/:username',
       name: 'card-grow',
       component: CardGrowView
+    },
+    {
+      path: '/:username/my-page',
+      name: 'my-page',
+      component: MyPageView,
+      beforeEnter: (to, from) => {
+        const accountStore = useAccountStore()
+        if (!accountStore.isLogin) {
+          return { name: 'account'}
+        }
+      }
     },
 
     

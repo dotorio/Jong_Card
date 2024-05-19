@@ -1,5 +1,7 @@
 import { ref, computed, watch } from 'vue'
 import { defineStore } from 'pinia'
+import { useAccountStore } from './account'
+
 
 
 export const useCardGrowStore = defineStore('card-grow', () => {
@@ -14,6 +16,9 @@ export const useCardGrowStore = defineStore('card-grow', () => {
   const star2 = ref('')
   const star3 = ref('')
 
+  const userMission = ref(
+    
+  )
   const moveStar1 = function () {
     starClear1.value = true
     setTimeout(() => {

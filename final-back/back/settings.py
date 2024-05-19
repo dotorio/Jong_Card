@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'articles',
     'cards',
     'accounts',
+    'cardgrows',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
@@ -147,6 +148,7 @@ CORS_ORIGIN_WHITELIST = (
 )
 
 AUTH_USER_MODEL = 'accounts.user'
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES' : [

@@ -4,8 +4,14 @@
       <div class="logo">
         <RouterLink :to="{name: 'home'}"><img src="../assets/homelogo.svg" alt="home"></RouterLink>
       </div>
-      <div v-if="accountStore.isLogin" class="logout">
-        <a class="account" href="" @click="logout">로그아웃</a>
+      <div  v-if="accountStore.isLogin" class="d-flex align-items-center">
+        <div class="me-4">
+          <a class="my-page" href="" @click="goMyPage">{{ accountStore.userName }}</a>
+        </div>
+        <div class="logout">
+          <a class="account" href="" @click="logout">로그아웃</a>
+        </div>
+        
       </div>
       <div v-else class="login">
         <RouterLink class="account" :to="{name: 'account'}">로그인/회원가입</RouterLink>
@@ -17,13 +23,19 @@
 <script setup>
 import { useAccountStore } from '@/stores/account';
 import AccountViewVue from '@/views/AccountView.vue';
-import { RouterLink } from 'vue-router';
+import { RouterLink, useRouter } from 'vue-router';
 
 const accountStore = useAccountStore()
 
 const logout = function () {
   accountStore.logout()
 }
+const router = useRouter()
+
+const goMyPage = function () {
+  router.push({name: 'my-page', params:{'username': accountStore.userName}})
+}
+
 </script>
 
 <style scoped>
@@ -35,7 +47,19 @@ const logout = function () {
   align-items: center;
   justify-content: space-between;
 }
-
+.my-page {
+  color: black;
+  text-decoration: none;
+  font-family: 'NEXON Lv2 Gothic';
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 3px solid black;
+}
+.my-page:hover {
+  color: #3FCEF6;
+  border-color: #3FCEF6;;
+}
 .account {
   transition: all 0.2s;
   display: inline-block;

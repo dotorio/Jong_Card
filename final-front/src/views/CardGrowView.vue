@@ -71,6 +71,7 @@ import { useMissionStore2 } from '@/stores/mission-2'
 import { useMissionStore3 } from '@/stores/mission-3'
 import { useCardGrowStore } from '@/stores/cardgrow'
 import { RouterLink } from 'vue-router'
+import { useMyPageStore } from '@/stores/mypage'
 
 
 
@@ -81,8 +82,9 @@ const coin = ref(null)
 const missionStore2 = useMissionStore2()
 const missionStore3 = useMissionStore3()
 const growStore = useCardGrowStore()
-
-const expGage = ref(null)
+const myPageStore = useMyPageStore()
+const expGage = myPageStore.growCard.exp
+const level = myPageStore.growCard.level
 
 onMounted(() => {
   growStore.moveStar1()
