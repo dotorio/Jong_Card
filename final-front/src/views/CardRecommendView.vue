@@ -82,7 +82,7 @@ import Advertisement from '@/components/Advertisement.vue';
 const store = useCardStore()
 onMounted(() => {
   store.updateCardList()
-  cardShow.value = 'animate__fadeInUp'
+  cardShow.value = 'animate__fadeInLeft'
   console.log(cardShow.value)
 })
 
@@ -134,6 +134,10 @@ const selectBenefit = ref({
 })
 // 정렬 기준 버튼이 클릭 됐을 때 실행
 const sortCard = function(event) {
+  cardShow.value = 'card-hidden'
+  setTimeout(() => {
+    cardShow.value = 'animate__fadeInLeft'
+  }, 300)
   // 눌려진 버튼의 클래스를 가져옴 -> 정렬 기준
   const clickBenefitStr = event.target.getAttribute('class')
   const clickBenefit = clickBenefitStr.split(' ')[0]
@@ -186,6 +190,7 @@ const sortCard = function(event) {
     }
   })
   // console.log(isSelected)
+  
 }
 </script>
 <style scoped>
@@ -201,7 +206,9 @@ const sortCard = function(event) {
   align-items: center;
   border-color: white;
 }
-
+.card-hidden {
+  opacity: 0;
+}
 button {
   margin: 20px;
   width: 120px;
