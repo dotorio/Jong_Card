@@ -7,6 +7,10 @@ const router = useRouter()
 const goCardRecommend = function() {
   router.push({name: 'card-recommend'})
 }
+
+const goCardGrow = function() {
+  router.push({name: 'card-grow'})
+}
 </script>
 
 <template>
@@ -23,6 +27,10 @@ const goCardRecommend = function() {
       <img src="../assets/home/cardrecommend.svg" alt="카드추천" class="card-recommend mt-3" @click="goCardRecommend">
       <p class="mt-1">카드 추천</p>
     </div>
+    <div class="card-grow rounded-4">
+      <img src=".." alt="카드키우기" class="card-grow" @click="goCardGrow">
+      <p class="mt-1">카드 키우기</p>
+    </div>
   </main>
 </template>
 
@@ -37,6 +45,9 @@ const goCardRecommend = function() {
 header {
   height: 500px;
   background-color: #A9EAFF;
+}
+.card-grow {
+  cursor: pointer;
 }
 main {
   height: 130px;

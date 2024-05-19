@@ -6,6 +6,7 @@ import ArticleWriteView from '@/views/article/ArticleWriteView.vue'
 import ArticleDetailView from '@/views/article/ArticleDetailView.vue'
 import ArticleUpdateView from '@/views/article/ArticleUpdateView.vue'
 import CardRecommendView from '@/views/CardRecommendView.vue'
+import CardGrowView from '@/views/CardGrowView.vue'
 
 import { useAccountStore } from '@/stores/account'
 import { useCardStore } from '@/stores/card'
@@ -66,6 +67,11 @@ const router = createRouter({
       path: '/card-recommend',
       name: 'card-recommend',
       component: CardRecommendView,
+    },
+    {
+      path: '/card-grow',
+      name: 'card-grow',
+      component: CardGrowView
     },
 
     

@@ -228,5 +228,7 @@ button > img {
   color: rgb(214, 199, 199);
   background-color: rgb(90, 82, 82);
 }
-
+.cards {
+  height: 1000px;
+}
 </style>

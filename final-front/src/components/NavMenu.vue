@@ -5,7 +5,7 @@
         <RouterLink :to="{name: 'home'}"><img src="../assets/homelogo.svg" alt="home"></RouterLink>
       </div>
       <div v-if="accountStore.isLogin" class="logout">
-        <a class="account" href="" @click="logout">{{ accountStore.userName }}</a>
+        <a class="account" href="" @click="logout">로그아웃</a>
       </div>
       <div v-else class="login">
         <RouterLink class="account" :to="{name: 'account'}">로그인/회원가입</RouterLink>
