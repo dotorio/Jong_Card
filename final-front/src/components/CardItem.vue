@@ -31,7 +31,6 @@ const cardStore = useCardStore()
 const cardName = props.cardInfo.cardName
 const cardId = props.cardInfo.id
 
-
 const cardClass = ref([
   `card-${props.cardInfo.id}`])
 const accountStore = useAccountStore()

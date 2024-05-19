@@ -6,21 +6,29 @@
       <p class="ms-4">
         {{ card.title }}
       </p>
-      <img :src="card.img" alt="#">
+      <img :src="card.img" class="animate__animated" alt="#"
+      :class="cardShow">
     </div>
   </div>
 </template>
 
 <script setup>
 
-import { ref } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
+onMounted(() => {
+  cardShow.value = 'animate__fadeInRight animate__slow'
+})
+onUnmounted(() => {
+  cardShow.value = ''
+})
+
 
 const props = defineProps({
   card : Object
 })
 
 const card = props.card
-
+const cardShow = ref('')
 // console.log(card)
 
 

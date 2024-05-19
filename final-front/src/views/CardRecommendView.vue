@@ -58,7 +58,8 @@
       
       
       <div class="container ps-4 mt-4">
-        <div class="row">
+        <div class="row animate__animated" 
+        :class="cardShow">
           <CardItem class="card col-xl-2 col-lg-3 col-md-4 col-6"
           v-for="card in newCardList" :key="card.id"
           :card-info="card"
@@ -73,7 +74,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useCardStore } from '@/stores/card'
 import CardItem from '@/components/CardItem.vue'
 import Advertisement from '@/components/Advertisement.vue';
@@ -81,12 +82,19 @@ import Advertisement from '@/components/Advertisement.vue';
 const store = useCardStore()
 onMounted(() => {
   store.updateCardList()
+  cardShow.value = 'animate__fadeInUp'
+  console.log(cardShow.value)
+})
+
+onUnmounted(() => {
+  cardShow.value = ''
+  console.log(cardShow.value)
 })
 // 전제 카드 리스트
 const cardList = ref(null) 
 // 정렬 기준을 선택할 때마다 새로 생길 리스트
 const newCardList = ref(null)
-
+const cardShow = ref('card-hidden')
 const selectedOptions = ref({
   convenience_store: ['convenience_store'],
   telecom: ['telecom'],
