@@ -4,49 +4,66 @@
     <h1>카드 추천</h1>
     <div class="cards" v-if="cardList">
       <hr>
-      <div class="sort-btn" @click="sortCard">
-        <button :class="selectedOptions.convenience_store">
-          <img src="../assets/sort/convenience_store.svg" alt="#">
-          편의점</button>
-        <button :class="selectedOptions.telecom">
-          <img src="../assets/sort/telecom.svg" alt="#">
-          통신요금</button>
-        <button :class="selectedOptions.OTT">
-          <img src="../assets/sort/OTT.svg" alt="#">
-          OTT</button>
-        <button :class="selectedOptions.fuel">
-          <img src="../assets/sort/fuel.svg" alt="#">
-          주유요금</button>
-        <button :class="selectedOptions.cafe">
-          <img src="../assets/sort/cafe.svg" alt="#">
-          카페</button>
-        <button :class="selectedOptions.food">
-          <img src="../assets/sort/food.svg" alt="#">
-          음식점</button>
-        <button :class="selectedOptions.public_transport">
-          <img src="../assets/sort/public_transport.svg" alt="#">
-          대중교통</button>
-        <button :class="selectedOptions.hospital">
-          <img src="../assets/sort/hospital.svg" alt="#">
-          병원</button>
-        <button :class="selectedOptions.movie">
-          <img src="../assets/sort/movie.svg" alt="#">
-          영화</button>
-        <button :class="selectedOptions.online_shopping">
-          <img src="../assets/sort/online_shopping.svg" alt="#">
-          온라인 쇼핑</button>
-        <button :class="selectedOptions.offline_shopping">
-          <img src="../assets/sort/offline_shopping.svg" alt="#">
-          쇼핑</button>
-        <button :class="selectedOptions.delivery">
-          <img src="../assets/sort/delivery.svg" alt="#">
-          배달</button>
-      </div>
       <div class="container">
-        <CardItem class="card"
-        v-for="card in newCardList" :key="card.id"
-        :card-info="card"
-        /> 
+        <div class="sort-btn row" @click="sortCard">
+          <button class="col-4" 
+          :class="selectedOptions.convenience_store">
+            <img src="../assets/sort/convenience_store.svg" alt="#">
+            편의점</button>
+          <button class="col-4" 
+          :class="selectedOptions.telecom">
+            <img src="../assets/sort/telecom.svg" alt="#">
+            통신요금</button>
+          <button class="col-4" 
+          :class="selectedOptions.OTT">
+            <img src="../assets/sort/OTT.svg" alt="#">
+            OTT</button>
+          <button class="col-4" 
+          :class="selectedOptions.fuel">
+            <img src="../assets/sort/fuel.svg" alt="#">
+            주유요금</button>
+          <button class="col-4" 
+          :class="selectedOptions.cafe">
+            <img src="../assets/sort/cafe.svg" alt="#">
+            카페</button>
+          <button class="col-4" 
+          :class="selectedOptions.food">
+            <img src="../assets/sort/food.svg" alt="#">
+            음식점</button>
+          <button class="col-4" 
+          :class="selectedOptions.public_transport">
+            <img src="../assets/sort/public_transport.svg" alt="#">
+            대중교통</button>
+          <button class="col-4" 
+          :class="selectedOptions.hospital">
+            <img src="../assets/sort/hospital.svg" alt="#">
+            병원</button>
+          <button class="col-4" 
+          :class="selectedOptions.movie">
+            <img src="../assets/sort/movie.svg" alt="#">
+            영화</button>
+          <button class="col-4" 
+          :class="selectedOptions.online_shopping">
+            <img src="../assets/sort/online_shopping.svg" alt="#">
+            온라인 쇼핑</button>
+          <button class="col-4" 
+          :class="selectedOptions.offline_shopping">
+            <img src="../assets/sort/offline_shopping.svg" alt="#">
+            쇼핑</button>
+          <button class="col-4" 
+          :class="selectedOptions.delivery">
+            <img src="../assets/sort/delivery.svg" alt="#">
+            배달</button>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <CardItem class="card col-xl-2 col-lg-3 col-md-4 col-6"
+          v-for="card in newCardList" :key="card.id"
+          :card-info="card"
+          /> 
+        </div>
       </div>
     </div>
     <div v-else>
@@ -168,12 +185,7 @@ const sortCard = function(event) {
 </script>
 
 <style scoped>
-.container {
-  margin: 20px auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+
 .card {
   height: 300px;
   border: 1px solid black;
@@ -186,10 +198,18 @@ const sortCard = function(event) {
 
 button {
   margin: 20px;
-  width: 100px;
+  width: 120px;
   height: 40px;
   font-weight: 700;
   border-radius: 5px;
+  position: relative;
+  padding-left: 20px;
+}
+
+button > img {
+  position: absolute;
+  left: -10px;
+  top: 0;
 }
 .active {
   color: rgb(214, 199, 199);

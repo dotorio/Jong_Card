@@ -13,7 +13,7 @@
 
       
 
-      <p :class="cardClass">{{ cardName }}</p>
+      <p :class="cardClass" class="card-name">{{ cardName }}</p>
     </div>
   </div>
 </template>
@@ -156,7 +156,12 @@ label{
     /*마우스 heart로 이동시 마우스 커서변동*/
     cursor: pointer;
 }
-
+.card-name {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
 /*애니메이션 효과 설정*/
 /*heart 애니메이션*/
 @keyframes drawHeart{
