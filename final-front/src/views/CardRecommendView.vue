@@ -5,59 +5,59 @@
     <div class="cards" v-if="cardList">
       <hr>
       <div class="container">
-        <div class="sort-btn row" @click="sortCard">
-          <button class="col-4" 
-          :class="selectedOptions.convenience_store">
+        <div class="sort-btn row ms-sm-2 ps-sm-4 ms-lg-5 ps-lg-4 ms-xl-5 ps-xl-5" @click="sortCard">
+          <button :class="selectedOptions.convenience_store"
+          class="col-4">
             <img src="../assets/sort/convenience_store.svg" alt="#">
             편의점</button>
-          <button class="col-4" 
-          :class="selectedOptions.telecom">
+          <button :class="selectedOptions.telecom"
+          class="col-4">
             <img src="../assets/sort/telecom.svg" alt="#">
             통신요금</button>
-          <button class="col-4" 
-          :class="selectedOptions.OTT">
+          <button :class="selectedOptions.OTT"
+          class="col-4">
             <img src="../assets/sort/OTT.svg" alt="#">
             OTT</button>
-          <button class="col-4" 
-          :class="selectedOptions.fuel">
+          <button :class="selectedOptions.fuel"
+          class="col-4">
             <img src="../assets/sort/fuel.svg" alt="#">
             주유요금</button>
-          <button class="col-4" 
-          :class="selectedOptions.cafe">
+          <button :class="selectedOptions.cafe"
+          class="col-4">
             <img src="../assets/sort/cafe.svg" alt="#">
             카페</button>
-          <button class="col-4" 
-          :class="selectedOptions.food">
+          <button :class="selectedOptions.food"
+          class="col-4">
             <img src="../assets/sort/food.svg" alt="#">
             음식점</button>
-          <button class="col-4" 
-          :class="selectedOptions.public_transport">
+          <button :class="selectedOptions.public_transport">
             <img src="../assets/sort/public_transport.svg" alt="#">
             대중교통</button>
-          <button class="col-4" 
-          :class="selectedOptions.hospital">
+          <button :class="selectedOptions.hospital"
+          class="col-4">
             <img src="../assets/sort/hospital.svg" alt="#">
             병원</button>
-          <button class="col-4" 
-          :class="selectedOptions.movie">
+          <button :class="selectedOptions.movie"
+          class="col-4">
             <img src="../assets/sort/movie.svg" alt="#">
             영화</button>
-          <button class="col-4" 
-          :class="selectedOptions.online_shopping">
+          <button :class="selectedOptions.online_shopping"
+          class="col-4">
             <img src="../assets/sort/online_shopping.svg" alt="#">
             온라인 쇼핑</button>
-          <button class="col-4" 
-          :class="selectedOptions.offline_shopping">
+          <button :class="selectedOptions.offline_shopping"
+          class="col-4">
             <img src="../assets/sort/offline_shopping.svg" alt="#">
             쇼핑</button>
-          <button class="col-4" 
-          :class="selectedOptions.delivery">
+          <button :class="selectedOptions.delivery"
+          class="col-4">
             <img src="../assets/sort/delivery.svg" alt="#">
             배달</button>
         </div>
       </div>
       
-      <div class="container">
+      
+      <div class="container ps-4 mt-4">
         <div class="row">
           <CardItem class="card col-xl-2 col-lg-3 col-md-4 col-6"
           v-for="card in newCardList" :key="card.id"
@@ -69,10 +69,6 @@
     <div v-else>
       로딩중..
     </div>
-    <!-- <div v-if="benefitList">
-      {{ benefitList }}
-    </div> -->
-    
   </div>
 </template>
 
@@ -133,6 +129,7 @@ const sortCard = function(event) {
   // 눌려진 버튼의 클래스를 가져옴 -> 정렬 기준
   const clickBenefitStr = event.target.getAttribute('class')
   const clickBenefit = clickBenefitStr.split(' ')[0]
+  console.log(clickBenefit)
   // event.target.classList.toggle('active')
   // console.log(clickBenefit)
   // console.log(selectBenefit.value[clickBenefit])
@@ -183,17 +180,18 @@ const sortCard = function(event) {
   // console.log(isSelected)
 }
 </script>
-
 <style scoped>
-
+.sort-btn {
+  margin-left: 70px;  
+}
 .card {
   height: 300px;
-  border: 1px solid black;
-  
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-color: white;
 }
 
 button {

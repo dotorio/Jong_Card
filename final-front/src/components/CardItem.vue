@@ -11,8 +11,6 @@
         <span></span>
       </label>
 
-      
-
       <p :class="cardClass" class="card-name">{{ cardName }}</p>
     </div>
   </div>
@@ -79,6 +77,9 @@ const likeCard = function () {
 </script>
 
 <style scoped>
+* {
+  border-color: white;
+}
 .like {
   position: absolute;
   width: 20px;
