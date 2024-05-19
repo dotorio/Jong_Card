@@ -58,19 +58,21 @@ if(!accountStore.userName) {
 
 
 const likeCard = function () {
-  check.value = !check.value
-  axios({
-    method: 'post',
-    url: `http://127.0.0.1:8000/cards/${accountStore.userName}/${props.cardInfo.id}/likes_card_toggle/`
-  })
-  .then(res => {
-    const action = res.data.action
-    const card = res.data.card
-    console.log(card)
-  }) 
-  .catch(err => {
-    console.log(err)
-  })
+  if (accountStore.isLogin) {
+    check.value = !check.value
+    axios({
+      method: 'post',
+      url: `http://127.0.0.1:8000/cards/${accountStore.userName}/${props.cardInfo.id}/likes_card_toggle/`
+    })
+    .then(res => {
+      const action = res.data.action
+      const card = res.data.card
+      console.log(card)
+    }) 
+    .catch(err => {
+      console.log(err)
+    })
+  }
 }
  
 
