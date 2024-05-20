@@ -7,6 +7,7 @@ import ArticleDetailView from '@/views/article/ArticleDetailView.vue'
 import ArticleUpdateView from '@/views/article/ArticleUpdateView.vue'
 import MyPageView from '@/views/MyPageView.vue'
 import CardRecommendView from '@/views/CardRecommendView.vue'
+import CardDetailView from '@/views/CardDetailView.vue'
 import CardGrowView from '@/views/CardGrowView.vue'
 
 import { useAccountStore } from '@/stores/account'
@@ -90,6 +91,11 @@ const router = createRouter({
           return { name: 'account'}
         }
       }
+    },
+    {
+      path: '/card-detail/:card_id',
+      name: 'card-detail',
+      component: CardDetailView,
     },
 
     

@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="card">
-      <img :src="`src/assets/cards/${cardId}.svg`" alt="#">
+      <img :src="`src/assets/cards/${cardId}.svg`" alt="#"
+      class="card-img" @click="goCardDetail">
       
       <label for="check" class="like" @click="likeCard">
         <input type="button" value="하트" :disabled="isLogin"
@@ -17,6 +18,7 @@
 </template>
 
 <script setup>
+import router from '@/router';
 import { useAccountStore } from '@/stores/account';
 import { useCardStore } from '@/stores/card';
 import { useCardGrowStore } from '@/stores/cardgrow';
@@ -55,7 +57,9 @@ if(!accountStore.userName) {
   isLogin.value = true
 }
 
-
+const goCardDetail = function () {
+  router.push({name:'card-detail', params: {'card_id': cardId}})
+}
 const likeCard = function () {
   if (accountStore.isLogin) {
     check.value = !check.value
@@ -96,7 +100,9 @@ const likeCard = function () {
   --c: #f8415c;
   z-index: 1;
 }
-
+.card-img {
+  cursor: pointer;
+}
 svg{
     width: 200px;
     /*상대포지션*/
