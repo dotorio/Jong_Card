@@ -1,47 +1,54 @@
 <template>
   <div>
-    <button @click="showData">상태창</button>
-    <main>
-      <button @click="growStore.upGage">경험치 증가!</button>
-      <div class="card-container">
-        <img :src="growStore.coinImg" alt="#" 
-        class="coin animate__animated"
-        :class="coin">
-        <div class="card-character">
-          <img :src="growStore.cardImg" alt="#"
-          class="animate__animated"
-          :class="card" @click="activeBounce">
-          <div :class="shadow">
-          </div>
-        </div>
-      </div>
-      <div class="exp-container">
-        <div class="exp-rel">
-          <div class="exp-gage">
-            <div
-            :class="[growStore.cardGageBar, gageBar]" @click="gageUp">
+    <main class="bg-primary bg-gradient">
+      <div class="container">
+        <button @click="growStore.upGage">경험치 증가!</button>
+        <div class="card-container me-xl-5">
+          <img :src="growStore.coinImg" alt="#" 
+          class="coin animate__animated"
+          :class="coin">
+          <div class="card-character">
+            <span v-if="growStore.cardLevel >= 1" class="span1"></span>
+            <span v-if="growStore.cardLevel >= 2" class="span2"></span>
+            <span v-if="growStore.cardLevel >= 3" class="span3"></span>
+            <span v-if="growStore.cardLevel >= 4" class="span4"></span>
+            <span v-if="growStore.cardLevel >= 5" class="span5"></span>
+            <img :src="growStore.cardImg" alt="#"
+            class="animate__animated"
+            :class="card" @click="activeBounce">
+            <div :class="shadow">
             </div>
           </div>
-          <div class="exp-text">
-            {{ growStore.cardGage }} %
+        </div>
+        <div class="exp-container">
+          <div class="exp-rel">
+            <div class="exp-gage">
+              <div class="bg-warning bg-gradient"
+              :class="[growStore.cardGageBar, gageBar]" @click="gageUp">
+              </div>
+            </div>
+            <div class="exp-text">
+              {{ growStore.cardGage }} %
+            </div>
+          </div>
+        </div>
+        <div class="mission-container">
+          <MissionItem1 class="mission"/> 
+          <MissionItem2 class="mission"/>
+          <MissionItem3 class="mission"/> 
+          <MissionItem4 class="mission"/> 
+          <MissionItem5 class="mission"/> 
+        </div>
+        
+        <div class="modal animate__animated" :class="growStore.modalOn">
+          <div class="modal-popup">
+            <p>레벨업 하였습니다!</p>
+            <img :src="growStore.cardImg" alt="">
+            <button class="close-btn" @click="growStore.closeModal">확인</button>
           </div>
         </div>
       </div>
-      <div class="mission-container">
-        <MissionItem1 class="mission"/> 
-        <MissionItem2 class="mission"/>
-        <MissionItem3 class="mission"/> 
-        <MissionItem4 class="mission"/> 
-        <MissionItem5 class="mission"/> 
-      </div>
       <!-- 모달 팝업 -->
-      <div class="modal animate__animated" :class="growStore.modalOn">
-        <div class="modal-popup">
-          <p>레벨업 하였습니다!</p>
-          <img :src="growStore.cardImg" alt="">
-          <button class="close-btn" @click="growStore.closeModal">확인</button>
-        </div>
-      </div>
     </main>
   </div>
 </template>
@@ -116,14 +123,19 @@ const removeBounce = function () {
   opacity: 0;
 }
 /* 경험치 별 영역 끝 */
+.container {
+  /* background-color: red; */
+  /* height: 20px; */
+  position: relative;
+  width: 1000px;
+}
 
-
-main > button {
+main  button {
   width: 100px;
   height: 50px;
   position: absolute;
   top: 620px;
-  left: 220px;
+  left: 120px;
   font-size: 15px;
   font-weight: 700;
   color: white;
@@ -131,10 +143,9 @@ main > button {
   border-color: rgb(102, 110, 250);
   background-color: rgb(155, 170, 255);
 }
-main {
-  height: 100vh;
-  background-color: navy;
 
+main {
+  height: 90vh;
   position: relative;
 }
 /* 모달 영역 */
@@ -168,6 +179,8 @@ main {
 
   font-size: 25px;
   font-weight: 700;
+  top: 70px;
+  left: 200px;
   color: white;
   border-radius: 10px;
   border-color: rgb(102, 110, 250);
@@ -187,7 +200,7 @@ main {
 .exp-text {
   position: absolute;
   right: 10px;
-  top: 30px;
+  top: 25px;
 
   font-size: 20px;
   font-weight: 700;
@@ -195,43 +208,44 @@ main {
 .exp-gage {
   width: 350px;
   height: 80px;
-  border: 1px solid black;
+  border: 3px solid black;
   border-radius: 5px;
 
   margin-top: 10px;
   margin-left: 10px;
+  
 }
 .exp-gage-0 {
   width: 0px;
-  height: 80px;
+  height: 74px;
   transition: all 1s;
 }
 .exp-gage-25 {
   width: 85px;
-  height: 80px;
-  border-radius: 5px 0 0 5px;
-  background-color: yellow;
+  height: 74px;
+  border-radius: 3px 0 0 3px;
+  /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-50 {
   width: 175px;
-  height: 80px;
-  border-radius: 5px 0 0 5px;
-  background-color: yellow;
+  height: 74px;
+  border-radius: 3px 0 0 3px;
+  /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-75 {
   width: 260px;
-  height: 80px;
-  border-radius: 5px 0 0 5px;
-  background-color: yellow;
+  height: 74px;
+  border-radius: 3px 0 0 3px;
+  /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-100 {
-  width: 350px;
-  height: 80px;
+  width: 345px;
+  height: 74px;
   border-radius: 5px;
-  background-color: yellow;
+  /* background-color: yellow; */
   transition: all 1s;
 }
 
@@ -243,7 +257,8 @@ main {
 
   position: absolute;
   top: 500px;
-  left: 40px
+  left: -50px; 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /* 경험치 영역 끝 */
@@ -255,6 +270,7 @@ main {
   height: 80px;
   border-radius: 10px;
   background-color: aqua;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .mission-container {
@@ -264,9 +280,9 @@ main {
   border-radius: 10px;
 
   position: absolute;
-  top: 70px;
-  left: 550px;
-
+  top: 50px;
+  right: -30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -286,7 +302,8 @@ main {
 
   position: absolute;
   top: 120px;
-  left: 100px;
+  left: 0px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
 .card-character {
@@ -323,5 +340,92 @@ main {
 .shadow-remove {
   transition: all 0.2s;
   opacity: 0;
+}
+.span1, .span2, .span3, .span4, .span5{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 50%;
+    /*절대적 포지션: center*/
+    position: absolute;
+    
+    transform: translate(-50%, -50%) scale(0);
+    /*각 방향의 쉐도우 설정*/
+    /*var함수로 쉐도우 컬러 설정*/
+    scale: 0.5;
+    z-index: 5;
+    box-shadow: 0 -160px 0 yellow,
+    0 160px 0 yellow,
+    -160px 0 0 yellow,
+    160px 0 0 yellow,
+    -120px -120px 0 yellow,
+    120px -120px 0 yellow,
+    120px 120px 0 yellow,
+    -120px 120px 0 yellow;
+}
+.span1 {
+  top: 100px;
+  left: 0px;
+}
+.span2 {
+  top: 300px;
+  left: 100px;
+}
+.span3 {
+  top: 120px;
+  right: 0px;
+}
+.span4 {
+  top: 240px;
+  right: 0px;
+}
+.span5 {
+  top: 20px;
+  left: 120px;
+}
+.card-character:hover > .span1{
+    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
+    animation: blink 0.5s ease-in-out forwards;
+    /*애니메이션 딜레이*/
+    animation-delay: 1s ;
+}
+.card-character:hover > .span2{
+    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
+    animation: blink 0.5s ease-in-out forwards;
+    /*애니메이션 딜레이*/
+    animation-delay: 0.8s ;
+}
+.card-character:hover > .span3{
+    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
+    animation: blink 0.5s ease-in-out forwards;
+    /*애니메이션 딜레이*/
+    animation-delay: 0.6s ;
+}
+.card-character:hover > .span4{
+    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
+    animation: blink 0.5s ease-in-out forwards;
+    /*애니메이션 딜레이*/
+    animation-delay: 0.4s ;
+}
+.card-character:hover > .span5{
+    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
+    animation: blink 0.5s ease-in-out forwards;
+    /*애니메이션 딜레이*/
+    animation-delay: 0.2s ;
+}
+@keyframes blink{
+    0%{
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.8;
+    }
+    80%{
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0;
+    }
 }
 </style>

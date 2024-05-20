@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <p>카드 좋아요 누르기</p>
-    <input type="checkbox" :checked="growStore.mission2">
+    <input type="checkbox" v-if="!growStore.mission2">
+    <img src="../../assets/card-grow/checked.svg" alt="#" class="animate__animated animate__tada"
+    v-else>
   </div>
 </template>
 
@@ -34,5 +36,10 @@ input[type=checkbox] {
 }
 .container {
   position: relative;
+}
+img {
+  position: absolute;
+  right: 10px;
+  top:5px
 }
 </style>

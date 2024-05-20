@@ -4,6 +4,7 @@ import axios from 'axios'
 import { useRouter } from 'vue-router'
 import { useArticleStore } from './article'
 import { useMyPageStore } from './mypage'
+import { useMissionStore3 } from './mission-3'
 
 // router.push({ name: 'home' })
 export const useAccountStore = defineStore('account', () => {
@@ -14,7 +15,7 @@ export const useAccountStore = defineStore('account', () => {
   const articleStore = useArticleStore()
   const myPageStore = useMyPageStore()
   const userId = ref(null)
-
+  const missionStore3 = useMissionStore3()
   const isLogin = ref(false)
 
   const getUserList = function () {

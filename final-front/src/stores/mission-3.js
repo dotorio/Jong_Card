@@ -18,13 +18,19 @@ export const useMissionStore3 = defineStore('mission-3', () => {
       growStore.missionClear(3)
     }
   }
-  
   const missionClear = function () {
     missonCardClick.value = 3
   }
   if (missonCardClick.value === 3) {
     console.log(1)
   }
+  const update = function (val) {
+    missonCardClick.value = val
+  }
 
-  return { missonCardClick, upCount, missionClear}
+  const getCount = function () {
+    return missonCardClick.value
+  }
+
+  return { missonCardClick, upCount, missionClear, update, getCount}
 })

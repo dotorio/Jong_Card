@@ -1,7 +1,10 @@
 <template>
   <div class="container">
     <p>출석하기</p>
-    <input type="checkbox" :checked="growStore.mission1">
+    <input type="checkbox"
+    v-if="!growStore.mission1">
+    <img src="../../assets/card-grow/checked.svg" alt="#" class="animate__animated animate__tada"
+    v-else>
   </div>
 </template>
 
@@ -35,5 +38,10 @@ input[type=checkbox] {
 }
 .container {
   position: relative;
+}
+img {
+  position: absolute;
+  right: 10px;
+  top:5px
 }
 </style>

@@ -20,12 +20,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
   const mission3 = ref(false)
   const mission4 = ref(false)
   const mission5 = ref(false)
-  const missionFirst2 = ref(false)
-  const star1 = ref('')
-  const star2 = ref('')
-  const star3 = ref('')
-  
-  const userMission = ref()
+  const missionCount3 = ref(null) 
   
   
   const cardGrowUpdate = function () {
@@ -39,8 +34,12 @@ export const useCardGrowStore = defineStore('card-grow', () => {
     mission3.value = myPageStore.growCard.mission3
     mission4.value = myPageStore.growCard.mission4
     mission5.value = myPageStore.growCard.mission5
+    missionCount3.value = myPageStore.growCard.missionCount3
+    missionStore3.update(missionCount3.value)
+
     cardGageBar.value = `exp-gage-${cardGage.value}`
     cardImg.value = `/src/assets/card-grow/level${cardLevel.value}.svg`
+    coinImg.value = `/src/assets/card-grow/coin${cardLevel.value}.svg`
     if (!mission1.value && accountStore.isLogin) {
       missionClear(1)
     }
@@ -109,6 +108,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
   
 
   const updateCardGrow = function () {
+    missionCount3.value = missionStore3.getCount()
     axios({
       method: 'put',
       url: `http://127.0.0.1:8000/grow/${accountStore.userId}/save-card/`,
@@ -120,6 +120,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
         "mission3": mission3.value,
         "mission4": mission4.value,
         "mission5": mission5.value,
+        "missionCount3": missionCount3.value
       }
     })
       .then(res => {
@@ -132,8 +133,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
     }
 
 
-  return { cardGage, cardGageBar, modalOn, cardImg, coinImg,  cardLevel, mission1, mission2, mission3, mission4, mission5, missionFirst2,
-    star1, star2, star3,
+  return { cardGage, cardGageBar, modalOn, cardImg, coinImg,  cardLevel, mission1, mission2, mission3, mission4, mission5, missionCount3,
     upGage, closeModal, cardGrowUpdate, missionClear, updateCardGrow,
    }
 })

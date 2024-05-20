@@ -2,7 +2,9 @@
   <div class="container">
     <p>카드에 동전주기 3회 [ {{ store.missonCardClick }} / 3 ]</p>
     <input type="checkbox"
-    :checked="growStore.mission3">
+    v-if="!growStore.mission3">
+    <img src="../../assets/card-grow/checked.svg" alt="#" class="animate__animated animate__tada"
+    v-else>
   </div>
 </template>
 
@@ -35,5 +37,10 @@ input[type=checkbox] {
 }
 .container {
   position: relative;
+}
+img {
+  position: absolute;
+  right: 10px;
+  top:5px
 }
 </style>
