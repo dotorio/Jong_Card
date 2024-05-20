@@ -11,3 +11,4 @@ class CardGrow(models.Model):
     mission3 = models.BooleanField(default=False)
     mission4 = models.BooleanField(default=False)
     mission5 = models.BooleanField(default=False)
+    missionCount3 = models.IntegerField(default=0)
