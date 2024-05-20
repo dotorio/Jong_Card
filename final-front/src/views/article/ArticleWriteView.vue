@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Advertisement />
     <h2>문의글 작성</h2>
     <hr>
     <form action="" @submit.prevent="articleWrite"  class="article">
@@ -15,7 +16,7 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { useArticleStore } from '@/stores/article.js'
-
+import Advertisement from '@/components/Advertisement.vue';
 const router = useRouter()
 const articleStore = useArticleStore()
 const title = ref(null)

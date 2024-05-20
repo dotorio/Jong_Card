@@ -5,7 +5,9 @@ import ArticleView from '@/views/article/ArticleView.vue'
 import ArticleWriteView from '@/views/article/ArticleWriteView.vue'
 import ArticleDetailView from '@/views/article/ArticleDetailView.vue'
 import ArticleUpdateView from '@/views/article/ArticleUpdateView.vue'
+import MyPageView from '@/views/MyPageView.vue'
 import CardRecommendView from '@/views/CardRecommendView.vue'
+import CardGrowView from '@/views/CardGrowView.vue'
 
 import { useAccountStore } from '@/stores/account'
 import { useCardStore } from '@/stores/card'
@@ -66,14 +68,32 @@ const router = createRouter({
       path: '/card-recommend',
       name: 'card-recommend',
       component: CardRecommendView,
+    },
+    {
+      path: '/card-grow/:username',
+      name: 'card-grow',
+      component: CardGrowView
+    },
+    {
+      path: '/:username/my-page',
+      name: 'my-page',
+      component: MyPageView,
       beforeEnter: (to, from) => {
-        const cardStore = useCardStore()
-        cardStore.updateCardList()
+        const accountStore = useAccountStore()
+        if (!accountStore.isLogin) {
+          return { name: 'account'}
+        }
       }
     },
 
     
   ]
+})
+
+router.beforeEach((to, from) => {
+  // console.log('카드')
+  const cardStore = useCardStore()
+  cardStore.updateCardList()
 })
 
 export default router

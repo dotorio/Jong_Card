@@ -1,6 +1,6 @@
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import 'animate.css'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
