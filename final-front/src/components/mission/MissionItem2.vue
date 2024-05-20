@@ -1,14 +1,22 @@
 <template>
   <div class="container">
     <p>카드 좋아요 누르기</p>
-    <input type="checkbox" :checked="store.isClear">
+    <input type="checkbox" :checked="growStore.mission2">
   </div>
 </template>
 
 <script setup>
-import { useMissionStore2 } from '@/stores/mission-2';
-import { ref } from 'vue';
-const store = useMissionStore2()
+
+import { useCardGrowStore } from '@/stores/cardgrow';
+import { onMounted, ref } from 'vue';
+
+const growStore = useCardGrowStore()
+onMounted(() => {
+  if (growStore.mission2 === true) {
+    growStore.missonClear(2)
+  }
+})
+
 
 </script>
 

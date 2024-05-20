@@ -19,9 +19,11 @@
 <script setup>
 import { useAccountStore } from '@/stores/account';
 import { useCardStore } from '@/stores/card';
+import { useCardGrowStore } from '@/stores/cardgrow';
 import axios from 'axios';
 import { onMounted, ref } from 'vue';
 
+const growStore = useCardGrowStore()
 const props = defineProps({
   cardInfo: Object
 })
@@ -57,6 +59,11 @@ if(!accountStore.userName) {
 const likeCard = function () {
   if (accountStore.isLogin) {
     check.value = !check.value
+    // console.log(growStore.mission2)
+
+    if (check.value &&!growStore.mission2) {
+      growStore.missionClear2()
+    }
     axios({
       method: 'post',
       url: `http://127.0.0.1:8000/cards/${accountStore.userName}/${props.cardInfo.id}/likes_card_toggle/`

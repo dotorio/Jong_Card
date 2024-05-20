@@ -3,6 +3,7 @@ import { defineStore } from 'pinia'
 import axios from 'axios'
 import { useRouter } from 'vue-router'
 import { useArticleStore } from './article'
+import { useMyPageStore } from './mypage'
 
 // router.push({ name: 'home' })
 export const useAccountStore = defineStore('account', () => {
@@ -11,6 +12,8 @@ export const useAccountStore = defineStore('account', () => {
   const userName = ref(null)
   const API_URL = 'http://127.0.0.1:8000'
   const articleStore = useArticleStore()
+  const myPageStore = useMyPageStore()
+  const userId = ref(null)
 
   const isLogin = ref(false)
 
@@ -21,6 +24,14 @@ export const useAccountStore = defineStore('account', () => {
     })
       .then(res => {
         userList.value = res.data
+        
+        userList.value.forEach(element => {
+          console.log(element)
+          if (element.username === userName.value) {
+            userId.value = element.id
+          }
+        })
+        console.log(userId.value)
         articleStore.getArticle()
       })
       .catch(err => {
@@ -73,6 +84,8 @@ export const useAccountStore = defineStore('account', () => {
         userName.value = username
         console.log('로그인 완료!')
         isLogin.value = res.data
+        getUserList()
+        myPageStore.getUserInfo()
       })
       .catch(err => {
         console.log(err)
@@ -86,8 +99,9 @@ export const useAccountStore = defineStore('account', () => {
   const logout = function () {
     isLogin.value = null
     userName.value = null
+    localStorage.setItem('my-page', null)
   }
 
 
-  return { userName, userList, isLogin, getUserList, signUp, login, logout, articleWrite }
+  return { userName, userList, isLogin, userId, getUserList, signUp, login, logout, articleWrite }
 }, { persist: true })

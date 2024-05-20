@@ -2,15 +2,17 @@
   <div class="container">
     <p>카드에 동전주기 3회 [ {{ store.missonCardClick }} / 3 ]</p>
     <input type="checkbox"
-    :checked="store.isClear">
+    :checked="growStore.mission3">
   </div>
 </template>
 
 <script setup>
+import { useCardGrowStore } from '@/stores/cardgrow';
 import { useMissionStore3 } from '@/stores/mission-3';
 import { ref } from 'vue';
 
 const store = useMissionStore3()
+const growStore = useCardGrowStore()
 </script>
 
 <style scoped>

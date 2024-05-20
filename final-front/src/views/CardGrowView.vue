@@ -3,11 +3,11 @@
     <main>
       <button @click="growStore.upGage">경험치 증가!</button>
       <div class="card-container">
-        <img :src="growStore.coinImg" alt="" 
+        <img :src="growStore.coinImg" alt="#" 
         class="coin animate__animated"
         :class="coin">
         <div class="card-character">
-          <img :src="growStore.cardImg" alt=""
+          <img :src="growStore.cardImg" alt="#"
           class="animate__animated"
           :class="card" @click="activeBounce">
           <div :class="shadow">
@@ -18,7 +18,7 @@
         <div class="exp-rel">
           <div class="exp-gage">
             <div
-            :class="[expGage, growStore.cardGageBar]" @click="gageUp">
+            :class="growStore.cardGageBar" @click="gageUp">
             </div>
           </div>
           <div class="exp-text">
@@ -27,13 +27,13 @@
         </div>
       </div>
       <div class="mission-container">
-        <div class="mission" @click="missionStore1.missionClear">
+        <div class="mission">
           <MissionItem1/> 
           <div class="star" :class="growStore.star1">
             <img src="../assets/card-grow/star.svg" alt="">
           </div> 
         </div>
-        <div class="mission" @click="missionStore2.missionClear">
+        <div class="mission">
           <MissionItem2/>
           <div class="star" :class="growStore.star2">
             <img src="../assets/card-grow/star.svg" alt="">
@@ -61,39 +61,34 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import MissionItem1 from '@/components/mission/MissionItem1.vue'
 import MissionItem2 from '@/components/mission/MissionItem2.vue'
 import MissionItem3 from '@/components/mission/MissionItem3.vue'
 import MissionItem4 from '@/components/mission/MissionItem4.vue'
 import MissionItem5 from '@/components/mission/MissionItem5.vue'
-import { useMissionStore2 } from '@/stores/mission-2'
 import { useMissionStore3 } from '@/stores/mission-3'
 import { useCardGrowStore } from '@/stores/cardgrow'
 import { RouterLink } from 'vue-router'
 import { useMyPageStore } from '@/stores/mypage'
 
+import { useAccountStore } from '@/stores/account'
+const accountStore = useAccountStore()
 
+onMounted(() => {
+  myPageStore.getCardGrow()
+})
+onUnmounted(() => {
+  console.log('나가기')
+  growStore.updateCardGrow()
+})
 
 const card = ref(null)
 const shadow = ref('shadow')
 const coin = ref(null)
-
-const missionStore2 = useMissionStore2()
 const missionStore3 = useMissionStore3()
 const growStore = useCardGrowStore()
 const myPageStore = useMyPageStore()
-const expGage = myPageStore.growCard.exp
-const level = myPageStore.growCard.level
-
-onMounted(() => {
-  growStore.moveStar1()
-  growStore.upGage()
-})
-
-// const gageUp = function() {
-//   expGage.value = 'exp-gage-100'
-// }
 
 
 const activeBounce = function () {

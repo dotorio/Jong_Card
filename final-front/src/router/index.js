@@ -72,7 +72,13 @@ const router = createRouter({
     {
       path: '/card-grow/:username',
       name: 'card-grow',
-      component: CardGrowView
+      component: CardGrowView,
+      beforeEnter: (to, from) => {
+        const accountStore = useAccountStore()
+        if (!accountStore.isLogin) {
+          return { name: 'account'}
+        }
+      }
     },
     {
       path: '/:username/my-page',

@@ -6,10 +6,10 @@
       </div>
       <div  v-if="accountStore.isLogin" class="d-flex align-items-center">
         <div class="me-4">
-          <a class="my-page" href="" @click="goMyPage">{{ accountStore.userName }}</a>
+          <RouterLink class="my-page" :to="{name: 'my-page', params:{'username': accountStore.userName}}"> {{ accountStore.userName }} </RouterLink>
         </div>
         <div class="logout">
-          <a class="account" href="" @click="logout">로그아웃</a>
+          <RouterLink class="account" :to="{name: 'account'}" @click="logout">로그아웃</RouterLink>
         </div>
         
       </div>
@@ -29,11 +29,6 @@ const accountStore = useAccountStore()
 
 const logout = function () {
   accountStore.logout()
-}
-const router = useRouter()
-
-const goMyPage = function () {
-  router.push({name: 'my-page', params:{'username': accountStore.userName}})
 }
 
 </script>

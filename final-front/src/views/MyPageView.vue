@@ -10,7 +10,7 @@
 
         </div>
         <div class="info col-7">
-          <button v-if="!myPageStore.growCard" @click="createCardGrow">
+          <button v-if="!myGrowData" @click="createCardGrow">
             카드 생성
           </button>
           <button v-else @click="goCardGrow">
@@ -25,6 +25,7 @@
 
 <script setup>
 import { useAccountStore } from '@/stores/account';
+import { useCardGrowStore } from '@/stores/cardgrow';
 import { useMyPageStore } from '@/stores/mypage';
 
 import { onMounted } from 'vue';
@@ -34,6 +35,9 @@ const accountStore = useAccountStore()
 const route = useRoute()
 const myPageStore = useMyPageStore()
 const router = useRouter()
+const myGrowData = JSON.parse(localStorage.getItem('my-page'))
+const growStore = useCardGrowStore()
+
 const createCardGrow = function () {
   myPageStore.createCardGrow()
 }
@@ -42,9 +46,6 @@ const goCardGrow = function () {
   router.push({name: 'card-grow', params:{'username': accountStore.userName}})       
 }
 
-onMounted(() => {
-  myPageStore.getUserInfo()
-})
 
 
 

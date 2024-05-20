@@ -30,7 +30,7 @@ export const useCardStore = defineStore('card', () => {
           })
           .then(res => {
             userLikeCards.value = res.data.card
-            console.log(userLikeCards.value)
+            // console.log(userLikeCards.value)
           }) 
           .catch(err => {
             console.log(err)
