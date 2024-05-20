@@ -154,5 +154,18 @@
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07960",
         "like_users": []
     }
+},
+{
+    "model": "cards.card",
+    "pk": 13,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "위글위글 첵첵 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01918",
+        "like_users": []
+    }
 }
 ]

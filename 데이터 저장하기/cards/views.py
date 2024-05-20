@@ -21,9 +21,7 @@ def index(request):
     context = {
         'form': form
     }
-
     return render(request, 'index.html', context)
-
 
 def benefit(request, card_id):
     card = Card.objects.get(id=card_id)
@@ -56,9 +54,6 @@ def create_card(request):
         cards = Card.objects.all()
         serializer = CardDetailSerializer(cards, many=True)
         return Response(serializer.data)
-
-
-
 
 @api_view(['POST'])
 def create_benefit(request, card_id):
