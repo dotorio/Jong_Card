@@ -155,10 +155,10 @@ def detail_calculate(card_data):
                     change_money[benefit][item].append(int(now))
 
     if category == '할인':
-        change_money['할인유형'] = 1
+        change_money['category'] = 1
     else:
-        change_money['할인유형'] = 2
-    change_money['상세'] = list(card_data['benefit'][0]['details'].split('\r\n'))
+        change_money['category'] = 2
+    change_money['detail'] = list(card_data['benefit'][0]['details'].split('\r\n'))
                 
     return change_money
 
