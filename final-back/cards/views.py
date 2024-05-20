@@ -187,6 +187,7 @@ def detail_calculate(card_data):
         for item in change_dict[benefit]:
             now = card_data['benefit'][0][benefit]
             if category == '할인':
+
                 if now.endswith('%'):
                     change_dict[benefit][item] = change_money[benefit][item] * (1-int(now[:-1])/100)
                 elif now.endswith('원/L'):
@@ -201,6 +202,11 @@ def detail_calculate(card_data):
                     change_dict[benefit][item] = int(now[:-3])*(change_money[benefit][item]//1670)
                 elif int(now) and now.isdigit():
                     change_dict[benefit][item] = now
+    if category == '할인':
+        change_dict['할인유형'] = 1
+    else:
+        change_dict['할인유형'] = 2
+    change_dict['상세'] = list(card_data['benefit'][0]['details'].split('\r\n'))
                 
     return change_dict
 
