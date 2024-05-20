@@ -1,0 +1,182 @@
+[
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "username": 1,
+        "title": "카드 추천 알고리즘 기준?",
+        "content": "카드 추천 알고리즘이 카드를 추천할 때 어떤 요소를 고려하나요? 예를 들어, 사용자의 지출 패턴, 신용 점수, 보너스 혜택 등을 고려하나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "username": 1,
+        "title": "카드 추천과 신용 점수?",
+        "content": "카드 추천 시 사용자의 신용 점수를 고려하는가요? 만약 그렇다면, 신용 점수가 낮은 사용자들에게도 카드를 추천하나요? 그렇다면 어떤 방식으로 추천되나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "username": 2,
+        "title": "보상 프로그램 정보 제공?",
+        "content": "카드 추천 앱은 어떻게 보상 프로그램에 대한 정보를 제공하나요? 사용자가 어떤 보너스 혜택을 받을 수 있는지, 그리고 어떻게 활용할 수 있는지에 대한 정보는 어디서 확인할 수 있나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 4,
+    "fields": {
+        "username": 2,
+        "title": "다양한 카드 비교 방법?",
+        "content": "카드 추천 앱은 어떻게 다양한 카드를 비교하고 분석하는가요? 사용자는 연간 수수료, 혜택, 보너스 포인트 등을 어떻게 비교할 수 있나요? 추천 결과를 어떻게 이해하고 평가할 수 있나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 5,
+    "fields": {
+        "username": 2,
+        "title": "사용자 리뷰 및 평가 확인?",
+        "content": "카드 추천 앱에서는 사용자 리뷰와 평가를 어떻게 확인할 수 있나요? 다른 사용자들의 경험을 참고하여 카드를 선택할 수 있을까요? 만약 그렇다면, 사용자 리뷰의 신뢰도는 어떻게 보장되나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 6,
+    "fields": {
+        "username": 1,
+        "title": "카드 추천 영향 요소?",
+        "content": "카드 추천에 어떤 요소들이 영향을 미칠까요? 사용자의 지출 패턴, 신용 점수, 보상 프로그램 등이 추천에 어떤 역할을 하는지 알고 싶습니다. 각각의 요소가 추천 알고리즘에 어떻게 반영되나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 7,
+    "fields": {
+        "username": 3,
+        "title": "사용자 지출 유형 고려?",
+        "content": "카드 추천 앱에서는 사용자의 지출 유형을 고려하여 카드를 추천하나요? 식료품, 교통, 여행 등의 카테고리에 따라 다른 카드를 추천하나요? 사용자의 지출 패턴이 추천에 어떻게 반영되나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 8,
+    "fields": {
+        "username": 3,
+        "title": "카드 추천 앱의 신뢰성 평가?",
+        "content": "카드 추천 앱이 제공하는 정보와 추천은 얼마나 신뢰할 수 있나요? 어떤 기준으로 신뢰성을 판단하나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 9,
+    "fields": {
+        "username": 3,
+        "title": "신뢰할 만한 출처?",
+        "content": "정보 출처는 어디인가요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 10,
+    "fields": {
+        "username": 3,
+        "title": "사용자 편의성?",
+        "content": "사용자 경험은 어떻게 개선되나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 11,
+    "fields": {
+        "username": 3,
+        "title": "업데이트 주기?",
+        "content": "새로운 기능은 어떻게 제공되나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 12,
+    "fields": {
+        "username": 5,
+        "title": "지속 가능성 관련 질문?",
+        "content": "앱이 환경에 미치는 영향은 무엇인가요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 13,
+    "fields": {
+        "username": 5,
+        "title": "사용자 프라이버시 보호 방안?",
+        "content": "사용자의 개인 정보를 어떻게 보호하나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 14,
+    "fields": {
+        "username": 5,
+        "title": "혁신적인 마케팅 방안?",
+        "content": "앱의 홍보를 위해 어떤 마케팅 전략을 사용하나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 15,
+    "fields": {
+        "username": 4,
+        "title": "금융 교육에 대한 질문?",
+        "content": "사용자들에게 금융 지식을 어떻게 전달하나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 16,
+    "fields": {
+        "username": 1,
+        "title": "기술적인 혁신 관련 질문?",
+        "content": "앞으로의 기술적 발전은 어떤 방향으로 나아가나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 17,
+    "fields": {
+        "username": 2,
+        "title": "기술적인 혁신 관련 질문?",
+        "content": "앞으로의 기술적 발전은 어떤 방향으로 나아가나요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 18,
+    "fields": {
+        "username": 3,
+        "title": "문화 다양성 증진 방안?",
+        "content": "다양한 문화를 존중하고 반영하는 방법은 무엇인가요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 19,
+    "fields": {
+        "username": 4,
+        "title": "사용자 참여도 증진 방안?",
+        "content": "사용자들의 참여도를 높이기 위한 방법은 무엇인가요?"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 20,
+    "fields": {
+        "username": 4,
+        "title": "사회적 책임에 대한 질문?",
+        "content": "앱이 사회적 책임을 어떻게 이행하나요?"
+    }
+}
+]

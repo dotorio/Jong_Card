@@ -8,7 +8,7 @@ from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from .serializers import CardFullSerializer, CardSerializer
 from collections import Counter
 from django.db.models import Count
-from .models import Card
+from .models import Card, Benefit
 from accounts.models import User
 
 cards = Card.objects.all()
@@ -83,3 +83,129 @@ def get_recommend_cards(username):
         recommend_card_list.append(CardFullSerializer(card).data)
 
     return recommend_card_list
+
+def detail_calculate(card_data):
+    category = card_data['cardSmallCategory']
+    change_money = {
+        'convenience_store' : 
+        {'라면' : 1000,
+         '우유' : 3000,
+         '달걀' : 5000},
+        'telecom' : 
+        {'알뜰 요금제' : 10000,
+         '적당 요금제' : 30000,
+         '무제한 요금제' : 50000},
+        'fuel' : 
+        {'만원치만 넣어주세요' : 10000,
+         '가득 넣어주세요' : 50000},
+        'OTT' : 
+        {'넷플릭스' : 17000,
+         '티빙' : 13900,
+         '쿠팡플레이' : 4990},
+        'cafe' : 
+        {'아메리카노' : 4500,
+         '바닐라 빈 라떼' : 7000,
+         '초콜릿 케이크' : 6500},
+        'food' : 
+        {'짜장면' : 7000,
+         '한정식' : 20000,
+         '오마카세' : 50000},
+        'public_transport' : 
+        {'버스' : 1550,
+         '택시' : 5000},
+        'hospital' : 
+        {'진료비' : 5000,
+         '약값' : 10000,
+         '수술비' : 100000},
+        'movie' : 
+        {'일반 2D' : 15000,
+         'SCREENX' : 17000,
+         '4DX 3D' : 24000},
+        'online_shopping' : 
+        {'즉석밥 30개' : 26350,
+         '콜라 30개' : 15810,
+         '화장품 세트' : 35760},
+        'offline_shopping' : 
+        {'크록스' : 40295,
+         '원피스' : 57690,
+         '훼이셜크림' : 79050},
+        'delivery' : 
+        {'치킨' : 21900,
+         '족발' : 50000,
+         '짬뽕' : 11000}
+    }
+    
+    change_dict = {
+        'convenience_store' : 
+        {'라면' : 0,
+         '우유' : 0,
+         '달걀' : 0},
+        'telecom' : 
+        {'알뜰 요금제' : 0,
+         '적당 요금제' : 0,
+         '무제한 요금제' : 0},
+        'fuel' : 
+        {'만원치만 넣어주세요' : 0,
+         '가득 넣어주세요' : 0},
+        'OTT' : 
+        {'넷플릭스' : 0,
+         '티빙' : 0,
+         '쿠팡플레이' : 0},
+        'cafe' : 
+        {'아메리카노' : 0,
+         '바닐라 빈 라떼' : 0,
+         '초콜릿 케이크' : 0},
+        'food' : 
+        {'짜장면' : 0,
+         '한정식' : 0,
+         '오마카세' : 0},
+        'public_transport' : 
+        {'버스' : 0,
+         '택시' : 0},
+        'hospital' : 
+        {'진료비' : 0,
+         '약값' : 0,
+         '수술비' : 0},
+        'movie' : 
+        {'일반 2D' : 0,
+         'SCREENX' : 0,
+         '4DX 3D' : 0},
+        'online_shopping' : 
+        {'즉석밥 30개' : 0,
+         '콜라 30개' : 0,
+         '화장품 세트' : 0},
+        'offline_shopping' : 
+        {'크록스' : 0,
+         '원피스' : 0,
+         '훼이셜크림' : 0},
+        'delivery' : 
+        {'치킨' : 0,
+         '족발' : 0,
+         '짬뽕' : 0}
+    }
+    for benefit in change_dict:
+        for item in change_dict[benefit]:
+            now = card_data['benefit'][0][benefit]
+            if category == '할인':
+                if now.endswith('%'):
+                    change_dict[benefit][item] = change_money[benefit][item] * (1-int(now[:-1])/100)
+                elif now.endswith('원/L'):
+                    change_dict[benefit][item] = change_money[benefit][item] - int(now[:-3])*(change_money[benefit][item]//1670)                
+                elif int(now) and now.isdigit():
+                    change_dict[benefit][item] = max(0, change_money[benefit][item] - now(benefit))
+                
+            elif category == '적립':
+                if now.endswith('%'):
+                    change_dict[benefit][item] = change_money[benefit][item] * int(now[:-1])/100
+                elif now.endswith('원/L'):
+                    change_dict[benefit][item] = int(now[:-3])*(change_money[benefit][item]//1670)
+                elif int(now) and now.isdigit():
+                    change_dict[benefit][item] = now
+                
+    return change_dict
+
+@api_view(['GET'])
+def card_detail(request, card_id): 
+    card = get_object_or_404(Card, id=card_id)
+    card_detail_dict = detail_calculate(CardFullSerializer(card).data)
+    return Response(card_detail_dict)
