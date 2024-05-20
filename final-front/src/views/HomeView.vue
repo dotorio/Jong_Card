@@ -2,14 +2,19 @@
 import { RouterLink } from 'vue-router';
 import { useRouter } from 'vue-router';
 import HeaderMain from '@/components/main/HeaderMain.vue';
+import { useAccountStore } from '@/stores/account';
 const router = useRouter()
-
+const accountStore = useAccountStore()
 const goCardRecommend = function() {
   router.push({name: 'card-recommend'})
 }
 
 const goCardGrow = function() {
-  router.push({name: 'card-grow'})
+  if (JSON.parse(localStorage.getItem('my-page'))){
+    router.push({name: 'card-grow', params:{'username': accountStore.userName}})
+  } else {
+    router.push({name: 'my-page', params:{'username': accountStore.userName}})
+  }
 }
 </script>
 
@@ -28,7 +33,7 @@ const goCardGrow = function() {
       <p class="mt-1">카드 추천</p>
     </div>
     <div class="card-grow rounded-4">
-      <img src=".." alt="카드키우기" class="card-grow" @click="goCardGrow">
+      <img src="../assets/home/card-grow.svg" alt="카드키우기" class="card-grow" @click="goCardGrow">
       <p class="mt-1">카드 키우기</p>
     </div>
   </main>

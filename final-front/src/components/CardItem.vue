@@ -66,7 +66,22 @@ const likeCard = function () {
     // console.log(growStore.mission2)
 
     if (check.value &&!growStore.mission2) {
-      growStore.missionClear2()
+      growStore.missionClear(2)
+
+      axios({
+      method: 'put',
+      url: `http://127.0.0.1:8000/grow/${accountStore.userId}/save-card/`,
+      data: {
+        "exp": growStore.cardGage + 25,
+        "mission2": true
+      }
+    })
+      .then(res => {
+        console.log(res.data)
+      })
+      .catch(err => {
+        console.log(err)
+      })
     }
     axios({
       method: 'post',

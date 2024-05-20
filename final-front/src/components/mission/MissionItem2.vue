@@ -11,12 +11,6 @@ import { useCardGrowStore } from '@/stores/cardgrow';
 import { onMounted, ref } from 'vue';
 
 const growStore = useCardGrowStore()
-onMounted(() => {
-  if (growStore.mission2 === true) {
-    growStore.missonClear(2)
-  }
-})
-
 
 </script>
 

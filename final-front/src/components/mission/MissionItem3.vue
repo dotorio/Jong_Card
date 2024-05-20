@@ -9,7 +9,7 @@
 <script setup>
 import { useCardGrowStore } from '@/stores/cardgrow';
 import { useMissionStore3 } from '@/stores/mission-3';
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 
 const store = useMissionStore3()
 const growStore = useCardGrowStore()

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <button @click="showData">상태창</button>
     <main>
       <button @click="growStore.upGage">경험치 증가!</button>
       <div class="card-container">
@@ -18,7 +19,7 @@
         <div class="exp-rel">
           <div class="exp-gage">
             <div
-            :class="growStore.cardGageBar" @click="gageUp">
+            :class="[growStore.cardGageBar, gageBar]" @click="gageUp">
             </div>
           </div>
           <div class="exp-text">
@@ -27,24 +28,9 @@
         </div>
       </div>
       <div class="mission-container">
-        <div class="mission">
-          <MissionItem1/> 
-          <div class="star" :class="growStore.star1">
-            <img src="../assets/card-grow/star.svg" alt="">
-          </div> 
-        </div>
-        <div class="mission">
-          <MissionItem2/>
-          <div class="star" :class="growStore.star2">
-            <img src="../assets/card-grow/star.svg" alt="">
-          </div>  
-        </div>
-        <div class="mission">
-          <MissionItem3/>
-          <div class="star animate__animated" :class="growStore.star3">
-            <img src="../assets/card-grow/star.svg" alt="">
-          </div> 
-        </div>
+        <MissionItem1 class="mission"/> 
+        <MissionItem2 class="mission"/>
+        <MissionItem3 class="mission"/> 
         <MissionItem4 class="mission"/> 
         <MissionItem5 class="mission"/> 
       </div>
@@ -77,7 +63,12 @@ const accountStore = useAccountStore()
 
 onMounted(() => {
   myPageStore.getCardGrow()
+  gageBar.value = 'hidden'
+  setTimeout(() => {
+    gageBar.value = ''
+  }, 500)
 })
+
 onUnmounted(() => {
   console.log('나가기')
   growStore.updateCardGrow()
@@ -89,7 +80,13 @@ const coin = ref(null)
 const missionStore3 = useMissionStore3()
 const growStore = useCardGrowStore()
 const myPageStore = useMyPageStore()
+const gageBar = ref('')
 
+const showData = function () {
+  console.log(growStore.cardGage)
+  console.log(growStore.cardLevel)
+  console.log(growStore.cardImg)
+}
 
 const activeBounce = function () {
   missionStore3.upCount()
@@ -115,25 +112,8 @@ const removeBounce = function () {
 
 <style scoped>
 /* 경험치 별 영역 */
-
-.star {
-  margin-top: 10px;
+.hidden {
   opacity: 0;
-}
-.star-move-1 {
-  transition: all 2s;
-  opacity: 1;
-  transform: translate(-250px, 400px); 
-}
-.star-move-2 {
-  transition: all 2s;
-  opacity: 1;
-  transform: translate(-250px, 290px); 
-}
-.star-move-3 {
-  transition: all 2s;
-  opacity: 1;
-  transform: translate(-250px, 180px); 
 }
 /* 경험치 별 영역 끝 */
 
