@@ -71,6 +71,7 @@
               <CardDetailItem class="animate__animated" :class="contentClass"
               :content="cardBenefits[currentBenefit]"
               :benefit="currentBenefit"
+              :category="cardBenefits.category"
               />
             </div>
           </div>
@@ -174,42 +175,46 @@ const contentDetail = function (event) {
 .container {
   margin: 20px auto;
   background-color: #B4D9D3;
-  height: 1000px;
+  height: 620px;
   padding: 20px;
   border-radius: 10px;
 
 }
 .active {
   background-color: gray;
+  color: white;
 }
 div > img {
   width: 50%;
-  margin-top: 180px;
+  margin-top: 100px;
+  margin-left: 40px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .img {
   text-align: center;
 }
 button {
-  width: 150px;
-  margin: 10px;
-  height: 40px;
-  font-size: 20px;
+  width: 120px;
+  margin: 15px;
+  height: 35px;
+  font-size: 15px;
   font-weight: 700;
   border-radius: 5px;
   position: relative;
   padding-left: 30px;
 }
 .content {
-  margin-top: 20px;
+  width: 80%;
+  margin: 20px auto;
   /* border: 1px solid black; */
   height: 500px;
 }
 button > img {
   position: absolute;
   z-index: 1;
-  left: 0;
+  left: -15px;
   top: 0;
-  scale: 1.4;
+  scale: 1.2;
 }
 .main-img {
   cursor: pointer;

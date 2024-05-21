@@ -30,7 +30,7 @@
               <div class="row">
                 <div v-if="likeCards"
                 v-for="card in likeCards.card" :key="card.id" class="col-4">
-                  <div class="card">
+                  <div class="card" @click="goCardDetail(card.id)">
                     <img :src="`/src/assets/cards/${card.id}.svg`" alt="#">
                     <p>{{ card.cardName }}</p>
                   </div>
@@ -75,6 +75,10 @@ onMounted(() => {
       console.log(err)
     })
 })
+
+const goCardDetail = function (cardId) {
+  router.push({name:'card-detail', params: {'card_id': cardId}})
+}
 
 const createCardGrow = function () {
   myPageStore.createCardGrow()
@@ -131,6 +135,7 @@ p {
   width: 150px;
   margin: 20px;
   border-color: white;
+  cursor: pointer;
 }
 .card p{
   font-size: 20px;

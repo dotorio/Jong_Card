@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="bg-primary bg-gradient">
+    <main>
       <div class="container">
         <button @click="growStore.upGage(expText)">경험치 증가!</button>
         <div class="card-container me-xl-5">
@@ -132,22 +132,24 @@ const removeBounce = function () {
 }
 
 main  button {
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 60px;
   position: absolute;
-  top: 720px;
-  left: 140px;
+  top: 670px;
+  left: 120px;
   font-size: 15px;
   font-weight: 700;
   color: white;
   border-radius: 10px;
-  border-color: rgb(102, 110, 250);
-  background-color: rgb(155, 170, 255);
+  border-color: #45a0b4;
+  border-width: thick;
+  background-color: #184D59;
 }
 
 main {
   height: 94vh;
   position: relative;
+  background-color: #B4D9CE;
 }
 /* 모달 영역 */
 .modal {
@@ -218,33 +220,33 @@ main {
 }
 .exp-gage-0 {
   width: 0px;
-  height: 75px;
+  height: 74px;
   transition: all 1s;
 }
 .exp-gage-25 {
   width: 85px;
-  height: 75px;
+  height: 74px;
   border-radius: 3px 0 0 3px;
   /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-50 {
   width: 175px;
-  height: 75px;
+  height: 74px;
   border-radius: 3px 0 0 3px;
   /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-75 {
   width: 260px;
-  height: 75px;
+  height: 74px;
   border-radius: 3px 0 0 3px;
   /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-100 {
   width: 345px;
-  height: 75px;
+  height: 74px;
   border-radius: 5px;
   /* background-color: yellow; */
   transition: all 1s;
@@ -257,7 +259,7 @@ main {
   border-radius: 10px;
 
   position: absolute;
-  top: 600px;
+  top: 550px;
   left: -50px; 
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -270,18 +272,18 @@ main {
   width: 90%;
   height: 80px;
   border-radius: 10px;
-  background-color: aqua;
+  background-color: #F2F2F2;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .mission-container {
   width: 500px;
   height: 600px;
-  background-color: rgb(99, 99, 194);
+  background-color: #659FA6;
   border-radius: 10px;
 
   position: absolute;
-  top: 150px;
+  top: 100px;
   right: -30px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   display: flex;
@@ -298,11 +300,11 @@ main {
 .card-container {
   width: 350px;
   height: 350px;
-  background-color: rgb(99, 99, 194);
+  background-color: #659FA6;
   border-radius: 20px;
 
   position: absolute;
-  top: 220px;
+  top: 170px;
   left: 0px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 

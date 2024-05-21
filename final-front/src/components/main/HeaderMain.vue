@@ -17,11 +17,11 @@ import MainItem from '@/components/main/HeaderItem.vue'
 import { ref } from 'vue';
 
 const cardList = ref([
-  { id: 1, title: 'My WE:SH 카드', summary: '좋은카드임다1', main: 1, img: '/src/assets/home/main1.svg'},
-  { id: 2, title: 'WE:SH All 카드', summary: '좋은카드임다2', main: 2, img: '/src/assets/home/main2.svg'},
-  { id: 3, title: 'K-패스 체크카드', summary: '좋은카드임다3', main: 3, img: '/src/assets/home/main3.svg'},
-  { id: 4, title: 'K-패스카드', summary: '좋은카드임다4', main: 4, img: '/src/assets/home/main4.svg'},
-  { id: 5, title: '톡톡 my living카드', summary: '좋은카드임다5', main: 5, img: '/src/assets/home/main5.svg'},
+  { id: 1, title: 'My WE:SH 카드', cardCompany: 'KB국민카드' ,content: "다양한 혜택으로 일상을 더 즐겁게", summary: '일상을 더 즐겁게', main: 1, img: '/src/assets/home/main1.svg'},
+  { id: 2, title: 'WE:SH All 카드', cardCompany: 'KB국민카드' ,content: "모든 생활 영역에서 특별한 혜택을 누리세요", summary: '특별한 생활 혜택', main: 2, img: '/src/assets/home/main2.svg'},
+  { id: 3, title: 'K-패스 체크카드', cardCompany: 'KB국민카드' ,content: "일상 속 편리하고 안전한 결제를 원하신다면", summary: '편리하고 안전한 결제', main: 3, img: '/src/assets/home/main3.svg'},
+  { id: 4, title: 'K-패스카드', cardCompany: 'KB국민카드' ,content: "쉽고 빠른 교통 결제, 다방면에서 유용한", summary: '쉽고 빠른 교통 결제', main: 4, img: '/src/assets/home/main4.svg'},
+  { id: 5, title: '톡톡 my living카드', cardCompany: 'KB국민카드' ,content: "당신의 삶을 위한 혜택, 스마트한 소비를 실현하는" ,summary: '스마트한 소비 혜택', main: 5, img: '/src/assets/home/main5.svg'},
 ])
 
 
@@ -148,7 +148,7 @@ button {
 }
 
 header {
-  height: 700px;
+  height: 600px;
   background-color: rgb(223, 239, 253);
   position: relative;
 }
@@ -157,14 +157,14 @@ header {
 }
 .item {
   position: absolute;
-  bottom: 180px;
+  bottom: 120px;
   cursor: pointer;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .main {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 370px;
   background-color: #E0FFFF;
 
   border-radius: 20px;
@@ -173,21 +173,21 @@ header {
 
 } 
 .remain {
-  width: 400px;
+  width: 350px;
   height: 200px;
   background-color: #E0FFFF;
   border-radius: 10px;
 } 
 
 .remain-1 {
-  left: -200px;
+  left: -150px;
 }
 
 .remain-2 {
-  left: 1200px;
+  left: 1100px;
 }
 .remain-3 {
-  left: 1800px;
+  left: 1700px;
 }
 
 .remain-4 {
