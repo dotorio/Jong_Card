@@ -1,6 +1,5 @@
 <template>
   <div>
-    <hr>
      <h1>
       <div class="container">
         <div class="row">

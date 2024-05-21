@@ -12,7 +12,7 @@ export const useCardStore = defineStore('card', () => {
   const userLikeCards = ref(null)
   const API_URL = 'http://127.0.0.1:8000'
   const updateCardList = function() {
-    const accountStore = useAccountStore()
+  const accountStore = useAccountStore()
 
     axios({
       method: 'get',

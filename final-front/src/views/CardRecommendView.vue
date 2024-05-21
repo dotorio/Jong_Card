@@ -1,7 +1,8 @@
 <template>
   <div>
     <Advertisement />
-    <h1>카드 추천</h1>
+
+    <h1>카드 추천 <img src="../assets/sort/good.svg" alt="#"></h1>
     <div class="cards" v-if="cardList">
       <hr>
       <div class="container">
@@ -194,6 +195,9 @@ const sortCard = function(event) {
 }
 </script>
 <style scoped>
+h1 {
+  margin: 30px 200px ;
+}
 .sort-btn {
   margin-left: 70px;  
 }
@@ -214,6 +218,7 @@ button {
   width: 120px;
   height: 40px;
   font-weight: 700;
+  border: 3px solid black;
   border-radius: 5px;
   position: relative;
   padding-left: 20px;
@@ -225,8 +230,8 @@ button > img {
   top: 0;
 }
 .active {
-  color: rgb(214, 199, 199);
-  background-color: rgb(90, 82, 82);
+  color: rgb(241, 214, 214);
+  background-color: rgb(124, 112, 112);
 }
 .cards {
   height: 1000px;

@@ -66,9 +66,23 @@ export const useCardGrowStore = defineStore('card-grow', () => {
     }
   }
 
-  const upGage = function() {
+  const upGage = function(element) {
     // console.log('경험치 증가')
+    const taget = cardGage.value + 25
+    let count = cardGage.value
+
+    let counting = setInterval(function () {
+      if (count >= taget) {
+        count = taget
+        clearInterval(counting)
+      } else {
+        count += 1
+      }
+      element.innerHTML = new Intl.NumberFormat().format(count) + '%'
+    }, 50)
+  
     cardGage.value += 25
+    
     console.log(cardGage.value)
     setTimeout(() => {
       if (cardGage.value === 100) {
@@ -84,7 +98,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
         cardGageBar.value = 'exp-gage-100'
       }
 
-    }, 500)
+    }, 450)
     // console.log(cardGage.value)
   }
 

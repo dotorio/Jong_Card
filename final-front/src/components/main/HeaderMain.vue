@@ -148,7 +148,7 @@ button {
 }
 
 header {
-  height: 500px;
+  height: 700px;
   background-color: rgb(223, 239, 253);
   position: relative;
 }
@@ -157,40 +157,40 @@ header {
 }
 .item {
   position: absolute;
-  bottom: 120px;
+  bottom: 180px;
   cursor: pointer;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .main {
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   background-color: #E0FFFF;
 
   border-radius: 20px;
-  left: 300px;
+  left: 400px;
   z-index: 1;
 
 } 
 .remain {
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 200px;
   background-color: #E0FFFF;
   border-radius: 10px;
 } 
 
 .remain-1 {
-  left: -150px;
+  left: -200px;
 }
 
 .remain-2 {
-  left: 850px;
+  left: 1200px;
 }
 .remain-3 {
-  left: 1300px;
+  left: 1800px;
 }
 
 .remain-4 {
-  left: 1750px;
+  left: 2350px;
 }
 </style>

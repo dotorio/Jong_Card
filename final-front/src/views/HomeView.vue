@@ -10,10 +10,13 @@ const goCardRecommend = function() {
 }
 
 const goCardGrow = function() {
-  if (JSON.parse(localStorage.getItem('my-page'))){
+  if (JSON.parse(localStorage.getItem('my-page')) && accountStore.isLogin){
     router.push({name: 'card-grow', params:{'username': accountStore.userName}})
-  } else {
+  } else if (accountStore.isLogin) {
     router.push({name: 'my-page', params:{'username': accountStore.userName}})
+  } else {
+    alert("로그인이 필요합니다!")
+    router.push({name: 'account'})
   }
 }
 </script>

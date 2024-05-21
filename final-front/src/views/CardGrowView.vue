@@ -2,7 +2,7 @@
   <div>
     <main class="bg-primary bg-gradient">
       <div class="container">
-        <button @click="growStore.upGage">경험치 증가!</button>
+        <button @click="growStore.upGage(expText)">경험치 증가!</button>
         <div class="card-container me-xl-5">
           <img :src="growStore.coinImg" alt="#" 
           class="coin animate__animated"
@@ -24,10 +24,10 @@
           <div class="exp-rel">
             <div class="exp-gage">
               <div class="bg-warning bg-gradient"
-              :class="[growStore.cardGageBar, gageBar]" @click="gageUp">
+              :class="[growStore.cardGageBar, gageBar]">
               </div>
             </div>
-            <div class="exp-text">
+            <div ref="expText" class="exp-text">
               {{ growStore.cardGage }} %
             </div>
           </div>
@@ -88,7 +88,8 @@ const missionStore3 = useMissionStore3()
 const growStore = useCardGrowStore()
 const myPageStore = useMyPageStore()
 const gageBar = ref('')
-
+const expText = ref(null)
+console.log(expText)
 const showData = function () {
   console.log(growStore.cardGage)
   console.log(growStore.cardLevel)
@@ -134,8 +135,8 @@ main  button {
   width: 100px;
   height: 50px;
   position: absolute;
-  top: 620px;
-  left: 120px;
+  top: 720px;
+  left: 140px;
   font-size: 15px;
   font-weight: 700;
   color: white;
@@ -145,7 +146,7 @@ main  button {
 }
 
 main {
-  height: 90vh;
+  height: 94vh;
   position: relative;
 }
 /* 모달 영역 */
@@ -217,33 +218,33 @@ main {
 }
 .exp-gage-0 {
   width: 0px;
-  height: 74px;
+  height: 75px;
   transition: all 1s;
 }
 .exp-gage-25 {
   width: 85px;
-  height: 74px;
+  height: 75px;
   border-radius: 3px 0 0 3px;
   /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-50 {
   width: 175px;
-  height: 74px;
+  height: 75px;
   border-radius: 3px 0 0 3px;
   /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-75 {
   width: 260px;
-  height: 74px;
+  height: 75px;
   border-radius: 3px 0 0 3px;
   /* background-color: yellow; */
   transition: all 1s;
 }
 .exp-gage-100 {
   width: 345px;
-  height: 74px;
+  height: 75px;
   border-radius: 5px;
   /* background-color: yellow; */
   transition: all 1s;
@@ -256,7 +257,7 @@ main {
   border-radius: 10px;
 
   position: absolute;
-  top: 500px;
+  top: 600px;
   left: -50px; 
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -280,7 +281,7 @@ main {
   border-radius: 10px;
 
   position: absolute;
-  top: 50px;
+  top: 150px;
   right: -30px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   display: flex;
@@ -301,7 +302,7 @@ main {
   border-radius: 20px;
 
   position: absolute;
-  top: 120px;
+  top: 220px;
   left: 0px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 

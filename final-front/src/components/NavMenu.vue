@@ -41,6 +41,7 @@ const logout = function () {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 2px solid #30303063;
 }
 .my-page {
   color: black;
