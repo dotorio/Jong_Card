@@ -54,9 +54,7 @@ const accountStore = useAccountStore()
 const articleClass = ref('')
 onMounted(() => {
   accountStore.getUserList()
-  
 })
-
 
 const router = useRouter()
 const goWrite = function () {

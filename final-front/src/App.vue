@@ -4,11 +4,16 @@ import NavMenu from './components/NavMenu.vue';
 import { useCardStore } from './stores/card';
 import { onMounted } from 'vue'
 import { useMyPageStore } from './stores/mypage';
+import { useArticleStore } from './stores/article';
+import { useAccountStore } from './stores/account';
 
 const store = useCardStore()
+const accountStore = useAccountStore()
+const articleStore = useArticleStore()
 const myPageStore = useMyPageStore()
 onMounted(() => {
   store.updateCardList()
+  accountStore.getUserList()
 })
 
 </script>

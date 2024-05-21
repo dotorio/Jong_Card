@@ -11,13 +11,19 @@ const router = useRouter()
 const accountStore = useAccountStore()
 const articleStore = useArticleStore()
 
-onMounted(() => {
-  articleStore.getArticle()
-})
+const noticeList = ref([
+  { id: 1, content: "로그인 권장!!" },
+  { id: 2, content: "카드 키우기 업데이트 v1.2" },
+  { id: 3, content: "카드 업데이트 완료 (수작업)" },
+])
+
+
 const goCardRecommend = function() {
   router.push({name: 'card-recommend'})
 }
-
+const goArticle = function () {
+  router.push({name: 'article'})
+}
 const goCardGrow = function() {
   if (JSON.parse(localStorage.getItem('my-page')) && accountStore.isLogin){
     router.push({name: 'card-grow', params:{'username': accountStore.userName}})
@@ -50,11 +56,28 @@ const goCardGrow = function() {
     </div>
   </main>
   <div class="container">
-    <div class="guard">
-      <div class="articles">
-        <h4>문의글</h4>
+    <div class="guard d-flex justify-content-center">
+      <div class="notice item">
+        <div class="item-header d-flex justify-content-between">
+          <h4>공지사항</h4> 
+          <h8 class="pt-2">더보기</h8>
+        </div>
         <hr>
-        <article v-if="articleStore.articleList" class="d-flex flex-column justify-content-center">
+        <article>
+          <p v-for="notice in noticeList" :key="notice.id">
+            <img src="../assets/home/notice.svg" alt="#" class="pe-2">
+            {{ notice.content }}
+          </p>
+        </article>
+      </div>
+      <div class="articles item">
+        <div class="item-header d-flex justify-content-between">
+          <h4>문의글</h4> 
+          <h8 @click="goArticle" class="pt-2">더보기</h8>
+        </div>
+        <hr>
+        <article v-if="articleStore.articleList" class="d-flex flex-column justify-content-center"
+        @click="goArticle">
           <p class="d-flex justify-content-between" 
           v-for="article in articleStore.articleList[0].articleList"
           :key="article.id" >
@@ -76,23 +99,20 @@ const goCardGrow = function() {
 .container {
   position: relative;
 }
-.articles {
+.item {
   width: 500px;
   height: 420px;
   border: 2px solid rgb(145, 145, 145);
   border-radius: 20px;
-  top: 70px;
-  right: 10px;
   padding: 40px;
   margin: 50px;
 }
-
-article {
-  width: 400px;
-  height: 300px;
-  /* background-color: blue; */
+h8 {
+  cursor: pointer;
 }
-
+article {
+  cursor: pointer;
+}
 .card-recommend {
   cursor: pointer;
 }

@@ -34,7 +34,7 @@ const changeBlock1 = function (item, direct) {
     item.classList.add('new-main')
     item.classList.remove('remain', 'remain-1')
     item.classList.add('main')
-    setTimeout(removeClass , 1000, item, 'new-main')  
+    setTimeout(removeClass , 200, item, 'new-main')  
   }
 }
 
@@ -43,12 +43,12 @@ const changeBlockMain = function (item, direct) {
     item.classList.add('mini')
     item.classList.remove('main')
     item.classList.add('remain', 'remain-1')
-    setTimeout(removeClass , 1000, item, 'mini');
+    setTimeout(removeClass , 200, item, 'mini');
   } else if (direct === 'next') {
     item.classList.add('mini')
     item.classList.remove('main')
     item.classList.add('remain', 'remain-2')
-    setTimeout(removeClass , 1000, item, 'mini');
+    setTimeout(removeClass , 200, item, 'mini');
   }
   ;
 }
@@ -58,7 +58,7 @@ const changeBlock2 = function (item, direct) {
     item.classList.add('new-main')
     item.classList.remove('remain', 'remain-2')
     item.classList.add('main')
-    setTimeout(removeClass , 1000, item, 'new-main');  
+    setTimeout(removeClass , 200, item, 'new-main');  
   } else if (direct === 'next') {
     item.classList.remove('remain-2')
     item.classList.add('remain-3')
@@ -188,7 +188,7 @@ header {
   left: 1100px;
 }
 .remain-3 {
-  left: 1700px;
+  left: 1600px;
 }
 
 .remain-4 {

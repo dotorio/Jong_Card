@@ -27,7 +27,7 @@ export const useAccountStore = defineStore('account', () => {
         userList.value = res.data
         
         userList.value.forEach(element => {
-          console.log(element)
+          // console.log(element)
           if (element.username === userName.value) {
             userId.value = element.id
           }
