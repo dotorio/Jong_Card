@@ -198,5 +198,65 @@
         "delivery": "10%",
         "details": "전월실적 : 30만원\r\n온라인 쇼핑 : 네이버쇼핑, 11번가, G마켓, 옥션, SSG.COM, 롯데ON, 인터파크, 마켓컬리, 쿠팡\r\n쇼핑 : 이마트, 롯데마트, 홈플러스, 농협하나로마트\r\n통신 : SKT, KT, LG U+, Liiv M\r\n배달 : 배달의 민족, 쿠팡이츠, 요기요"
     }
+},
+{
+    "model": "cards.benefit",
+    "pk": 11,
+    "fields": {
+        "card": 11,
+        "convenience_store": "5%",
+        "telecom": "5%",
+        "fuel": "5%",
+        "OTT": "0",
+        "cafe": "5%",
+        "food": "0",
+        "public_transport": "5%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "5%",
+        "offline_shopping": "5%",
+        "delivery": "5%",
+        "details": "전월 실적 : 50만원\r\n온라인 쇼핑 : G마켓, 옥션, 11번가, 쿠팡, 티몬, 위메프\r\n배달 : 배달의 민족, 마켓컬리\r\n쇼핑 : 이마트, 롯데마트, 홈플러스, 백화점\r\n주유 : SK, GS주유소(충전소 포함)\r\n커피 : 스타벅스, 커피빈\r\n편의점 : GS25, CU\r\n통신 : SKT, KT, LG U+, Liiv M"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 12,
+    "fields": {
+        "card": 12,
+        "convenience_store": "1000",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "1000",
+        "food": "0",
+        "public_transport": "1000",
+        "hospital": "0",
+        "movie": "1000",
+        "online_shopping": "0",
+        "offline_shopping": "1000",
+        "delivery": "0",
+        "details": "전월실적 : 30만원\r\n편의점 : CU\r\n커피 : 스타벅스\r\n영화 : CGV\r\n쇼핑 : 텐바이텐(편의점, 커피, 영화, 쇼핑 : 이용금액 건당 1만원 이상 시 할인)\r\n대중교통 : 버스, 지하철(이용금액 건당 3만원 이상 시 할인)"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 13,
+    "fields": {
+        "card": 13,
+        "convenience_store": "1000",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "1000",
+        "food": "0",
+        "public_transport": "1000",
+        "hospital": "0",
+        "movie": "1000",
+        "online_shopping": "0",
+        "offline_shopping": "1000",
+        "delivery": "0",
+        "details": "전월실적 : 30만원\r\n편의점 : CU\r\n커피 : 스타벅스\r\n영화 : CGV\r\n쇼핑 : 텐바이텐(편의점, 커피, 영화, 쇼핑 -> 이용금액 건당 1만원 이상 시 할인)\r\n대중교통 : 버스, 지하철(이용금액 건당 3만원 이상 시 할인)"
+    }
 }
 ]
