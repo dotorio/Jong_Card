@@ -3,16 +3,16 @@
     "model": "accounts.user",
     "pk": 1,
     "fields": {
-        "password": "pbkdf2_sha256$600000$3biiGoBOQ0GMC0FiB8CfzQ$vpQQvF2dmDjehm4Pu70gqTj68Vz2VkOgm9d+RvOugk0=",
-        "last_login": "2024-05-16T16:29:24.278Z",
+        "password": "pbkdf2_sha256$600000$IyNs2j9NeUNBl7ejpFC3kg$6r2XZVRKNHWX5YTZcqQVwmbsrSbAxRY8JAiwl5muwRQ=",
+        "last_login": "2024-05-21T05:17:13.880Z",
         "is_superuser": false,
-        "username": "user1",
+        "username": "TrendyUser01",
         "first_name": "",
         "last_name": "",
         "email": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2024-05-16T16:29:23.954Z",
+        "date_joined": "2024-05-21T05:17:13.233Z",
         "groups": [],
         "user_permissions": []
     }
@@ -21,16 +21,16 @@
     "model": "accounts.user",
     "pk": 2,
     "fields": {
-        "password": "pbkdf2_sha256$600000$5gXI9Kx2cMc28NGxJK6ch1$VffnCwPEmXR3XfD6Or5jutiXnhhiug1CgQ7A89QaCj0=",
-        "last_login": "2024-05-16T16:29:31.384Z",
+        "password": "pbkdf2_sha256$600000$7Jzb4oZEnXgjdwbeMQteHy$1IGlwWIvvZD/3HrVPIs/dsJXUzBMBoCJTy+kGHoYMH8=",
+        "last_login": "2024-05-21T05:17:51.482Z",
         "is_superuser": false,
-        "username": "user2",
+        "username": "SmartSaver",
         "first_name": "",
         "last_name": "",
         "email": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2024-05-16T16:29:31.120Z",
+        "date_joined": "2024-05-21T05:17:50.852Z",
         "groups": [],
         "user_permissions": []
     }
@@ -39,16 +39,16 @@
     "model": "accounts.user",
     "pk": 3,
     "fields": {
-        "password": "pbkdf2_sha256$600000$rIDRKQpUgwqZvai4MGvdvz$xEoZsGDghdedd0WEXU8zd4zSCSy9PW7jDgLZlKxp05c=",
-        "last_login": "2024-05-16T16:29:34.089Z",
+        "password": "pbkdf2_sha256$600000$nAruI75AM3mSV0kQ337t27$QqZ3dpx4xEUkUNuqTUZuJEaahWTwCcA9+Bvjr9BfxKY=",
+        "last_login": "2024-05-21T05:18:04.657Z",
         "is_superuser": false,
-        "username": "user3",
+        "username": "DailyShopper",
         "first_name": "",
         "last_name": "",
         "email": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2024-05-16T16:29:33.774Z",
+        "date_joined": "2024-05-21T05:18:04.029Z",
         "groups": [],
         "user_permissions": []
     }
@@ -57,16 +57,16 @@
     "model": "accounts.user",
     "pk": 4,
     "fields": {
-        "password": "pbkdf2_sha256$600000$lKRAC2ypnXoo8NNNqDkQih$H5fU8EmPPOyxjeoKX2cN2oKYpcxSnma8BUq4p482QMg=",
-        "last_login": "2024-05-16T16:29:36.709Z",
+        "password": "pbkdf2_sha256$600000$qA1CIioQG3UekFi1b7SDIv$zxzngSYAJ7ujW75HeoUhb+xUGx1jYs6s0mWoKCK88Qg=",
+        "last_login": "2024-05-21T05:18:17.776Z",
         "is_superuser": false,
-        "username": "user4",
+        "username": "LifestyleGuru",
         "first_name": "",
         "last_name": "",
         "email": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2024-05-16T16:29:36.395Z",
+        "date_joined": "2024-05-21T05:18:17.145Z",
         "groups": [],
         "user_permissions": []
     }
@@ -75,16 +75,214 @@
     "model": "accounts.user",
     "pk": 5,
     "fields": {
-        "password": "pbkdf2_sha256$600000$pqjdUKOBhMJNCIBo1bpZS9$IAu+Hfd0z2D6Bypw0ITJjK8DKywk6RUdYJ4QEkN+FIY=",
-        "last_login": "2024-05-16T16:29:39.250Z",
+        "password": "pbkdf2_sha256$600000$1VBtdbAMRlijhdo8GjGWbt$DuRqFoqQGvMX2MNS4TRz+c6CgUaSh5YfOkTj684y9yw=",
+        "last_login": "2024-05-21T05:18:29.179Z",
         "is_superuser": false,
-        "username": "user5",
+        "username": "CardLover",
         "first_name": "",
         "last_name": "",
         "email": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2024-05-16T16:29:38.911Z",
+        "date_joined": "2024-05-21T05:18:28.548Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$WPdoA3pXUqtDokvPWGMnqZ$teSaiVM4gJP6T6mTzbNd4ytaWMfP2U1kfLENSKAiwJQ=",
+        "last_login": "2024-05-21T05:18:41.060Z",
+        "is_superuser": false,
+        "username": "MyCardLife",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:18:40.431Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$AJJJdoxZN4uWLOamyKb6Nq$/BRuOeCh3+HqTwmHr4c6NPyjIidP+OSlCbluVwpIGoU=",
+        "last_login": "2024-05-21T05:18:53.543Z",
+        "is_superuser": false,
+        "username": "SavingsExpert",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:18:52.913Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$V0bGUm9c83zhQ10U2WMx7Z$IrFNzWSuPUuYhMCutNjazBSL+IHgWQRTAFD4qwDLaQc=",
+        "last_login": "2024-05-21T05:19:10.239Z",
+        "is_superuser": false,
+        "username": "WalletWiz",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:19:09.612Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$5sGkhg202T8bDKAb8WPNkY$rdxkZNbjBLN+T+O8WgHSiyBVznPoqLW2MC4wz0zUPAQ=",
+        "last_login": "2024-05-21T05:19:22.957Z",
+        "is_superuser": false,
+        "username": "UrbanExplorer",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:19:22.321Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$lIYAAozbPQBfKKLzYUZiKU$lonQwMbWYflqwic8GPKv0bSFNXNV3iBAADIjNrnbXHE=",
+        "last_login": "2024-05-21T05:19:35.046Z",
+        "is_superuser": false,
+        "username": "BenefitHunter",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:19:34.423Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ioZTVhpv5CrjIdp7EsM1Ia$vmryzDqDdcXAfZNUc0yK3Yfnt+ZZ6TgUkcToBKUKkD4=",
+        "last_login": "2024-05-21T05:19:47.929Z",
+        "is_superuser": false,
+        "username": "EasyPayer",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:19:46.779Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$SmqqzZ2tExIntGaQ2IFn4l$4Cd7mVZNAceEE+pdbQg3iGJoKKBw7F8nHD8FZJfd09g=",
+        "last_login": "2024-05-21T05:20:08.664Z",
+        "is_superuser": false,
+        "username": "RewardSeeker",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:20:07.461Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$V9pkF7LY5sJ9kpD93zi4Ff$cAnsIbPe3yIfJA+wxZIhuxZSbkXXGeoO1rs3Mt45aEI=",
+        "last_login": "2024-05-21T05:20:23.579Z",
+        "is_superuser": false,
+        "username": "CityDweller",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:20:22.941Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$SyUWPLHaAjhKG0FrJK8tma$vNIFErra7fII49mkklXnVlKZrHXgUd20C4NZo8VSErY=",
+        "last_login": "2024-05-21T05:20:33.128Z",
+        "is_superuser": false,
+        "username": "CashbackPro",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:20:32.507Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$TlrOrRztl946MgBhmnaUju$KGW21Qii3bG3xrPevx87WlUkvh46EjBE3dluvi/fgHw=",
+        "last_login": "2024-05-21T05:20:44.085Z",
+        "is_superuser": false,
+        "username": "SpendWise",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:20:43.447Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$MfnmZalXZioazbMXaZWf7K$vaxq5WzYQuAxsCGA2l12YBqgAAi3J8T/H9RYdDTr2J4=",
+        "last_login": "2024-05-21T06:40:29.180Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-05-21T05:41:21.679Z",
         "groups": [],
         "user_permissions": []
     }

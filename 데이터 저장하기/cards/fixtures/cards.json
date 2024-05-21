@@ -167,5 +167,208 @@
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01918",
         "like_users": []
     }
+},
+{
+    "model": "cards.card",
+    "pk": 14,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "첵첵 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01914",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 15,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "KB국민카드",
+        "cardName": "골든대로 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01770",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 16,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "훈 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01930",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 17,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "쏘영 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01570",
+        "like_users": [
+            1
+        ]
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 18,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "샘 쏘영 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01574",
+        "like_users": [
+            1
+        ]
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 19,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "정 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01928",
+        "like_users": [
+            1
+        ]
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 20,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "음 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01932",
+        "like_users": [
+            1
+        ]
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 21,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "민 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01560",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 22,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "새로이 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01774",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 23,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "총무 체크카드(홀로)",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07981",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 25,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "KB국민카드",
+        "cardName": "ONE 체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01946",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 26,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "American Express Blue Card",
+        "annualFee": "19000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09115",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 27,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "KB국민카드",
+        "cardName": "가온올림카드(실속형)",
+        "annualFee": "15000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09157",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 28,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "KB국민카드",
+        "cardName": "톡톡 Pay카드",
+        "annualFee": "20000",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09231",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 29,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "KB국민카드",
+        "cardName": "가온체크카드",
+        "annualFee": "0",
+        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01720",
+        "like_users": []
+    }
 }
 ]
