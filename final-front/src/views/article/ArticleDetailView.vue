@@ -3,14 +3,18 @@
     <Advertisement />
     <div v-if="article">
       <div class="container">
-        <div>
-          제목: {{ article.title }}
+        <div class="main article">
+          <span class="title">
+             {{ article.title }}
+          </span>
+          <span class="content">
+             {{ article.content }}
+          </span>  
+          <div class="d-flex ">
+            <button type="button" @click="goUpdate">수정하기</button>
+            <button type="button" @click="Delete">삭제하기</button>
+          </div>       
         </div>
-        <div>
-          내용: {{ article.content }}
-        </div>
-        <button type="button" @click="goUpdate">수정하기</button>
-        <button type="button" @click="Delete">삭제하기</button>
       </div>
     </div>
 
@@ -67,5 +71,56 @@ const Delete = function () {
 </script>
 
 <style scoped>
+* {
+  font-size: 20px;
+  font-weight: 700;
+}
+.container {
+  width: 90%;
+}
+.main {
+  margin: 100px;
+}
+button {
+  width: 120px;
+  height: 50px;
+
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+  border-radius: 10px;
+
+  border-color: #659FA6;
+  background-color: #184D59;
+  color: #EFF1F3;
+}
+.article {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.title {
+  margin: 20px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'NEXON Lv2 Gothic';
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.content {
+  margin: 20px;
+  padding: 10px; 
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'NEXON Lv2 Gothic';
+  height: 370px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
 
 </style>

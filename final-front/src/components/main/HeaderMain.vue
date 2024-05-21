@@ -174,9 +174,10 @@ header {
 } 
 .remain {
   width: 350px;
-  height: 200px;
+  height: 180px;
   background-color: #E0FFFF;
   border-radius: 10px;
+  padding-left: 22px;
 } 
 
 .remain-1 {

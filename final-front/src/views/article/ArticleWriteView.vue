@@ -1,14 +1,16 @@
 <template>
   <div>
     <Advertisement />
-    <h2>문의글 작성</h2>
-    <hr>
     <form action="" @submit.prevent="articleWrite"  class="article">
+      <h2>문의글 작성</h2>
+      <hr>
       <input class="title" type="text" v-model="title" placeholder="제목을 입력해주세요.">
       <textarea class="content" cols="30" rows="10" placeholder="내용" v-model="content"></textarea>
-      <input type="submit" value="문의 등록" >
+      <div class="d-flex">
+        <input type="submit" value="문의 등록" >
+        <button type="button" class="write ms-5" @click="goArticles">목록</button>
+      </div>
     </form>
-    <button type="button" class="write" @click="goArticles">목록</button>
   </div>
 </template>
 
@@ -39,6 +41,9 @@ const articleWrite = function () {
 </script>
 
 <style scoped>
+h2 {
+  margin-top: 20px;
+}
 .article {
   width: 80%;
   margin: 20px auto;
@@ -51,6 +56,7 @@ const articleWrite = function () {
   height: 30px;
   padding-left: 10px;
   font-size: 20px;
+  font-weight: 700;
   font-family: 'NEXON Lv2 Gothic';
 }
 .content {
@@ -58,6 +64,7 @@ const articleWrite = function () {
   padding-top: 10px;
   padding-left: 10px;
   font-size: 20px;
+  font-weight: 700;
   font-family: 'NEXON Lv2 Gothic';
 }
 input[type=submit] {
@@ -69,18 +76,20 @@ input[type=submit] {
   margin-left: 20px;
   border-radius: 10px;
 
-  border-color: #A7E7F6;
-  background-color: #3FCEF6;
+  border-color: #659FA6;
+  background-color: #184D59;
   color: #EFF1F3;
   font-family: 'NEXON Lv2 Gothic';
 }
 .write {
   width: 100px;
   height: 50px;
-  margin-top: 20px;
+  bottom: 80px;
+
   border-radius: 10px;
-  border-color: #A7E7F6;
-  background-color: #3FCEF6;
+
+  border-color: #659FA6;
+  background-color: #184D59;
   color: #EFF1F3;
   font-family: 'NEXON Lv2 Gothic';
   font-size: 20px;
