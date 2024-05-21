@@ -218,7 +218,7 @@ button {
   width: 120px;
   height: 40px;
   font-weight: 700;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   position: relative;
   padding-left: 20px;

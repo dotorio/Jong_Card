@@ -120,8 +120,8 @@ p {
   height: 50px;
   border-radius: 10px;
   
-  border-color: rgb(156, 160, 248);
-  background-color: rgb(155, 170, 255);
+  border-color: #659FA6;
+  background-color: #184D59;
   color: white;
   border-width: thick;
   font-size: 20px;
