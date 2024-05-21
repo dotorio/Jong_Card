@@ -1,7 +1,6 @@
 <template>
   <div>
     <Advertisement />
-    
       <div class="container">
         <h2>문의글 게시판</h2>
         <hr>
@@ -37,8 +36,6 @@
               </nav>
             </div>
           </div>
-          
-
         </div>
     </div>
   </div>

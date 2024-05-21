@@ -20,9 +20,6 @@ const props = defineProps(
 )
 const articleStore = useArticleStore()
 
-
-
-
 </script>
 
 <style scoped>
