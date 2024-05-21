@@ -76,7 +76,9 @@ onMounted(() => {
     .catch(err => {
       console.log(err)
     })
-  growStore.cardGrowUpdate()
+  if (myPageStore.growCard) {
+    growStore.cardGrowUpdate()
+  }
 })
 
 const goCardDetail = function (cardId) {

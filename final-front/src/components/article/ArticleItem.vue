@@ -66,7 +66,7 @@ span {
   display: inline-block;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .detail {
   transition: all 1s;

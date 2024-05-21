@@ -4,20 +4,25 @@
       <div class="logo">
         <RouterLink :to="{name: 'home'}"><img src="../assets/homelogo.svg" alt="home"></RouterLink>
       </div>
-      <div  v-if="accountStore.isLogin" class="d-flex align-items-center">
-        <div class="me-4">
-          <RouterLink class="my-page" :to="{name: 'my-page', params:{'username': accountStore.userName}}"> {{ accountStore.userName }} </RouterLink>
-        </div>
-        <div class="logout">
-          <RouterLink class="account" :to="{name: 'account'}" @click="logout">로그아웃</RouterLink>
-        </div>
+      <div class="d-flex align-items-center">
         
-      </div>
-      <div v-else class="login">
-        <RouterLink class="account" :to="{name: 'account'}">로그인/회원가입</RouterLink>
+        <div  v-if="accountStore.isLogin" class="d-flex align-items-center">
+  
+          <div class="me-4">
+            <RouterLink class="my-page" :to="{name: 'my-page', params:{'username': accountStore.userName}}"> {{ accountStore.userName }} </RouterLink>
+          </div>
+          <div class="logout">
+            <RouterLink class="account" :to="{name: 'account'}" @click="logout">로그아웃</RouterLink>
+          </div>
+          
+        </div>
+        <div v-else class="login">
+          <RouterLink class="account" :to="{name: 'account'}">로그인/회원가입</RouterLink>
+        </div>
       </div>
     </div>
-  </div>
+
+      </div>
 </template>
 
 <script setup>
