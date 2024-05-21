@@ -1,8 +1,9 @@
 <template>
   <div>
-    <div class="card">
+    <div class="card d-flex justify-content-center align-items-center">
+      
       <img :src="`src/assets/cards/${cardId}.svg`" alt="#"
-      class="card-img" @click="goCardDetail">
+      class="card-img" @click="goCardDetail" style="width: 132px; height: 210px;">
       <label for="check" class="like" @click="likeCard">
         <input type="button" value="하트" :disabled="isLogin"
         :class="{ check: check }">
@@ -104,25 +105,9 @@ const likeCard = function () {
 * {
   border-color: white;
 }
-/* .detail {
-  position: absolute;
-  top: 100px;
-  left: 22px;
-  font-size: 15px;
-  font-weight: 700;
-  border: 1px solid black;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #f8415c;
-  color: white;
-  cursor: pointer;
-  opacity: 0;
-} */
-/* .detail:hover {
-  transition: 0.5s all;
-  transform: scale(1.1);
-  opacity: 1;
-} */
+.card {
+  width: 200px;
+}
 .card-img:hover {
   transition: 0.5s all;
   transform: scale(1.1);
@@ -132,7 +117,7 @@ const likeCard = function () {
   position: absolute;
   width: 20px;
   height: 20px;
-  right: 20px;
+  right: 60px;
   top: 0;
   scale: 0.14;
   --c: #f8415c;
@@ -211,7 +196,7 @@ label{
 .card-name {
   margin-top: 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
 }
 /*애니메이션 효과 설정*/
