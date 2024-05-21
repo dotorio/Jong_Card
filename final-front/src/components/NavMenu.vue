@@ -5,7 +5,9 @@
         <RouterLink :to="{name: 'home'}"><img src="../assets/homelogo.svg" alt="home"></RouterLink>
       </div>
       <div class="d-flex align-items-center">
-        
+        <div class="form-check form-switch me-5">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </div>
         <div  v-if="accountStore.isLogin" class="d-flex align-items-center">
   
           <div class="me-4">
@@ -39,6 +41,10 @@ const logout = function () {
 </script>
 
 <style scoped>
+.form-check-input:checked {
+  background-color: black;
+  border-color: gray;
+}
 .nav {
   height: 80px;
   padding: 0 20px 0 20px;
