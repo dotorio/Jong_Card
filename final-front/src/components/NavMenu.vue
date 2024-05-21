@@ -6,7 +6,8 @@
       </div>
       <div class="d-flex align-items-center">
         <div class="form-check form-switch me-5">
-          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+          @click="themaStore.themaChage">
         </div>
         <div  v-if="accountStore.isLogin" class="d-flex align-items-center">
   
@@ -29,11 +30,12 @@
 
 <script setup>
 import { useAccountStore } from '@/stores/account';
+import { useThemaStore } from '@/stores/thema';
 import AccountViewVue from '@/views/AccountView.vue';
 import { RouterLink, useRouter } from 'vue-router';
 
 const accountStore = useAccountStore()
-
+const themaStore = useThemaStore()
 const logout = function () {
   accountStore.logout()
 }

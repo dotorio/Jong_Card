@@ -1,9 +1,11 @@
 <template>
   <div>
-    <main>
+    <main :class="themaStore.main">
       <div class="container">
-        <button @click="growStore.upGage(expText)">경험치 증가!</button>
-        <div class="card-container me-xl-5">
+        <button @click="growStore.upGage(expText)"
+        :class="themaStore.button">경험치 증가!</button>
+        <div class="card-container me-xl-5" 
+          :class="themaStore.cardContainer">
           <img :src="growStore.coinImg" alt="#" 
           class="coin animate__animated"
           :class="coin">
@@ -22,22 +24,22 @@
         </div>
         <div class="exp-container">
           <div class="exp-rel">
-            <div class="exp-gage">
+            <div class="exp-gage" :class="themaStore.expGage">
               <div class="bg-warning bg-gradient"
               :class="[growStore.cardGageBar, gageBar]">
               </div>
             </div>
-            <div ref="expText" class="exp-text">
+            <div ref="expText" class="exp-text" :class="themaStore.thema">
               {{ growStore.cardGage }} %
             </div>
           </div>
         </div>
-        <div class="mission-container">
-          <MissionItem1 class="mission"/> 
-          <MissionItem2 class="mission"/>
-          <MissionItem3 class="mission"/> 
-          <MissionItem4 class="mission"/> 
-          <MissionItem5 class="mission"/> 
+        <div class="mission-container" :class="themaStore.missionContainer">
+          <MissionItem1 class="mission" :class="themaStore.mission"/> 
+          <MissionItem2 class="mission" :class="themaStore.mission"/>
+          <MissionItem3 class="mission" :class="themaStore.mission"/> 
+          <MissionItem4 class="mission" :class="themaStore.mission"/> 
+          <MissionItem5 class="mission" :class="themaStore.mission"/> 
         </div>
         
         <div class="modal animate__animated" :class="growStore.modalOn">
@@ -64,10 +66,11 @@ import { useMissionStore3 } from '@/stores/mission-3'
 import { useCardGrowStore } from '@/stores/cardgrow'
 import { RouterLink } from 'vue-router'
 import { useMyPageStore } from '@/stores/mypage'
-
 import { useAccountStore } from '@/stores/account'
+import { useThemaStore } from '@/stores/thema'
 const accountStore = useAccountStore()
 
+const themaStore = useThemaStore()
 onMounted(() => {
   myPageStore.getCardGrow()
   gageBar.value = 'hidden'
@@ -119,6 +122,7 @@ const removeBounce = function () {
 </script>
 
 <style scoped>
+
 /* 경험치 별 영역 */
 .hidden {
   opacity: 0;
@@ -139,17 +143,15 @@ main  button {
   left: 120px;
   font-size: 15px;
   font-weight: 700;
-  color: white;
+  
   border-radius: 10px;
-  border-color: #45a0b4;
   border-width: thick;
-  background-color: #184D59;
 }
 
 main {
   height: 94vh;
   position: relative;
-  background-color: #B4D9CE;
+  
 }
 /* 모달 영역 */
 .modal {
@@ -211,7 +213,7 @@ main {
 .exp-gage {
   width: 350px;
   height: 80px;
-  border: 3px solid black;
+ 
   border-radius: 5px;
 
   margin-top: 10px;
@@ -255,7 +257,7 @@ main {
 .exp-container {
   width: 450px;
   height: 100px;
-  background-color: aqua;
+  /* background-color: aqua; */
   border-radius: 10px;
 
   position: absolute;
@@ -272,20 +274,17 @@ main {
   width: 90%;
   height: 80px;
   border-radius: 10px;
-  background-color: #F2F2F2;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  
 }
 
 .mission-container {
   width: 500px;
   height: 600px;
-  background-color: #659FA6;
   border-radius: 10px;
 
   position: absolute;
   top: 100px;
   right: -30px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -300,13 +299,12 @@ main {
 .card-container {
   width: 350px;
   height: 350px;
-  background-color: #659FA6;
+  
   border-radius: 20px;
 
   position: absolute;
   top: 170px;
   left: 0px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
 .card-character {
@@ -416,6 +414,61 @@ main {
     animation: blink 0.5s ease-in-out forwards;
     /*애니메이션 딜레이*/
     animation-delay: 0.2s ;
+}
+
+
+.exp-gage-dark {
+  border: 3px solid rgb(255, 255, 255);
+}
+.button-dark {
+  color: white;
+  border-color: #d6f8ff;
+  background-color: #ffbebe;
+}
+.main-dark {
+  background-color: #0e2226;
+}
+.mission-dark {
+  background-color: #2a2a73;
+  color: white;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.mission-container-dark {
+  background-color: #013184;
+  border: 2px solid white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card-container-dark {
+  background-color: #013184;
+  border: 2px solid white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.exp-gage-light {
+  border: 3px solid black;
+}
+.button-light {
+  color: white;
+  border-color: #45a0b4;
+  background-color: #184D59;
+}
+.main-light {
+  background-color: #B4D9CE;
+}
+.mission-light {
+  background-color: #F2F2F2;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.mission-container-light {
+  background-color: #659FA6;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card-container-light {
+  background-color: #659FA6;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.dark {
+  color: white;
 }
 @keyframes blink{
     0%{
