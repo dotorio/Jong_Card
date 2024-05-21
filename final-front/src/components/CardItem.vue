@@ -3,7 +3,6 @@
     <div class="card">
       <img :src="`src/assets/cards/${cardId}.svg`" alt="#"
       class="card-img" @click="goCardDetail">
-      
       <label for="check" class="like" @click="likeCard">
         <input type="button" value="하트" :disabled="isLogin"
         :class="{ check: check }">
@@ -105,6 +104,30 @@ const likeCard = function () {
 * {
   border-color: white;
 }
+/* .detail {
+  position: absolute;
+  top: 100px;
+  left: 22px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f8415c;
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+} */
+/* .detail:hover {
+  transition: 0.5s all;
+  transform: scale(1.1);
+  opacity: 1;
+} */
+.card-img:hover {
+  transition: 0.5s all;
+  transform: scale(1.1);
+  opacity: 1;
+}
 .like {
   position: absolute;
   width: 20px;
@@ -116,6 +139,7 @@ const likeCard = function () {
   z-index: 1;
 }
 .card-img {
+  position: relative;
   cursor: pointer;
 }
 svg{

@@ -30,11 +30,13 @@
               <div class="row">
                 <div v-if="likeCards"
                 v-for="card in likeCards.card" :key="card.id" class="col-4">
-                  <div class="card" @click="goCardDetail(card.id)">
+                  
+                <div class="card" @click="goCardDetail(card.id)">
                     <img :src="`/src/assets/cards/${card.id}.svg`" alt="#">
                     <p>{{ card.cardName }}</p>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -74,6 +76,7 @@ onMounted(() => {
     .catch(err => {
       console.log(err)
     })
+  growStore.cardGrowUpdate()
 })
 
 const goCardDetail = function (cardId) {
@@ -107,9 +110,14 @@ const goCardGrow = function () {
   top: 50px;
   cursor: pointer;
 }
+
 p {
   font-size: 30px;
   font-weight: 700;
+}
+.card img:hover {
+  transition: all 1s;
+  transform: scale(1.1);
 }
 .card-btn {
   position: absolute;

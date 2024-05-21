@@ -175,7 +175,7 @@ const contentDetail = function (event) {
 .container {
   margin: 20px auto;
   background-color: #B4D9D3;
-  height: 620px;
+  height: 720px;
   padding: 20px;
   border-radius: 10px;
 
@@ -186,7 +186,7 @@ const contentDetail = function (event) {
 }
 div > img {
   width: 50%;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 40px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
