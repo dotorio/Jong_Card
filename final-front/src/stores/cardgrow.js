@@ -10,6 +10,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
   const cardLevel = ref(1)
   const cardGageBar = ref(`exp-gage-0`)
   const modalOn = ref('')
+  const modalBack = ref('normal')
   const cardImg = ref(`/src/assets/card-grow/level${cardLevel.value}.svg`)
   const coinImg = ref(`/src/assets/card-grow/coin${cardLevel.value}.svg`)
   const myPageStore = useMyPageStore()
@@ -111,13 +112,14 @@ export const useCardGrowStore = defineStore('card-grow', () => {
     cardGage.value = 0
     cardGageBar.value = 'exp-gage-0'
     modalOn.value = 'on animate__fadeInDown'
-
+    modalBack.value = 'level-up'
     cardImg.value = `/src/assets/card-grow/level${cardLevel.value}.svg`
     coinImg.value = `/src/assets/card-grow/coin${cardLevel.value}.svg`
   }
 
   const closeModal = function () {
     modalOn.value = ''
+    modalBack.value = 'normal'
   }
   
 
@@ -147,7 +149,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
     }
 
 
-  return { cardGage, cardGageBar, modalOn, cardImg, coinImg,  cardLevel, mission1, mission2, mission3, mission4, mission5, missionCount3,
+  return { cardGage, cardGageBar, modalOn, cardImg, coinImg,  cardLevel, mission1, mission2, mission3, mission4, mission5, missionCount3, modalBack,
     upGage, closeModal, cardGrowUpdate, missionClear, updateCardGrow,
    }
 })

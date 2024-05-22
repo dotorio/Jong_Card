@@ -1,46 +1,49 @@
 <template>
   <div>
     <main :class="themaStore.main">
-      <div class="container">
-        <button @click="growStore.upGage(expText)"
-        :class="themaStore.button">경험치 증가!</button>
-        <div class="card-container me-xl-5" 
-          :class="themaStore.cardContainer">
-          <img :src="growStore.coinImg" alt="#" 
-          class="coin animate__animated"
-          :class="coin">
-          <div class="card-character">
-            <span v-if="growStore.cardLevel >= 1" class="span1"></span>
-            <span v-if="growStore.cardLevel >= 2" class="span2"></span>
-            <span v-if="growStore.cardLevel >= 3" class="span3"></span>
-            <span v-if="growStore.cardLevel >= 4" class="span4"></span>
-            <span v-if="growStore.cardLevel >= 5" class="span5"></span>
-            <img :src="growStore.cardImg" alt="#"
-            class="animate__animated"
-            :class="card" @click="activeBounce">
-            <div :class="shadow">
-            </div>
-          </div>
-        </div>
-        <div class="exp-container" :class="themaStore.expContainer">
-          <div class="exp-rel" >
-            <div class="exp-gage" :class="themaStore.expGage">
-              <div class="bg-warning bg-gradient"
-              :class="[growStore.cardGageBar, gageBar]">
+      <div class="out-side" :class="growStore.modalBack">
+        <div class="container">
+          <button @click="growStore.upGage(expText)"
+          :class="themaStore.button">경험치 증가!</button>
+          <div class="card-container me-xl-5" 
+            :class="themaStore.cardContainer">
+            <img :src="growStore.coinImg" alt="#" 
+            class="coin animate__animated"
+            :class="coin">
+            <div class="card-character">
+              <span v-if="growStore.cardLevel >= 1" class="span1"></span>
+              <span v-if="growStore.cardLevel >= 2" class="span2"></span>
+              <span v-if="growStore.cardLevel >= 3" class="span3"></span>
+              <span v-if="growStore.cardLevel >= 4" class="span4"></span>
+              <span v-if="growStore.cardLevel >= 5" class="span5"></span>
+              <img :src="growStore.cardImg" alt="#"
+              class="animate__animated"
+              :class="card" @click="activeBounce">
+              <div :class="shadow">
               </div>
             </div>
-            <div ref="expText" class="exp-text" :class="themaStore.thema">
-              {{ growStore.cardGage }} %
+          </div>
+          <div class="exp-container" :class="themaStore.expContainer">
+            <div class="exp-rel" >
+              <div class="exp-gage" :class="themaStore.expGage">
+                <div class="bg-warning bg-gradient"
+                :class="[growStore.cardGageBar, gageBar]">
+                </div>
+              </div>
+              <div ref="expText" class="exp-text" :class="themaStore.thema">
+                {{ growStore.cardGage }} %
+              </div>
             </div>
           </div>
+          <div class="mission-container" :class="themaStore.missionContainer">
+            <MissionItem1 class="mission" :class="themaStore.mission"/> 
+            <MissionItem2 class="mission" :class="themaStore.mission"/>
+            <MissionItem3 class="mission" :class="themaStore.mission"/> 
+            <MissionItem4 class="mission" :class="themaStore.mission"/> 
+            <MissionItem5 class="mission" :class="themaStore.mission"/> 
+          </div>
         </div>
-        <div class="mission-container" :class="themaStore.missionContainer">
-          <MissionItem1 class="mission" :class="themaStore.mission"/> 
-          <MissionItem2 class="mission" :class="themaStore.mission"/>
-          <MissionItem3 class="mission" :class="themaStore.mission"/> 
-          <MissionItem4 class="mission" :class="themaStore.mission"/> 
-          <MissionItem5 class="mission" :class="themaStore.mission"/> 
-        </div>
+      </div>
         
         <div class="modal animate__animated" :class="growStore.modalOn">
           <div class="modal-popup">
@@ -49,7 +52,6 @@
             <button class="close-btn" @click="growStore.closeModal">확인</button>
           </div>
         </div>
-      </div>
       <!-- 모달 팝업 -->
     </main>
   </div>
@@ -158,11 +160,11 @@ main {
   width: 500px;
   height: 500px;
   border-radius: 20px;
-  background-color: rgb(80, 206, 252);
+  background-color: #F2E5D5;
   /* z-index: 10; */
   display: none;
   top: 100px;
-  left: 200px;
+  left: 650px;
   position: absolute;
   text-align: center;
 }
@@ -188,8 +190,8 @@ main {
   left: 200px;
   color: white;
   border-radius: 10px;
-  border-color: rgb(102, 110, 250);
-  background-color: rgb(155, 170, 255);
+  border-color: #141A26;
+  background-color: #141A26;
 }
 .on {
   display: block;
@@ -341,6 +343,14 @@ main {
   transition: all 0.2s;
   opacity: 0;
 }
+
+.normal {
+  opacity: 1;
+}
+.level-up {
+  opacity: 0.5;
+}
+
 .span1, .span2, .span3, .span4, .span5{
     display: block;
     width: 24px;
