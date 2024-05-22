@@ -5,6 +5,8 @@
         <div class="row">
           <div class="col-4 img mt-5">
             <img :src="cardImg" alt="#" @click="contentDetail" class="main-img">
+            <a :href="cardBenefits.site" class="site"
+            v-if="cardBenefits">카드 홈페이지</a>
           </div>
           <div class="col-8">
             <div class="row btn" @click="contentChange">
@@ -72,6 +74,7 @@
               :content="cardBenefits[currentBenefit]"
               :benefit="currentBenefit"
               :category="cardBenefits.category"
+              :site="cardBenefits.site"
               />
             </div>
           </div>
@@ -180,6 +183,26 @@ const contentDetail = function (event) {
   border-radius: 10px;
 
 }
+.site {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #F2F0F0;
+  left: 180px;
+  bottom: 160px;
+  padding-top: 15px;
+  width: 120px;
+  height: 50px;
+  border: 2px solid #F2F0F0;
+  border-radius: 10px;
+}
+.site:hover {
+  transition: all 0.5s;
+  color: #184D59;
+  border: 2px solid #184D59;
+}
 .active {
   background-color: gray;
   color: white;
@@ -192,6 +215,7 @@ div > img {
 }
 .img {
   text-align: center;
+  position: relative;
 }
 button {
   width: 120px;

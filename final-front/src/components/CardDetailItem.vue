@@ -40,10 +40,11 @@ import {  } from 'vue-router';
 const props = defineProps({
   content: Object,
   benefit: String,
-  category: Number
+  category: Number,
+  site: String
 })
 
-console.log(props.category)
+console.log(props.site)
 
 </script>
 

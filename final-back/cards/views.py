@@ -159,6 +159,9 @@ def detail_calculate(card_data):
         change_money['category'] = 1
     else:
         change_money['category'] = 2
+
+    change_money['site'] = card_data['site']
+
     detail_list = list(card_data['benefit'][0]['details'].split('\r\n'))
     change_money['detail'] = dict()
     for i in detail_list:
