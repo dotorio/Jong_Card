@@ -682,5 +682,356 @@
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1667",
         "like_users": []
     }
+},
+{
+    "model": "cards.card",
+    "pk": 53,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LIKIT all 체크카드",
+        "annualFee": "0",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12667-A12667",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 54,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "디지로카 London",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14718-A14718",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 55,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "디지로카 Paris",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14728-A14728",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 56,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA LIKIT 1.2",
+        "annualFee": "10000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13937-A13937",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 57,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA LIKIT Eat",
+        "annualFee": "10000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13943-A13943",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 58,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA LIKIT Play",
+        "annualFee": "10000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13949-A13949",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 59,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA for Shopping",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13395-A13395&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 60,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA LIKIT Shop",
+        "annualFee": "10000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13955-A13955",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 61,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA LIKIT",
+        "annualFee": "10000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13746-A13746",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 62,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA 100 카드",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13586-A13586",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 63,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA CLASSIC",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13379-A13379&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 64,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA for Coffee",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13391-A13391&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 65,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA for Auto",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13399-A13399&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 66,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA for Health",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13407-A13407&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 67,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "롯데교통카드",
+        "annualFee": "5000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-B00294",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 68,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "롯데카드",
+        "annualFee": "5000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-A00646",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 69,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "롯데 뉴라인 골드 아멕스카드",
+        "annualFee": "80000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00421-A00421",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 70,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "롯데 뉴라인 아멕스카드",
+        "annualFee": "25000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00422-A00422",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 71,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA MONEY 카드",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13561-A13561",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 72,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA MONEY 비즈니스 카드",
+        "annualFee": "20000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13644-A13644",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 73,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "롯데카드",
+        "cardName": "LOCA Mobility 반띵 카드",
+        "annualFee": "17000",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14285-A14285",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 74,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "롯데체크카드",
+        "annualFee": "0",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C00041-A00041",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 75,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LIKIT fun 체크플러스 카드",
+        "annualFee": "0",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12758-A12758",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 76,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LIKIT fun 체크카드",
+        "annualFee": "0",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12794-A12794",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 77,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LIKIT on 체크플러스 카드",
+        "annualFee": "0",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12846-A12846",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 78,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LIKIT on 체크카드",
+        "annualFee": "0",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12833-A12833",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 79,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "롯데카드",
+        "cardName": "LIKIT all 체크플러스 카드",
+        "annualFee": "0",
+        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12807-A12807",
+        "like_users": []
+    }
 }
 ]

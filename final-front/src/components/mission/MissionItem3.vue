@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <p>카드에 동전주기 3회 [ {{ store.missonCardClick }} / 3 ]</p>
+    <p>카드에 밥 주기 3회 [ {{ store.missonCardClick }} / 3 ]</p>
     <input type="checkbox"
     v-if="!growStore.mission3">
     <img src="../../assets/card-grow/checked.svg" alt="#" class="animate__animated animate__tada"

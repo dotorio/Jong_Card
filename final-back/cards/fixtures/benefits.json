@@ -1038,5 +1038,106 @@
         "delivery": "0",
         "details": "전월 실적 : 30만원"
     }
+},
+{
+    "model": "cards.benefit",
+    "pk": 53,
+    "fields": {
+        "card": 53,
+        "convenience_store": "0.2%",
+        "telecom": "0.2%",
+        "fuel": "0.2%",
+        "OTT": "0.2%",
+        "cafe": "0.2%",
+        "food": "0.2%",
+        "public_transport": "0.2%",
+        "hospital": "0.2%",
+        "movie": "0.2%",
+        "online_shopping": "0.2%",
+        "offline_shopping": "0.2%",
+        "delivery": "0.2%",
+        "details": "전월 실적 : 0원\r\n기타 : 주말/공휴일에 0.2% 추가 적립"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 54,
+    "fields": {
+        "card": 54,
+        "convenience_store": "0.7%",
+        "telecom": "0.7%",
+        "fuel": "0.7%",
+        "OTT": "0.7%",
+        "cafe": "0.7%",
+        "food": "0.7%",
+        "public_transport": "0.7%",
+        "hospital": "0.7%",
+        "movie": "0.7%",
+        "online_shopping": "0.7%",
+        "offline_shopping": "0.7%",
+        "delivery": "0.7%",
+        "details": "전월 실적 : 0원"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 55,
+    "fields": {
+        "card": 55,
+        "convenience_store": "0.7%",
+        "telecom": "0.7%",
+        "fuel": "0.7%",
+        "OTT": "0.7%",
+        "cafe": "0.7%",
+        "food": "0.7%",
+        "public_transport": "0.7%",
+        "hospital": "0.7%",
+        "movie": "0.7%",
+        "online_shopping": "5%",
+        "offline_shopping": "0.7%",
+        "delivery": "0.7%",
+        "details": "전월 실적 : 0원\r\n온라인 쇼핑 : 전월 실적 50만원 시 적용, 멤버십 미이용시 2% 할인"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 56,
+    "fields": {
+        "card": 56,
+        "convenience_store": "1.2%",
+        "telecom": "1.2%",
+        "fuel": "1.2%",
+        "OTT": "1.2%",
+        "cafe": "1.2%",
+        "food": "1.2%",
+        "public_transport": "1.2%",
+        "hospital": "1.2%",
+        "movie": "1.2%",
+        "online_shopping": "1.5%",
+        "offline_shopping": "1.2%",
+        "delivery": "1.2%",
+        "details": "전월 실적 : 0원"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 57,
+    "fields": {
+        "card": 57,
+        "convenience_store": "0",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "60%",
+        "food": "60%",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "60%",
+        "details": "전월 실적 : 40만원\r\n커피 : 스타벅스, 투썸플레이스, 폴바셋\r\n기타 : 결제일 할인"
+    }
 }
+
 ]

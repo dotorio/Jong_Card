@@ -45,9 +45,9 @@
         </div>
       </div>
         
-        <div class="modal animate__animated" :class="growStore.modalOn">
+        <div class="modal animate__animated" :class="[growStore.modalOn, themaStore.modal]">
           <div class="modal-popup">
-            <p>레벨업 하였습니다!</p>
+            <p :class="themaStore.modalText">레벨업 하였습니다!</p>
             <img :src="growStore.cardImg" alt="">
             <button class="close-btn" @click="growStore.closeModal">확인</button>
           </div>
@@ -160,7 +160,7 @@ main {
   width: 500px;
   height: 500px;
   border-radius: 20px;
-  background-color: #F2E5D5;
+  
   /* z-index: 10; */
   display: none;
   top: 100px;
@@ -454,8 +454,14 @@ main {
 }
 .exp-container-dark {
   background-color: #262626;
+  color: #B4D9CE;
 }
-
+.modal-dark {
+  background-color: #184D59;
+}
+.modal-text-dark {
+  color: white;
+}
 .exp-gage-light {
   border: 3px solid black;
 }
@@ -482,6 +488,10 @@ main {
 .exp-container-light {
   background-color: #D9D9D9;
 }
+.modal-light {
+  background-color: #F2E5D5;
+}
+
 .dark {
   color: white;
 }
