@@ -106,7 +106,7 @@ h2 {
   height: 50px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  background-color: gray;
+  background-color: #E6E1C1;
   display: flex;
 }
 .article-header .title {
@@ -139,7 +139,6 @@ span {
   font-family: 'NEXON Lv2 Gothic';
   font-size: 20px;
   font-weight: 700;
-  
 }
 
 .articles {
