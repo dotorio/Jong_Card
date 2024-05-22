@@ -4,9 +4,13 @@
       <div class="container">
         <div class="row">
           <div class="col-4 img mt-5">
-            <img :src="cardImg" alt="#" @click="contentDetail" class="main-img">
-            <a :href="cardBenefits.site" class="site"
-            v-if="cardBenefits">카드 홈페이지</a>
+            <div class="card-left d-flex flex-column align-items-center" 
+            v-if="cardBenefits">
+              <p class="cardName">{{ cardBenefits.cardName }}</p>
+              <img :src="cardImg" alt="#" @click="contentDetail" class="main-img">
+              <a :href="cardBenefits.site" class="site mt-4"
+              >카드 홈페이지</a>
+            </div>
           </div>
           <div class="col-8">
             <div class="row btn" @click="contentChange">
@@ -181,27 +185,31 @@ const contentDetail = function (event) {
   height: 720px;
   padding: 20px;
   border-radius: 10px;
+}
 
+.cardName {
+  margin-top: 70px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .site {
   display: inline-block;
-  position: absolute;
   text-decoration: none;
   font-size: 15px;
   font-weight: 700;
-  color: #F2F0F0;
-  left: 180px;
-  bottom: 160px;
+  color: #184D59;
+  left: 0px;
+  bottom: -70px;
   padding-top: 15px;
   width: 120px;
   height: 50px;
-  border: 2px solid #F2F0F0;
+  border: 2px solid #184D59;
   border-radius: 10px;
 }
 .site:hover {
   transition: all 0.5s;
-  color: #184D59;
-  border: 2px solid #184D59;
+  color: #F0F9E8;
+  border: 2px solid #F0F9E8;
 }
 .active {
   background-color: gray;
@@ -209,8 +217,6 @@ const contentDetail = function (event) {
 }
 div > img {
   width: 50%;
-  margin-top: 150px;
-  margin-left: 40px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .img {
@@ -242,5 +248,6 @@ button > img {
 }
 .main-img {
   cursor: pointer;
+
 }
 </style>
