@@ -558,5 +558,305 @@
         "delivery": "0.2%",
         "details": "전월 실적 : 10만원\r\n기타 : 주말/공휴일에 0.2% 추가 적립"
     }
+},
+{
+    "model": "cards.benefit",
+    "pk": 31,
+    "fields": {
+        "card": 30,
+        "convenience_store": "3000",
+        "telecom": "3000",
+        "fuel": "3000",
+        "OTT": "3000",
+        "cafe": "300",
+        "food": "0",
+        "public_transport": "300",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "3000",
+        "offline_shopping": "3000",
+        "delivery": "0",
+        "details": "전원 실적 : 20만원\r\n대중교통 : 버스, 지하철\r\n커피 : 스타벅스, 커피빈, 이디야, 투썸플레이스\r\n편의점 : GS25, CU, 이마트24, 세븐일레븐\r\n(대중교통, 커피, 편의점 최대 10회 할인)\r\nOTT/구독 : 유튜브 프리미엄, 넷플릭스, 쿠팡 로켓와우\r\n주유 : SK에너지, GS칼텍스, S-OIL, 현대오일뱅크, EV충전\r\n온라인쇼핑 : 쿠팡, G마켓, 옥션, 11번가, 인터파크, 위메프\r\n쇼핑 : 대형마트, 백화점\r\n통신요금 : SKT, KT, LGU+\r\n(OTT/구독, 주유, 온라인쇼핑, 쇼핑, 통신요금 최대 1회 할인)"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 32,
+    "fields": {
+        "card": 31,
+        "convenience_store": "1.8%",
+        "telecom": "1.8%",
+        "fuel": "1.8%",
+        "OTT": "1.8%",
+        "cafe": "1.8%",
+        "food": "1.8%",
+        "public_transport": "1.8%",
+        "hospital": "1.8%",
+        "movie": "1.8%",
+        "online_shopping": "1.8%",
+        "offline_shopping": "1.8%",
+        "delivery": "1.8%",
+        "details": "전월 실적 : 0원\r\n기타 : 하나원큐페이 결제시 적립률 1.8% 최대 10만원 적립, 일반결제시 적립률 0.8%"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 33,
+    "fields": {
+        "card": 32,
+        "convenience_store": "1%",
+        "telecom": "1%",
+        "fuel": "1%",
+        "OTT": "1%",
+        "cafe": "10%",
+        "food": "1%",
+        "public_transport": "10%",
+        "hospital": "1%",
+        "movie": "1%",
+        "online_shopping": "1%",
+        "offline_shopping": "1%",
+        "delivery": "1%",
+        "details": "전월 실적 : 30만원\r\n쇼핑 : 백화점\r\n커피 : 스타벅스\r\n대중교통 : 버스, 지하철\r\n기타 : 본 상품은 하나증권 계좌를 카드 결제계좌로 지정해야 신청 및 서비스를 제공 받을 수 있음"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 34,
+    "fields": {
+        "card": 33,
+        "convenience_store": "0.7%",
+        "telecom": "0.7%",
+        "fuel": "0.7%",
+        "OTT": "0.7%",
+        "cafe": "0.7%",
+        "food": "0.7%",
+        "public_transport": "0.7%",
+        "hospital": "0.7%",
+        "movie": "0.7%",
+        "online_shopping": "1.7%",
+        "offline_shopping": "0.7%",
+        "delivery": "0.7%",
+        "details": "전월실적 : 0원\r\n온라인쇼핑 : 할인한도 10만원/월"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 35,
+    "fields": {
+        "card": 34,
+        "convenience_store": "0",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "10%",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월실적 : 50만원\r\n대중교통 : 버스, 지하철(월 할인한도 1만원)\r\n커피 : 스타벅스, 커피빈(월 할인한도 5천원)"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 36,
+    "fields": {
+        "card": 35,
+        "convenience_store": "0",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "0",
+        "food": "0",
+        "public_transport": "2%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월실적 : 0원\r\n대중교통 : 버스, 지하철(월 적립 한도 3천원)\r\n기타 : 차이머니(차이코퍼레이션이 발행하는 선불전자지급수단)로 적립됨"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 37,
+    "fields": {
+        "card": 36,
+        "convenience_store": "0",
+        "telecom": "0",
+        "fuel": "10%",
+        "OTT": "0",
+        "cafe": "5%",
+        "food": "0",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월실적 : 40만원\r\n커피 : 스타벅스, 커피빈(월 최대 5천원 할인)\r\n주유 : SK, GS, S-OIL, 현대오일뱅크(월 최대 1만5천원 할인)"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 38,
+    "fields": {
+        "card": 37,
+        "convenience_store": "0.2%",
+        "telecom": "0.2%",
+        "fuel": "0.2%",
+        "OTT": "0.2%",
+        "cafe": "0.2%",
+        "food": "0.2%",
+        "public_transport": "1%",
+        "hospital": "0.2%",
+        "movie": "0.2%",
+        "online_shopping": "0.2%",
+        "offline_shopping": "0.6%",
+        "delivery": "0.8%",
+        "details": "전월실적 : 0원\r\n쇼핑 : 이마트, 홈플러스, 롯데마트, SSM, 백화점\r\n배달 : 배달의 민족, 요기요\r\n대중교통 : 버스, 지하철\r\n기타 : 월 통합 5만 하나머니 적립"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 39,
+    "fields": {
+        "card": 38,
+        "convenience_store": "5%",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "20%",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "5%",
+        "details": "전월실적 : 10만원\r\n편의점 : GS25, CU, 이마즈24, 세븐일레븐\r\n딜리버리 : 배달의민족, 요기요\r\n대중교통 : 버스, 지하철\r\n커피 : 스타벅스, 투썸플레이스"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 40,
+    "fields": {
+        "card": 39,
+        "convenience_store": "0",
+        "telecom": "3000",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "0",
+        "food": "0.5%",
+        "public_transport": "0",
+        "hospital": "0.5%",
+        "movie": "0",
+        "online_shopping": "0.5%",
+        "offline_shopping": "0.5%",
+        "delivery": "0",
+        "details": "전월실적 : 25만원\r\n건당 1만원 이상 이용시 제공\r\n통신요금 : 알뜰폰 제외, 자동이체 납부시 적용"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 41,
+    "fields": {
+        "card": 40,
+        "convenience_store": "5%",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "20%",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "5%",
+        "details": "전월실적 : 10만원\r\n편의점 : GS25, CU, 이마즈24, 세븐일레븐\r\n딜리버리 : 배달의민족, 요기요\r\n대중교통 : 버스, 지하철\r\n커피 : 스타벅스, 투썸플레이스"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 42,
+    "fields": {
+        "card": 41,
+        "convenience_store": "0",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "0",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 30만원\r\n대중교통 : 버스, 지하철(월 3천원 한도)"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 43,
+    "fields": {
+        "card": 42,
+        "convenience_store": "0.4%",
+        "telecom": "0.4%",
+        "fuel": "0.4%",
+        "OTT": "0.4%",
+        "cafe": "0.4%",
+        "food": "0.4%",
+        "public_transport": "0.4%",
+        "hospital": "0.4%",
+        "movie": "0.4%",
+        "online_shopping": "0.4%",
+        "offline_shopping": "0.4%",
+        "delivery": "0.4%",
+        "details": "전월 실적 : 0원\r\n기타 : 하나원큐페이, 페이결제 시 0.4% 페이백, 일반결제 시 0.3% 페이백"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 44,
+    "fields": {
+        "card": 43,
+        "convenience_store": "0.2%",
+        "telecom": "0.2%",
+        "fuel": "0.2%",
+        "OTT": "0.2%",
+        "cafe": "0.2%",
+        "food": "0.2%",
+        "public_transport": "0.2%",
+        "hospital": "0.4%",
+        "movie": "0.2%",
+        "online_shopping": "0.2%",
+        "offline_shopping": "0.3%",
+        "delivery": "0.2%",
+        "details": "전월 실적 : 0원\r\n마트 : 이마트, 홈플러스, 롯데마트\r\n병원/약국 : 동물병원 포함"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 45,
+    "fields": {
+        "card": 44,
+        "convenience_store": "5%",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "5%",
+        "food": "0",
+        "public_transport": "5%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 20만원\r\n대중교통 : 버스, 지하철, 철도(월 5만원 이상 사용시 하나머니 적립)\r\n편의점 : CU, GS25, 세븐일레븐(1만원 이상 사용시 하나머니 적립)\r\n커피 : 스타벅스, 커피빈(1만원 이상 사용시 하나머니 적립)"
+    }
 }
 ]

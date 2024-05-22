@@ -140,19 +140,19 @@ def detail_calculate(card_data):
             now = card_data['benefit'][0][benefit]
             if category == '할인':
                 if now.endswith('%'):
-                    change_money[benefit][item].append(change_money[benefit][item][0] * (1-int(now[:-1])/100))
+                    change_money[benefit][item].append(change_money[benefit][item][0] * (1-float(now[:-1])/100))
                 elif now.endswith('원/L'):
-                    change_money[benefit][item].append(change_money[benefit][item][0] - int(now[:-3])*(change_money[benefit][item][0]//1670))               
-                elif int(now) and now.isdigit():
-                    change_money[benefit][item].append(max(0, change_money[benefit][item][0] - int(now)))
+                    change_money[benefit][item].append(change_money[benefit][item][0] - float(now[:-3])*(change_money[benefit][item][0]//1670))               
+                elif float(now) and now.isdigit():
+                    change_money[benefit][item].append(max(0, change_money[benefit][item][0] - float(now)))
                 
             elif category == '적립':
                 if now.endswith('%'):
-                    change_money[benefit][item].append(change_money[benefit][item][0] * int(now[:-1])/100)
+                    change_money[benefit][item].append(change_money[benefit][item][0] * float(now[:-1])/100)
                 elif now.endswith('원/L'):
-                    change_money[benefit][item].append(int(now[:-3])*(change_money[benefit][item][0]//1670))
-                elif int(now) and now.isdigit():
-                    change_money[benefit][item].append(int(now))
+                    change_money[benefit][item].append(float(now[:-3])*(change_money[benefit][item][0]//1670))
+                elif float(now) and now.isdigit():
+                    change_money[benefit][item].append(float(now))
 
     if category == '할인':
         change_money['category'] = 1

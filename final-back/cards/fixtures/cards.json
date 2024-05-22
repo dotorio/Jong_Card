@@ -370,5 +370,200 @@
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01720",
         "like_users": []
     }
+},
+{
+    "model": "cards.card",
+    "pk": 30,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "하나카드",
+        "cardName": "#MY WAY 카드",
+        "annualFee": "20000",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41015444P&CD_PD_SEQ=15444&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 31,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "하나 원큐 카드",
+        "annualFee": "15000",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012942P&CD_PD_SEQ=12942&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 32,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "하나증권 캐시백 투자 카드",
+        "annualFee": "15000",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016936P&CD_PD_SEQ=16936&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 33,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할",
+        "cardCompany": "하나카드",
+        "cardName": "ANY PLUS 카드",
+        "annualFee": "15000",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41009051P&CD_PD_SEQ=9051&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 34,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "하나카드",
+        "cardName": "K-패스 하나 신용카드",
+        "annualFee": "17000",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017016P&CD_PD_SEQ=17016&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 35,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "차이 신용카드",
+        "annualFee": "12000",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41014443P&CD_PD_SEQ=14443&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 36,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "하나카드",
+        "cardName": "MULTI Oil 모바일카드",
+        "annualFee": "15000",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012932P&CD_PD_SEQ=12932&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 37,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "MULTI Any 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013823P&CD_PD_SEQ=13823&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 38,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "Young Hana+ 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013798P&CD_PD_SEQ=13798&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 39,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "국민행복 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012794P&CD_PD_SEQ=12794&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 40,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "금쪽이 Young Hana+ 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016143P&CD_PD_SEQ=16143&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 41,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "K-패스 하나 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017033P&CD_PD_SEQ=17033&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 42,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "모두의 일상 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012782P&CD_PD_SEQ=12782&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 43,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "모두의 건강 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013539P&CD_PD_SEQ=13539&",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 44,
+    "fields": {
+        "cardBigCategory": "체크",
+        "cardSmallCategory": "적립",
+        "cardCompany": "하나카드",
+        "cardName": "하나멤버스 1Q 체크카드",
+        "annualFee": "0",
+        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41004094P&CD_PD_SEQ=4094&",
+        "like_users": []
+    }
 }
 ]
