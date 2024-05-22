@@ -22,7 +22,7 @@ export const useCardGrowStore = defineStore('card-grow', () => {
   const mission4 = ref(false)
   const mission5 = ref(false)
   const missionCount3 = ref(null) 
-  
+  const expText = ref(null)
   
   const cardGrowUpdate = function () {
     cardLevel.value = myPageStore.growCard.level
@@ -66,9 +66,13 @@ export const useCardGrowStore = defineStore('card-grow', () => {
       mission5.value = true
     }
   }
-
-  const upGage = function(element) {
+  const setExpText = function (element) {
+    expText.value = element
+    console.log(expText.value)
+  }
+  const upGage = function() {
     // console.log('경험치 증가')
+    const element = expText.value
     const taget = cardGage.value + 25
     let count = cardGage.value
 
@@ -150,6 +154,6 @@ export const useCardGrowStore = defineStore('card-grow', () => {
 
 
   return { cardGage, cardGageBar, modalOn, cardImg, coinImg,  cardLevel, mission1, mission2, mission3, mission4, mission5, missionCount3, modalBack,
-    upGage, closeModal, cardGrowUpdate, missionClear, updateCardGrow,
+    upGage, closeModal, cardGrowUpdate, missionClear, updateCardGrow, setExpText
    }
 })

@@ -3,7 +3,7 @@
     <main :class="themaStore.main">
       <div class="out-side" :class="growStore.modalBack">
         <div class="container">
-          <button @click="growStore.upGage(expText)"
+          <button @click="growStore.upGage()"
           :class="themaStore.button">경험치 증가!</button>
           <div class="card-container me-xl-5" 
             :class="themaStore.cardContainer">
@@ -76,6 +76,8 @@ const themaStore = useThemaStore()
 onMounted(() => {
   myPageStore.getCardGrow()
   gageBar.value = 'hidden'
+  growStore.setExpText(expText.value)
+  // console.log(expText.value)
   setTimeout(() => {
     gageBar.value = ''
   }, 500)
@@ -94,7 +96,9 @@ const growStore = useCardGrowStore()
 const myPageStore = useMyPageStore()
 const gageBar = ref('')
 const expText = ref(null)
-console.log(expText)
+
+
+
 const showData = function () {
   console.log(growStore.cardGage)
   console.log(growStore.cardLevel)
