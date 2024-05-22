@@ -1,1037 +1,1038 @@
 [
-{
-    "model": "cards.card",
-    "pk": 1,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "K-패스카드",
-        "annualFee": "8000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09321",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 2,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "KB국민카드",
-        "cardName": "K-패스체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09322",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 3,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "WE:SH All 카드",
-        "annualFee": "20000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09122",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 4,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "My WE:SH 카드",
-        "annualFee": "15000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09123",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 5,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "Our WE:SH 카드",
-        "annualFee": "15000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09124",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 6,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "톡톡 with카드",
-        "annualFee": "12000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09272",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 7,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "마이핏카드(할인형)",
-        "annualFee": "10000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09248",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 8,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "Easy on카드",
-        "annualFee": "20000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09244",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 9,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "굿데이올림카드",
-        "annualFee": "15000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09063",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 10,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "KB국민카드",
-        "cardName": "톡톡 my living카드",
-        "annualFee": "12000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09205",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 11,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "KB국민카드",
-        "cardName": "Easy pick카드",
-        "annualFee": "20000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09243",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 12,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "토심이 첵첵 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07960",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 13,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "위글위글 첵첵 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01918",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 14,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "첵첵 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01914",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 15,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "KB국민카드",
-        "cardName": "골든대로 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01770",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 16,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "훈 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01930",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 17,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "쏘영 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01570",
-        "like_users": [
-            1
-        ]
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 18,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "샘 쏘영 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01574",
-        "like_users": [
-            1
-        ]
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 19,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "정 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01928",
-        "like_users": [
-            1
-        ]
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 20,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "음 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01932",
-        "like_users": [
-            1
-        ]
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 21,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "민 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01560",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 22,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "새로이 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01774",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 23,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "총무 체크카드(홀로)",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07981",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 24,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "taptap DIGITAL",
-        "annualFee": "10000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1666",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 25,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "KB국민카드",
-        "cardName": "ONE 체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01946",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 26,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "American Express Blue Card",
-        "annualFee": "19000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09115",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 27,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "KB국민카드",
-        "cardName": "가온올림카드(실속형)",
-        "annualFee": "15000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09157",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 28,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "KB국민카드",
-        "cardName": "톡톡 Pay카드",
-        "annualFee": "20000",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09231",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 29,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "KB국민카드",
-        "cardName": "가온체크카드",
-        "annualFee": "0",
-        "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01720",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 30,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "하나카드",
-        "cardName": "#MY WAY 카드",
-        "annualFee": "20000",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41015444P&CD_PD_SEQ=15444&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 31,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "하나 원큐 카드",
-        "annualFee": "15000",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012942P&CD_PD_SEQ=12942&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 32,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "하나증권 캐시백 투자 카드",
-        "annualFee": "15000",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016936P&CD_PD_SEQ=16936&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 33,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "하나카드",
-        "cardName": "ANY PLUS 카드",
-        "annualFee": "15000",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41009051P&CD_PD_SEQ=9051&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 34,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "하나카드",
-        "cardName": "K-패스 하나 신용카드",
-        "annualFee": "17000",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017016P&CD_PD_SEQ=17016&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 35,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "차이 신용카드",
-        "annualFee": "12000",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41014443P&CD_PD_SEQ=14443&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 36,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "하나카드",
-        "cardName": "MULTI Oil 모바일카드",
-        "annualFee": "15000",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012932P&CD_PD_SEQ=12932&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 37,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "MULTI Any 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013823P&CD_PD_SEQ=13823&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 38,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "Young Hana+ 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013798P&CD_PD_SEQ=13798&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 39,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "국민행복 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012794P&CD_PD_SEQ=12794&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 40,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "금쪽이 Young Hana+ 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016143P&CD_PD_SEQ=16143&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 41,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "K-패스 하나 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017033P&CD_PD_SEQ=17033&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 42,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "모두의 일상 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012782P&CD_PD_SEQ=12782&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 43,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "모두의 건강 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013539P&CD_PD_SEQ=13539&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 44,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "하나카드",
-        "cardName": "하나멤버스 1Q 체크카드",
-        "annualFee": "0",
-        "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41004094P&CD_PD_SEQ=4094&",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 45,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "삼성 iD VITA 카드",
-        "annualFee": "20000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1790",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 46,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "삼성 iD SIMPLE 카드",
-        "annualFee": "7000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1767",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 47,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "삼성 iD ENERGY 카드",
-        "annualFee": "20000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1753",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 48,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "삼성 iD MOVE 카드",
-        "annualFee": "20000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1762",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 49,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "삼성 iD AUTO 카드",
-        "annualFee": "49000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1766",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 50,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "삼성 BIZ iD BENEFIT 카드",
-        "annualFee": "30000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1758",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 51,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "삼성 iD POCKET 카드",
-        "annualFee": "1000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1746",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 52,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "taptap DRIVE",
-        "annualFee": "10000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1667",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 53,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LIKIT all 체크카드",
-        "annualFee": "0",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12667-A12667",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 54,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "디지로카 London",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14718-A14718",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 55,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "디지로카 Paris",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14728-A14728",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 56,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA LIKIT 1.2",
-        "annualFee": "10000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13937-A13937",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 57,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA LIKIT Eat",
-        "annualFee": "10000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13943-A13943",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 58,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA LIKIT Play",
-        "annualFee": "10000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13949-A13949",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 59,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA for Shopping",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13395-A13395&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 60,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA LIKIT Shop",
-        "annualFee": "10000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13955-A13955",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 61,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA LIKIT",
-        "annualFee": "10000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13746-A13746",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 62,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA 100 카드",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13586-A13586",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 63,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA CLASSIC",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13379-A13379&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 64,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA for Coffee",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13391-A13391&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 65,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA for Auto",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13399-A13399&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 66,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA for Health",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13407-A13407&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 67,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "롯데교통카드",
-        "annualFee": "5000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-B00294",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 68,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "롯데카드",
-        "annualFee": "5000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-A00646",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 69,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "롯데 뉴라인 골드 아멕스카드",
-        "annualFee": "80000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00421-A00421",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 70,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "롯데 뉴라인 아멕스카드",
-        "annualFee": "25000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00422-A00422",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 71,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA MONEY 카드",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13561-A13561",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 72,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA MONEY 비즈니스 카드",
-        "annualFee": "20000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13644-A13644",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 73,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "롯데카드",
-        "cardName": "LOCA Mobility 반띵 카드",
-        "annualFee": "17000",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14285-A14285",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 74,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "롯데체크카드",
-        "annualFee": "0",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C00041-A00041",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 75,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LIKIT fun 체크플러스 카드",
-        "annualFee": "0",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12758-A12758",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 76,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LIKIT fun 체크카드",
-        "annualFee": "0",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12794-A12794",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 77,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LIKIT on 체크플러스 카드",
-        "annualFee": "0",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12846-A12846",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 78,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LIKIT on 체크카드",
-        "annualFee": "0",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12833-A12833",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 79,
-    "fields": {
-        "cardBigCategory": "체크",
-        "cardSmallCategory": "적립",
-        "cardCompany": "롯데카드",
-        "cardName": "LIKIT all 체크플러스 카드",
-        "annualFee": "0",
-        "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12807-A12807",
-        "like_users": []
-    }
-}
-]
+    {
+        "model": "cards.card",
+        "pk": 1,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "K-패스카드",
+            "annualFee": "8000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09321",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 2,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "KB국민카드",
+            "cardName": "K-패스체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09322",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 3,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "WE:SH All 카드",
+            "annualFee": "20000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09122",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 4,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "My WE:SH 카드",
+            "annualFee": "15000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09123",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 5,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "Our WE:SH 카드",
+            "annualFee": "15000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09124",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 6,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "톡톡 with카드",
+            "annualFee": "12000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09272",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 7,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "마이핏카드(할인형)",
+            "annualFee": "10000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09248",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 8,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "Easy on카드",
+            "annualFee": "20000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09244",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 9,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "굿데이올림카드",
+            "annualFee": "15000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09063",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 10,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "KB국민카드",
+            "cardName": "톡톡 my living카드",
+            "annualFee": "12000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09205",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 11,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "KB국민카드",
+            "cardName": "Easy pick카드",
+            "annualFee": "20000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09243",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 12,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "토심이 첵첵 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07960",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 13,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "위글위글 첵첵 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01918",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 14,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "첵첵 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01914",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 15,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "KB국민카드",
+            "cardName": "골든대로 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01770",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 16,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "훈 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01930",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 17,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "쏘영 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01570",
+            "like_users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 18,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "샘 쏘영 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01574",
+            "like_users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 19,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "정 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01928",
+            "like_users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 20,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "음 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01932",
+            "like_users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 21,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "민 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01560",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 22,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "새로이 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01774",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 23,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "총무 체크카드(홀로)",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07981",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 24,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "taptap DIGITAL",
+            "annualFee": "10000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1666",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 25,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "KB국민카드",
+            "cardName": "ONE 체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01946",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 26,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "American Express Blue Card",
+            "annualFee": "19000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09115",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 27,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "KB국민카드",
+            "cardName": "가온올림카드(실속형)",
+            "annualFee": "15000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09157",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 28,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "KB국민카드",
+            "cardName": "톡톡 Pay카드",
+            "annualFee": "20000",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09231",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 29,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "KB국민카드",
+            "cardName": "가온체크카드",
+            "annualFee": "0",
+            "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01720",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 30,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "하나카드",
+            "cardName": "#MY WAY 카드",
+            "annualFee": "20000",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41015444P&CD_PD_SEQ=15444&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 31,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "하나 원큐 카드",
+            "annualFee": "15000",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012942P&CD_PD_SEQ=12942&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 32,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "하나증권 캐시백 투자 카드",
+            "annualFee": "15000",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016936P&CD_PD_SEQ=16936&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 33,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "하나카드",
+            "cardName": "ANY PLUS 카드",
+            "annualFee": "15000",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41009051P&CD_PD_SEQ=9051&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 34,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "하나카드",
+            "cardName": "K-패스 하나 신용카드",
+            "annualFee": "17000",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017016P&CD_PD_SEQ=17016&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 35,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "차이 신용카드",
+            "annualFee": "12000",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41014443P&CD_PD_SEQ=14443&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 36,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "하나카드",
+            "cardName": "MULTI Oil 모바일카드",
+            "annualFee": "15000",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012932P&CD_PD_SEQ=12932&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 37,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "MULTI Any 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013823P&CD_PD_SEQ=13823&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 38,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "Young Hana+ 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013798P&CD_PD_SEQ=13798&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 39,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "국민행복 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012794P&CD_PD_SEQ=12794&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 40,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "금쪽이 Young Hana+ 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016143P&CD_PD_SEQ=16143&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 41,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "K-패스 하나 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017033P&CD_PD_SEQ=17033&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 42,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "모두의 일상 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012782P&CD_PD_SEQ=12782&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 43,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "모두의 건강 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013539P&CD_PD_SEQ=13539&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 44,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "하나카드",
+            "cardName": "하나멤버스 1Q 체크카드",
+            "annualFee": "0",
+            "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41004094P&CD_PD_SEQ=4094&",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 45,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "삼성 iD VITA 카드",
+            "annualFee": "20000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1790",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 46,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "삼성 iD SIMPLE 카드",
+            "annualFee": "7000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1767",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 47,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "삼성 iD ENERGY 카드",
+            "annualFee": "20000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1753",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 48,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "삼성 iD MOVE 카드",
+            "annualFee": "20000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1762",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 49,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "삼성 iD AUTO 카드",
+            "annualFee": "49000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1766",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 50,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "삼성 BIZ iD BENEFIT 카드",
+            "annualFee": "30000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1758",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 51,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "삼성 iD POCKET 카드",
+            "annualFee": "1000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1746",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 52,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "삼성카드",
+            "cardName": "taptap DRIVE",
+            "annualFee": "10000",
+            "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1667",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 53,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LIKIT all 체크카드",
+            "annualFee": "0",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12667-A12667",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 54,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "디지로카 London",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14718-A14718",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 55,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "디지로카 Paris",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14728-A14728",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 56,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA LIKIT 1.2",
+            "annualFee": "10000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13937-A13937",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 57,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA LIKIT Eat",
+            "annualFee": "10000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13943-A13943",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 58,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA LIKIT Play",
+            "annualFee": "10000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13949-A13949",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 59,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA for Shopping",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13395-A13395&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 60,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA LIKIT Shop",
+            "annualFee": "10000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13955-A13955",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 61,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA LIKIT",
+            "annualFee": "10000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13746-A13746",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 62,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA 100 카드",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13586-A13586",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 63,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA CLASSIC",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13379-A13379&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 64,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA for Coffee",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13391-A13391&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 65,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA for Auto",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13399-A13399&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 66,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA for Health",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13407-A13407&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 67,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "롯데교통카드",
+            "annualFee": "5000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-B00294",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 68,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "롯데카드",
+            "annualFee": "5000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-A00646",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 69,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "롯데 뉴라인 골드 아멕스카드",
+            "annualFee": "80000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00421-A00421",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 70,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "롯데 뉴라인 아멕스카드",
+            "annualFee": "25000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00422-A00422",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 71,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA MONEY 카드",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13561-A13561",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 72,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA MONEY 비즈니스 카드",
+            "annualFee": "20000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13644-A13644",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 73,
+        "fields": {
+            "cardBigCategory": "신용",
+            "cardSmallCategory": "할인",
+            "cardCompany": "롯데카드",
+            "cardName": "LOCA Mobility 반띵 카드",
+            "annualFee": "17000",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14285-A14285",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 74,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "롯데체크카드",
+            "annualFee": "0",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C00041-A00041",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 75,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LIKIT fun 체크플러스 카드",
+            "annualFee": "0",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12758-A12758",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 76,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LIKIT fun 체크카드",
+            "annualFee": "0",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12794-A12794",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 77,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LIKIT on 체크플러스 카드",
+            "annualFee": "0",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12846-A12846",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 78,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LIKIT on 체크카드",
+            "annualFee": "0",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12833-A12833",
+            "like_users": []
+        }
+    },
+    {
+        "model": "cards.card",
+        "pk": 79,
+        "fields": {
+            "cardBigCategory": "체크",
+            "cardSmallCategory": "적립",
+            "cardCompany": "롯데카드",
+            "cardName": "LIKIT all 체크플러스 카드",
+            "annualFee": "0",
+            "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12807-A12807",
+            "like_users": []
+        }
+    }
+    ]
+    
