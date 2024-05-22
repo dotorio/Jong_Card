@@ -11,11 +11,6 @@
             class="coin animate__animated"
             :class="coin">
             <div class="card-character">
-              <span v-if="growStore.cardLevel >= 1" class="span1"></span>
-              <span v-if="growStore.cardLevel >= 2" class="span2"></span>
-              <span v-if="growStore.cardLevel >= 3" class="span3"></span>
-              <span v-if="growStore.cardLevel >= 4" class="span4"></span>
-              <span v-if="growStore.cardLevel >= 5" class="span5"></span>
               <img :src="growStore.cardImg" alt="#"
               class="animate__animated"
               :class="card" @click="activeBounce">
@@ -355,80 +350,6 @@ main {
   opacity: 0.5;
 }
 
-.span1, .span2, .span3, .span4, .span5{
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-color: transparent;
-    border-radius: 50%;
-    /*절대적 포지션: center*/
-    position: absolute;
-    
-    transform: translate(-50%, -50%) scale(0);
-    /*각 방향의 쉐도우 설정*/
-    /*var함수로 쉐도우 컬러 설정*/
-    scale: 0.5;
-    z-index: 5;
-    box-shadow: 0 -160px 0 yellow,
-    0 160px 0 yellow,
-    -160px 0 0 yellow,
-    160px 0 0 yellow,
-    -120px -120px 0 yellow,
-    120px -120px 0 yellow,
-    120px 120px 0 yellow,
-    -120px 120px 0 yellow;
-}
-.span1 {
-  top: 100px;
-  left: 0px;
-}
-.span2 {
-  top: 300px;
-  left: 100px;
-}
-.span3 {
-  top: 120px;
-  right: 0px;
-}
-.span4 {
-  top: 240px;
-  right: 0px;
-}
-.span5 {
-  top: 20px;
-  left: 120px;
-}
-.card-character:hover > .span1{
-    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
-    animation: blink 0.5s ease-in-out forwards;
-    /*애니메이션 딜레이*/
-    animation-delay: 1s ;
-}
-.card-character:hover > .span2{
-    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
-    animation: blink 0.5s ease-in-out forwards;
-    /*애니메이션 딜레이*/
-    animation-delay: 0.8s ;
-}
-.card-character:hover > .span3{
-    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
-    animation: blink 0.5s ease-in-out forwards;
-    /*애니메이션 딜레이*/
-    animation-delay: 0.6s ;
-}
-.card-character:hover > .span4{
-    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
-    animation: blink 0.5s ease-in-out forwards;
-    /*애니메이션 딜레이*/
-    animation-delay: 0.4s ;
-}
-.card-character:hover > .span5{
-    /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
-    animation: blink 0.5s ease-in-out forwards;
-    /*애니메이션 딜레이*/
-    animation-delay: 0.2s ;
-}
-
 
 .exp-gage-dark {
   border: 3px solid #D9D9D9;
@@ -499,18 +420,5 @@ main {
 .dark {
   color: white;
 }
-@keyframes blink{
-    0%{
-        transform: translate(-50%, -50%) scale(0.5);
-        opacity: 0.8;
-    }
-    80%{
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 1;
-    }
-    100%{
-        transform: translate(-50%, -50%) scale(1.1);
-        opacity: 0;
-    }
-}
+
 </style>
