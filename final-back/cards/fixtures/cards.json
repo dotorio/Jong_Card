@@ -308,6 +308,19 @@
 },
 {
     "model": "cards.card",
+    "pk": 24,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "taptap DIGITAL",
+        "annualFee": "10000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1666",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
     "pk": 25,
     "fields": {
         "cardBigCategory": "체크",
@@ -667,19 +680,6 @@
         "cardName": "taptap DRIVE",
         "annualFee": "10000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1667",
-        "like_users": []
-    }
-},
-{
-    "model": "cards.card",
-    "pk": 53,
-    "fields": {
-        "cardBigCategory": "신용",
-        "cardSmallCategory": "할인",
-        "cardCompany": "삼성카드",
-        "cardName": "taptap DIGITAL",
-        "annualFee": "10000",
-        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1666",
         "like_users": []
     }
 }

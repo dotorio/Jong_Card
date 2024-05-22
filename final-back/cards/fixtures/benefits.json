@@ -236,7 +236,7 @@
         "online_shopping": "0",
         "offline_shopping": "1000",
         "delivery": "0",
-        "details": "전월실적 : 30만원\r\n편의점 : CU\r\n커피 : 스타벅스\r\n영화 : CGV\r\n쇼핑 : 텐바이텐(편의점, 커피, 영화, 쇼핑 : 이용금액 건당 1만원 이상 시 할인)\r\n대중교통 : 버스, 지하철(이용금액 건당 3만원 이상 시 할인)"
+        "details": "전월실적 : 30만원\r\n편의점 : CU\r\n커피 : 스타벅스\r\n영화 : CGV\r\n쇼핑 : 텐바이텐(편의점, 커피, 영화, 쇼핑 -> 이용금액 건당 1만원 이상 시 할인)\r\n대중교통 : 버스, 지하철(이용금액 건당 3만원 이상 시 할인)"
     }
 },
 {
@@ -461,7 +461,27 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 26,
+    "pk": 24,
+    "fields": {
+        "card": 24,
+        "convenience_store": "10%",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "50%",
+        "cafe": "0",
+        "food": "0",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 30만원\r\nOTT/스트리밍 : 넷플릭스, 웨이브, 티빙, 왓챠, 멜론, FLO"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 25,
     "fields": {
         "card": 25,
         "convenience_store": "0.2%",
@@ -481,7 +501,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 27,
+    "pk": 26,
     "fields": {
         "card": 26,
         "convenience_store": "5%",
@@ -501,7 +521,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 28,
+    "pk": 27,
     "fields": {
         "card": 27,
         "convenience_store": "0.7%",
@@ -521,7 +541,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 29,
+    "pk": 28,
     "fields": {
         "card": 28,
         "convenience_store": "10%",
@@ -541,7 +561,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 30,
+    "pk": 29,
     "fields": {
         "card": 29,
         "convenience_store": "0.2%",
@@ -561,7 +581,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 31,
+    "pk": 30,
     "fields": {
         "card": 30,
         "convenience_store": "3000",
@@ -581,7 +601,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 32,
+    "pk": 31,
     "fields": {
         "card": 31,
         "convenience_store": "1.8%",
@@ -601,7 +621,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 33,
+    "pk": 32,
     "fields": {
         "card": 32,
         "convenience_store": "1%",
@@ -621,7 +641,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 34,
+    "pk": 33,
     "fields": {
         "card": 33,
         "convenience_store": "0.7%",
@@ -641,7 +661,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 35,
+    "pk": 34,
     "fields": {
         "card": 34,
         "convenience_store": "0",
@@ -661,7 +681,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 36,
+    "pk": 35,
     "fields": {
         "card": 35,
         "convenience_store": "0",
@@ -681,7 +701,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 37,
+    "pk": 36,
     "fields": {
         "card": 36,
         "convenience_store": "0",
@@ -701,7 +721,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 38,
+    "pk": 37,
     "fields": {
         "card": 37,
         "convenience_store": "0.2%",
@@ -721,7 +741,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 39,
+    "pk": 38,
     "fields": {
         "card": 38,
         "convenience_store": "5%",
@@ -741,7 +761,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 40,
+    "pk": 39,
     "fields": {
         "card": 39,
         "convenience_store": "0",
@@ -761,7 +781,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 41,
+    "pk": 40,
     "fields": {
         "card": 40,
         "convenience_store": "5%",
@@ -781,7 +801,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 42,
+    "pk": 41,
     "fields": {
         "card": 41,
         "convenience_store": "0",
@@ -801,7 +821,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 43,
+    "pk": 42,
     "fields": {
         "card": 42,
         "convenience_store": "0.4%",
@@ -821,7 +841,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 44,
+    "pk": 43,
     "fields": {
         "card": 43,
         "convenience_store": "0.2%",
@@ -841,7 +861,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 45,
+    "pk": 44,
     "fields": {
         "card": 44,
         "convenience_store": "5%",
@@ -861,7 +881,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 46,
+    "pk": 45,
     "fields": {
         "card": 45,
         "convenience_store": "0",
@@ -881,7 +901,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 47,
+    "pk": 46,
     "fields": {
         "card": 46,
         "convenience_store": "1%",
@@ -901,7 +921,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 48,
+    "pk": 47,
     "fields": {
         "card": 47,
         "convenience_store": "0",
@@ -921,7 +941,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 49,
+    "pk": 48,
     "fields": {
         "card": 48,
         "convenience_store": "10%",
@@ -941,7 +961,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 50,
+    "pk": 49,
     "fields": {
         "card": 49,
         "convenience_store": "1.5%",
@@ -961,7 +981,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 51,
+    "pk": 50,
     "fields": {
         "card": 50,
         "convenience_store": "0.5%",
@@ -981,7 +1001,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 52,
+    "pk": 51,
     "fields": {
         "card": 51,
         "convenience_store": "8%",
@@ -1001,7 +1021,7 @@
 },
 {
     "model": "cards.benefit",
-    "pk": 53,
+    "pk": 52,
     "fields": {
         "card": 52,
         "convenience_store": "10%",
@@ -1017,26 +1037,6 @@
         "offline_shopping": "0",
         "delivery": "0",
         "details": "전월 실적 : 30만원"
-    }
-},
-{
-    "model": "cards.benefit",
-    "pk": 54,
-    "fields": {
-        "card": 53,
-        "convenience_store": "10%",
-        "telecom": "0",
-        "fuel": "0",
-        "OTT": "50%",
-        "cafe": "0",
-        "food": "0",
-        "public_transport": "0",
-        "hospital": "0",
-        "movie": "0",
-        "online_shopping": "0",
-        "offline_shopping": "0",
-        "delivery": "0",
-        "details": "전월 실적 : 30만원\r\nOTT/스트리밍 : 넷플릭스, 웨이브, 티빙, 왓챠, 멜론, FLO"
     }
 }
 ]
