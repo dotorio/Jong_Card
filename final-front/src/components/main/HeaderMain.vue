@@ -17,11 +17,11 @@ import MainItem from '@/components/main/HeaderItem.vue'
 import { ref } from 'vue';
 
 const cardList = ref([
-  { id: 1, title: 'My WE:SH 카드', cardCompany: 'KB국민카드' ,content: "다양한 혜택으로 일상을 더 즐겁게", summary: '일상을 더 즐겁게', main: 1, img: '/src/assets/home/main1.svg'},
-  { id: 2, title: 'WE:SH All 카드', cardCompany: 'KB국민카드' ,content: "모든 생활 영역에서 특별한 혜택을 누리세요", summary: '특별한 생활 혜택', main: 2, img: '/src/assets/home/main2.svg'},
-  { id: 3, title: 'K-패스 체크카드', cardCompany: 'KB국민카드' ,content: "일상 속 편리하고 안전한 결제를 원하신다면", summary: '편리하고 안전한 결제', main: 3, img: '/src/assets/home/main3.svg'},
-  { id: 4, title: 'K-패스카드', cardCompany: 'KB국민카드' ,content: "쉽고 빠른 교통 결제, 다방면에서 유용한", summary: '쉽고 빠른 교통 결제', main: 4, img: '/src/assets/home/main4.svg'},
-  { id: 5, title: '톡톡 my living카드', cardCompany: 'KB국민카드' ,content: "당신의 삶을 위한 혜택, 스마트한 소비를 실현하는" ,summary: '스마트한 소비 혜택', main: 5, img: '/src/assets/home/main5.svg'},
+  { id: 1, cardId: 4,title: 'My WE:SH 카드', cardCompany: 'KB국민카드' ,content: "다양한 혜택으로 일상을 더 즐겁게", summary: '일상을 더 즐겁게', main: 1, img: '/src/assets/home/main1.svg'},
+  { id: 2, cardId: 22,title: '새로이 체크카드', cardCompany: 'KB국민카드' ,content: "모든 생활 영역에서 특별한 혜택을 누리세요", summary: '특별한 생활 혜택', main: 2, img: '/src/assets/home/main2.svg'},
+  { id: 3, cardId: 41,title: 'K-패스 하나 체크카드', cardCompany: '하나카드' ,content: "일상 속 편리하고 안전한 결제를 원하신다면", summary: '편리하고 안전한 결제', main: 3, img: '/src/assets/home/main3.svg'},
+  { id: 4, cardId: 51 ,title: '삼성 iD POCKET 카드', cardCompany: '삼성카드' ,content: "쉽고 빠른 교통 결제, 다방면에서 유용한", summary: '쉽고 빠른 교통 결제', main: 4, img: '/src/assets/home/main4.svg'},
+  { id: 5, cardId: 61,title: 'LOCA LIKIT', cardCompany: '롯데카드' ,content: "당신의 삶을 위한 혜택, 스마트한 소비를 실현하는" ,summary: '스마트한 소비 혜택', main: 5, img: '/src/assets/home/main5.svg'},
 ])
 
 
@@ -158,7 +158,6 @@ header {
 .item {
   position: absolute;
   bottom: 120px;
-  cursor: pointer;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
