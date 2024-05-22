@@ -858,5 +858,185 @@
         "delivery": "0",
         "details": "전월 실적 : 20만원\r\n대중교통 : 버스, 지하철, 철도(월 5만원 이상 사용시 하나머니 적립)\r\n편의점 : CU, GS25, 세븐일레븐(1만원 이상 사용시 하나머니 적립)\r\n커피 : 스타벅스, 커피빈(1만원 이상 사용시 하나머니 적립)"
     }
+},
+{
+    "model": "cards.benefit",
+    "pk": 46,
+    "fields": {
+        "card": 45,
+        "convenience_store": "0",
+        "telecom": "10%",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "0",
+        "food": "0",
+        "public_transport": "0",
+        "hospital": "20%",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "10%",
+        "delivery": "0",
+        "details": "전월 실적 : 50만원\r\n병원/약국 : 병/의원, 약국\r\n쇼핑 : 이마트, 트레이더스 홀세일 클럽, 롯데마트, 홈플러스, 농협 하나로마트"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 47,
+    "fields": {
+        "card": 46,
+        "convenience_store": "1%",
+        "telecom": "1%",
+        "fuel": "1%",
+        "OTT": "1%",
+        "cafe": "1%",
+        "food": "1%",
+        "public_transport": "1%",
+        "hospital": "1%",
+        "movie": "3000",
+        "online_shopping": "50%",
+        "offline_shopping": "1%",
+        "delivery": "1%",
+        "details": "전월 실적 : 30만원\r\n영화 : 10000원 이상 결제시 3000원 할인\r\n온라인 쇼핑 : 쿠팡 로켓와우 멤버십, 마켓컬리 컬리패스, 네이버플러스 멤버십\r\n기타 : 국내외 가맹점에서 건별 10만원 이상 결제시 1% 할인"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 48,
+    "fields": {
+        "card": 47,
+        "convenience_store": "0",
+        "telecom": "0",
+        "fuel": "10000",
+        "OTT": "0",
+        "cafe": "30%",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 50만원\r\n주유 : SK에너지, GS칼텍스, S-OIL, 현대오일뱅크(월 합산 30000원까지 할인)\r\n커피 : 스타벅스 드라이브 스루 할인\r\n대중교통 : 버스, 지하철, 택시"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 49,
+    "fields": {
+        "card": 48,
+        "convenience_store": "10%",
+        "telecom": "10%",
+        "fuel": "0",
+        "OTT": "10%",
+        "cafe": "10%",
+        "food": "0",
+        "public_transport": "10%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 40만원\r\n스트리밍 : 넷플릭스, 웨이브, 티빙, 왓챠, 멜론, FLO 정기결제건\r\n대중교통 : 버스, 지하철, 택시\r\n카페 : 스타벅스, 이디야커피, 투썸플레이스, 커피빈, 블루보틀\r\n편의점 : CU, GS25, 세븐일레븐, 미니스톱, 이마트24"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 50,
+    "fields": {
+        "card": 49,
+        "convenience_store": "1.5%",
+        "telecom": "0.5%",
+        "fuel": "70원/L",
+        "OTT": "0.5%",
+        "cafe": "1.5%",
+        "food": "0.5%",
+        "public_transport": "0.5%",
+        "hospital": "0.5%",
+        "movie": "5000",
+        "online_shopping": "1.5%",
+        "offline_shopping": "1.5%",
+        "delivery": "1.5%",
+        "details": "전월 실적 : 50만원\r\n쇼핑 : 이마트, 이마트 트레이더스, 롯데마트, 홈플러스\r\n온라인 쇼핑 : 쿠팡, 티몬, 위메프, SSG.COM, G마켓, 옥션, 11번가, 인터파크, 삼성카드 쇼핑\r\n편의점 : CU, GS25, 세븐일레븐, 미니스톱, 이마트24\r\n배달 : 배달의민족, 요기요\r\n커피 : 스타벅스, 이디야커피, 투썸플레이스, 카페베네, 탐앤탐스, 커피빈, 엔젤리너스, 할리스커피, 파스쿠찌, 아티제, 폴 바셋, 블루보틀\r\n영화 : 12000원 이상 결제시 5000원 할인"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 51,
+    "fields": {
+        "card": 50,
+        "convenience_store": "0.5%",
+        "telecom": "0.5%",
+        "fuel": "0.5%",
+        "OTT": "0.5%",
+        "cafe": "0.5%",
+        "food": "0.5%",
+        "public_transport": "0.5%",
+        "hospital": "0.5%",
+        "movie": "0.5%",
+        "online_shopping": "0.5%",
+        "offline_shopping": "0.5%",
+        "delivery": "0.5%",
+        "details": "전월 실적 : 0원"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 52,
+    "fields": {
+        "card": 51,
+        "convenience_store": "8%",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "0",
+        "cafe": "8%",
+        "food": "0",
+        "public_transport": "2%",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "8%",
+        "details": "전월 실적 : 10만원\r\n커피 : 이디야커피, 스타벅스\r\n대중교통 : 버스, 지하철"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 53,
+    "fields": {
+        "card": 52,
+        "convenience_store": "10%",
+        "telecom": "0",
+        "fuel": "60원/L",
+        "OTT": "0",
+        "cafe": "10%",
+        "food": "0",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "1%",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 30만원"
+    }
+},
+{
+    "model": "cards.benefit",
+    "pk": 54,
+    "fields": {
+        "card": 53,
+        "convenience_store": "10%",
+        "telecom": "0",
+        "fuel": "0",
+        "OTT": "50%",
+        "cafe": "0",
+        "food": "0",
+        "public_transport": "0",
+        "hospital": "0",
+        "movie": "0",
+        "online_shopping": "0",
+        "offline_shopping": "0",
+        "delivery": "0",
+        "details": "전월 실적 : 30만원\r\nOTT/스트리밍 : 넷플릭스, 웨이브, 티빙, 왓챠, 멜론, FLO"
+    }
 }
 ]

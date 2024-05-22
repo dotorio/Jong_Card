@@ -565,5 +565,122 @@
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41004094P&CD_PD_SEQ=4094&",
         "like_users": []
     }
+},
+{
+    "model": "cards.card",
+    "pk": 45,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "삼성 iD VITA 카드",
+        "annualFee": "20000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1790",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 46,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "삼성 iD SIMPLE 카드",
+        "annualFee": "7000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1767",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 47,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "삼성 iD ENERGY 카드",
+        "annualFee": "20000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1753",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 48,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "삼성 iD MOVE 카드",
+        "annualFee": "20000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1762",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 49,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "삼성 iD AUTO 카드",
+        "annualFee": "49000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1766",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 50,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "삼성 BIZ iD BENEFIT 카드",
+        "annualFee": "30000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1758",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 51,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "삼성 iD POCKET 카드",
+        "annualFee": "1000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1746",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 52,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "taptap DRIVE",
+        "annualFee": "10000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1667",
+        "like_users": []
+    }
+},
+{
+    "model": "cards.card",
+    "pk": 53,
+    "fields": {
+        "cardBigCategory": "신용",
+        "cardSmallCategory": "할인",
+        "cardCompany": "삼성카드",
+        "cardName": "taptap DIGITAL",
+        "annualFee": "10000",
+        "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1666",
+        "like_users": []
+    }
 }
 ]
