@@ -12,6 +12,7 @@ export const useThemaStore = defineStore('thema', () => {
   const mission = ref('mission-light')
   const missionContainer = ref('mission-container-light')
   const cardContainer = ref('card-container-light')
+  const expContainer = ref('exp-container-light')
  
   const themaChage = function (element) {
     if (thema.value === 'light') {
@@ -22,6 +23,7 @@ export const useThemaStore = defineStore('thema', () => {
       mission.value = ('mission-dark')
       missionContainer.value = ('mission-container-dark')
       cardContainer.value = ('card-container-dark')
+      expContainer.value = ('exp-container-dark')
     } else {
       thema.value = 'light'
       expGage.value = ('exp-gage-light')
@@ -30,8 +32,10 @@ export const useThemaStore = defineStore('thema', () => {
       mission.value = ('mission-light')
       missionContainer.value = ('mission-container-light')
       cardContainer.value = ('card-container-light')
+      expContainer.value = ('exp-container-light')
+
     }
     console.log(thema.value)
   }
-  return { thema, expGage ,button ,main ,mission ,missionContainer ,cardContainer, themaChage }
+  return { thema, expGage ,button ,main ,mission ,missionContainer , expContainer, cardContainer, themaChage }
 })

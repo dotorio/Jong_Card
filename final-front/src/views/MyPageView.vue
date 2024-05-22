@@ -26,7 +26,7 @@
           <div class="like-card">
             <p>{{ accountStore.userName }}님이 좋아한 카드</p>
             <hr>
-            <div class="container">
+            <div class="container scrollbar">
               <div class="row">
                 <div v-if="likeCards"
                 v-for="card in likeCards.card" :key="card.id" class="col-4">
@@ -138,7 +138,6 @@ p {
   font-weight: 700;
 }
 .right-side .container {
-  overflow-y: auto;
   height: 700px;
 }
 .card {
@@ -185,5 +184,23 @@ p {
   height: 1000px;
   /* border: 1px solid black; */
   left: 700px;
+}
+
+.scrollbar { 
+  overflow-y: scroll; /*  */
+}
+
+/* 스크롤바의 폭 너비 */
+.scrollbar::-webkit-scrollbar {
+    width: 10px;  
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(0, 146, 110); /* 스크롤바 색상 */
+    border-radius: 10px; /* 스크롤바 둥근 테두리 */
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: rgba(220, 20, 60, .1);  /*스크롤바 뒷 배경 색상*/
 }
 </style>

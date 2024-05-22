@@ -22,8 +22,8 @@
             </div>
           </div>
         </div>
-        <div class="exp-container">
-          <div class="exp-rel">
+        <div class="exp-container" :class="themaStore.expContainer">
+          <div class="exp-rel" >
             <div class="exp-gage" :class="themaStore.expGage">
               <div class="bg-warning bg-gradient"
               :class="[growStore.cardGageBar, gageBar]">
@@ -259,7 +259,6 @@ main {
   height: 100px;
   /* background-color: aqua; */
   border-radius: 10px;
-
   position: absolute;
   top: 550px;
   left: -50px; 
@@ -418,30 +417,33 @@ main {
 
 
 .exp-gage-dark {
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid #D9D9D9;
 }
 .button-dark {
-  color: white;
-  border-color: #d6f8ff;
-  background-color: #ffbebe;
+  color: #A6A6A6;
+  border-color: #A6A6A6;
+  background-color: #595959;
 }
 .main-dark {
-  background-color: #0e2226;
+  background-color: #0D0D0D;
 }
 .mission-dark {
-  background-color: #2a2a73;
+  background-color: #262626;
   color: white;
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .mission-container-dark {
-  background-color: #013184;
-  border: 2px solid white;
+  background-color: #595959;
+  border: 2px solid #A6A6A6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .card-container-dark {
-  background-color: #013184;
-  border: 2px solid white;
+  background-color: #595959;
+  border: 2px solid #A6A6A6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.exp-container-dark {
+  background-color: #262626;
 }
 
 .exp-gage-light {
@@ -466,6 +468,9 @@ main {
 .card-container-light {
   background-color: #659FA6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.exp-container-light {
+  background-color: #D9D9D9;
 }
 .dark {
   color: white;

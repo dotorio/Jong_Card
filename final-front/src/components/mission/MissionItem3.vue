@@ -4,17 +4,21 @@
     <input type="checkbox"
     v-if="!growStore.mission3">
     <img src="../../assets/card-grow/checked.svg" alt="#" class="animate__animated animate__tada"
-    v-else>
+    v-else-if="themaStore.thema === 'light'">
+    <img src="../../assets/card-grow/checked-dark.svg" alt="#" class="animate__animated animate__tada"
+    v-else-if="themaStore.thema === 'dark'">
   </div>
 </template>
 
 <script setup>
 import { useCardGrowStore } from '@/stores/cardgrow';
 import { useMissionStore3 } from '@/stores/mission-3';
+import { useThemaStore } from '@/stores/thema';
 import { onMounted, ref } from 'vue';
 
 const store = useMissionStore3()
 const growStore = useCardGrowStore()
+const themaStore = useThemaStore()
 </script>
 
 <style scoped>
