@@ -61,7 +61,8 @@ console.log(props.site)
 .before-cost {
   text-decoration-line: line-through;
   text-decoration-color: red;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2px;
+  font-size: 20px;
 }
 .cost {
   position: absolute;

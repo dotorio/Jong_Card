@@ -420,25 +420,25 @@ main {
   border: 3px solid #D9D9D9;
 }
 .button-dark {
-  color: #A6A6A6;
-  border-color: #A6A6A6;
-  background-color: #595959;
+  color: #E0FFFF;
+  border-color: #E0FFFF;
+  background-color: #141A26;
 }
 .main-dark {
-  background-color: #0D0D0D;
+  background-color: #141A26;
 }
 .mission-dark {
-  background-color: #262626;
+  background-color: #0F4459;
   color: white;
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+  /* box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px #0F4459; */
 }
 .mission-container-dark {
-  background-color: #595959;
+  background-color: #141A26;
   border: 2px solid #A6A6A6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .card-container-dark {
-  background-color: #595959;
+  background-color: #141A26;
   border: 2px solid #A6A6A6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
