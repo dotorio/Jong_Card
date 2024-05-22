@@ -11,8 +11,14 @@
              {{ article.content }}
           </span>  
           <div class="d-flex ">
-            <button type="button" @click="goUpdate">수정하기</button>
-            <button type="button" @click="Delete">삭제하기</button>
+            <button type="button" @click="goUpdate"
+            v-if="accountStore.userId === article.username"
+            >수정하기</button>
+            <button type="button" @click="Delete"
+            v-if="accountStore.userId === article.username"
+            >삭제하기</button>
+            <button type="button" @click="goArticles"
+            >목록</button>
           </div>       
         </div>
       </div>
@@ -40,6 +46,7 @@ onMounted(() => {
   })
     .then(res => {
       article.value = res.data
+      console.log(article.value)
     })
     .catch(err => {
       console.log(err)
@@ -53,6 +60,10 @@ const article = ref(null)
 
 const goUpdate = function () {
   router.push({name: 'article-update', params: { article_id: article.id }})
+}
+
+const goArticles = function () {
+  router.push({ name: 'article' })
 }
 
 const Delete = function () {

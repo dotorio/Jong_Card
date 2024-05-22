@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="article" :class="isDetail">
-      <div class="title" @click="goDetail">
+      <div class="title">
+        <span class="badge text-bg-success" @click="goDetail"
+        >상세보기</span>
         <span>{{ article.title }}</span>
       </div>
       <div class="user">
@@ -37,13 +39,18 @@ const article = props.article
 
 const goDetail = function () {
   // console.log(props.article.id)
-  if (accountStore.userName === props.article.username) {
-    router.push({ name: 'article-detail', params: { 'article_id': props.article.id }})
-  }
+  // if (accountStore.userName === props.article.username) {
+  router.push({ name: 'article-detail', params: { 'article_id': props.article.id }})
 }
 </script>
 
 <style scoped>
+.badge {
+  position: absolute;
+  left: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
 .article {
   height: 50px;
   border-top: 1px solid black;
@@ -55,7 +62,7 @@ const goDetail = function () {
   height: 50px;
   border-right: 2px solid black;
   text-align: center;
-  cursor: pointer;
+  position: relative;
 }
 .article .user {
   width: 30%;
@@ -67,9 +74,5 @@ span {
   font-weight: 700;
   font-size: 20px;
   margin-top: 10px;
-}
-.detail {
-  transition: all 1s;
-  background-color: rgb(211, 211, 211);
 }
 </style>
