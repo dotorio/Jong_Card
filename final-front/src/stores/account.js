@@ -65,6 +65,7 @@ export const useAccountStore = defineStore('account', () => {
       })
       .catch(err => {
         console.log(err)
+        alert('이미 있는 닉네임입니다! 다시 시도해주세요!')
       })
 
   }
@@ -90,6 +91,7 @@ export const useAccountStore = defineStore('account', () => {
       })
       .catch(err => {
         console.log(err)
+        alert('로그인 실패! 다시 로그인 해주세요!')
       })
 
   }
