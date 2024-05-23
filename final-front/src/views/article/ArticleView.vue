@@ -99,8 +99,9 @@ h2 {
   gap: 20px;
 }
 .pagination {
-  margin: 20px auto;
-
+  position: absolute;
+  bottom: 30px;
+  left: 900px;
 }
 .article-header {
   height: 50px;

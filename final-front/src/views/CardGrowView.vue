@@ -163,7 +163,7 @@ main {
   /* z-index: 10; */
   display: none;
   top: 100px;
-  left: 650px;
+  left: 500px;
   position: absolute;
   text-align: center;
 }
