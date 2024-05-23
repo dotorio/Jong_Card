@@ -184,7 +184,7 @@ const sortCard = function(event) {
     // 만약 정렬 기준이 활성화 되어있다면
     if (selectBenefit.value[element]) {
       // 모든 카드를 순회
-      console.log(cardList.value)
+      // console.log(cardList.value)
       cardList.value.forEach(card => {
         // index 같은 것
         const id = card.id - 1

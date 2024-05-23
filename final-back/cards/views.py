@@ -38,23 +38,23 @@ def likes_card_toggle(request, username, card_id):
 
 def get_recommend_cards(username):
     recommend_card_list = []
+    if_user = True
 
     if username == 'null':
-        for card in cards:
-            recommend_card_list.append(CardFullSerializer(card).data)
-        return recommend_card_list
-    
-    user = User.objects.get(username=username)
-    print(user)
-    # 1. 그 유저가 좋아요한 카드 가져오기
-    liked_cards = user.like_cards.all()
+        if_user = False
 
-    # 2. 그 카드를 좋아요 누른 유저들 조사
-    related_user_ids = set()
-    for card in liked_cards:
-        related_user_ids.update(card.like_users.values_list('id', flat=True))
+    if if_user:
+        user = User.objects.get(username=username)
+        
+        # 1. 그 유저가 좋아요한 카드 가져오기
+        liked_cards = user.like_cards.all()
+
+        # 2. 그 카드를 좋아요 누른 유저들 조사
+        related_user_ids = set()
+        for card in liked_cards:
+            related_user_ids.update(card.like_users.values_list('id', flat=True))
     
-    if not liked_cards or not related_user_ids:
+    if not if_user or not liked_cards or not related_user_ids:
         # 유저가 좋아요한 카드가 없을 경우, 좋아요가 많은 카드 순으로 추천
         popular_cards = Card.objects.annotate(like_count=Count('like_users')).order_by('-like_count')
         
