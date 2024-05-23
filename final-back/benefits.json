@@ -16,7 +16,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\nÅë½Å¿ä±Ý : SK, KT, LG, LiivM\r\nº´¿ø/¾à±¹ : ¾à±¹ ¾÷Á¾\r\n¿µÈ­ : CGV, ·Ôµ¥½Ã³×¸¶\r\nÀ½½Ä : ÆÐ½ºÆ®Çªµå ¾÷Á¾"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\ní†µì‹ ìš”ê¸ˆ : SK, KT, LG, LiivM\r\në³‘ì›/ì•½êµ­ : ì•½êµ­ ì—…ì¢…\r\nì˜í™” : CGV, ë¡¯ë°ì‹œë„¤ë§ˆ\r\nìŒì‹ : íŒ¨ìŠ¤íŠ¸í‘¸ë“œ ì—…ì¢…"
     }
 },
 {
@@ -36,7 +36,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 20¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\nÅë½Å¿ä±Ý : SK, KT, LG, LiivM\r\nº´¿ø/¾à±¹ : ¾à±¹ ¾÷Á¾\r\n¿µÈ­ : CGV, ·Ôµ¥½Ã³×¸¶\r\nÀ½½Ä : ÆÐ½ºÆ®Çªµå ¾÷Á¾"
+        "details": "ì „ì›” ì‹¤ì  : 20ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\ní†µì‹ ìš”ê¸ˆ : SK, KT, LG, LiivM\r\në³‘ì›/ì•½êµ­ : ì•½êµ­ ì—…ì¢…\r\nì˜í™” : CGV, ë¡¯ë°ì‹œë„¤ë§ˆ\r\nìŒì‹ : íŒ¨ìŠ¤íŠ¸í‘¸ë“œ ì—…ì¢…"
     }
 },
 {
@@ -56,7 +56,7 @@
         "online_shopping": "50%",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø(¿Â¶óÀÎ ¼îÇÎ, OTT, Åë½Å¿ä±Ý ÇØ´ç)\r\n¿Â¶óÀÎ ¼îÇÎ : ³×ÀÌ¹öÇÃ·¯½º, ÄíÆÎ ·ÎÄÏ¿Í¿ì\r\nOTT : ³ÝÇÃ¸¯½º, À¯Æ©ºê ÇÁ¸®¹Ì¾ö, ¿þÀÌºê, Æ¼ºù, µðÁî´ÏÇÃ·¯½º\r\nÅë½Å¿ä±Ý : SKT, KT, LG U+, Liiv M"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›(ì˜¨ë¼ì¸ ì‡¼í•‘, OTT, í†µì‹ ìš”ê¸ˆ í•´ë‹¹)\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : ë„¤ì´ë²„í”ŒëŸ¬ìŠ¤, ì¿ íŒ¡ ë¡œì¼“ì™€ìš°\r\nOTT : ë„·í”Œë¦­ìŠ¤, ìœ íŠœë¸Œ í”„ë¦¬ë¯¸ì—„, ì›¨ì´ë¸Œ, í‹°ë¹™, ë””ì¦ˆë‹ˆí”ŒëŸ¬ìŠ¤\r\ní†µì‹ ìš”ê¸ˆ : SKT, KT, LG U+, Liiv M"
     }
 },
 {
@@ -76,7 +76,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\nÆíÀÇÁ¡ : GS25, CU\r\n´ëÁß±³Åë : ÅÃ½Ã\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·, ¿ä±â¿ä, ¸¶ÄÏÄÃ¸®\r\n¿µÈ­ : CGV, ·Ôµ¥½Ã³×¸¶, ¸Þ°¡¹Ú½º\r\nÅë½Å ¿ä±Ý : SKT, KT, LG U+, Liiv M\r\nOTT : ³ÝÇÃ¸¯½º, À¯Æ©ºê ÇÁ¸®¹Ì¾ö, ¿þÀÌºê, Æ¼ºù, µðÁî´ÏÇÃ·¯½º"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\níŽ¸ì˜ì  : GS25, CU\r\nëŒ€ì¤‘êµí†µ : íƒì‹œ\r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±, ìš”ê¸°ìš”, ë§ˆì¼“ì»¬ë¦¬\r\nì˜í™” : CGV, ë¡¯ë°ì‹œë„¤ë§ˆ, ë©”ê°€ë°•ìŠ¤\r\ní†µì‹  ìš”ê¸ˆ : SKT, KT, LG U+, Liiv M\r\nOTT : ë„·í”Œë¦­ìŠ¤, ìœ íŠœë¸Œ í”„ë¦¬ë¯¸ì—„, ì›¨ì´ë¸Œ, í‹°ë¹™, ë””ì¦ˆë‹ˆí”ŒëŸ¬ìŠ¤"
     }
 },
 {
@@ -96,7 +96,7 @@
         "online_shopping": "0",
         "offline_shopping": "5%",
         "delivery": "5%",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\n¼îÇÎ : ´ëÇü¸¶Æ®, ¹éÈ­Á¡, SSM(ÀÌ¸¶Æ® ¿¡ºê¸®µ¥ÀÌ/·Ôµ¥½´ÆÛ/È¨ÇÃ·¯½º ÀÍ½ºÇÁ·¹½º)\r\nÁÖÀ¯ : SKÁÖÀ¯¼Ò, SKÃæÀü¼Ò\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·, ¿ä±â¿ä\r\nº´¿ø/¾à±¹ : ¾à±¹ 5%\r\nÆíÀÇÁ¡ : CU, CS25\r\nÅë½Å¿ä±Ý : SKT, KT, LG U+, Liiv M"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nì‡¼í•‘ : ëŒ€í˜•ë§ˆíŠ¸, ë°±í™”ì , SSM(ì´ë§ˆíŠ¸ ì—ë¸Œë¦¬ë°ì´/ë¡¯ë°ìŠˆí¼/í™ˆí”ŒëŸ¬ìŠ¤ ìµìŠ¤í”„ë ˆìŠ¤)\r\nì£¼ìœ  : SKì£¼ìœ ì†Œ, SKì¶©ì „ì†Œ\r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±, ìš”ê¸°ìš”\r\në³‘ì›/ì•½êµ­ : ì•½êµ­ 5%\r\níŽ¸ì˜ì  : CU, CS25\r\ní†µì‹ ìš”ê¸ˆ : SKT, KT, LG U+, Liiv M"
     }
 },
 {
@@ -116,7 +116,7 @@
         "online_shopping": "10%",
         "offline_shopping": "0",
         "delivery": "5%",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\nOTT : À¯Æ©ºê ÇÁ¸®¹Ì¾ö, ³ÝÇÃ¸¯½º, ¿þÀÌºê, Æ¼ºù\r\n¿Â¶óÀÎ ¼îÇÎ : ¿Â¶óÀÎ °£Æí°áÁ¦\r\n¹è´Þ : ¹è´ÞÀÇ¹ÎÁ·, ¿ä±â¿ä\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nOTT : ìœ íŠœë¸Œ í”„ë¦¬ë¯¸ì—„, ë„·í”Œë¦­ìŠ¤, ì›¨ì´ë¸Œ, í‹°ë¹™\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : ì˜¨ë¼ì¸ ê°„íŽ¸ê²°ì œ\r\në°°ë‹¬ : ë°°ë‹¬ì˜ë¯¼ì¡±, ìš”ê¸°ìš”\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² "
     }
 },
 {
@@ -136,7 +136,7 @@
         "online_shopping": "5%",
         "offline_shopping": "5%",
         "delivery": "5%",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\nÀ½½Ä : VIPS, ¾Æ¿ô¹é\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Ä¿ÇÇºó\r\nÆíÀÇÁ¡ : GS25, CU\r\n¼îÇÎ : ÀÌ¸¶Æ®, ·Ôµ¥¸¶Æ®\r\nÁÖÀ¯ : SK¿¡³ÊÁö, GSÄ®ÅØ½º\r\nÅë½Å : SKT/KT/LG U+\r\n¿Â¶óÀÎ¼îÇÎ : ÄíÆÎ, G¸¶ÄÏ\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nìŒì‹ : VIPS, ì•„ì›ƒë°±\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì»¤í”¼ë¹ˆ\r\níŽ¸ì˜ì  : GS25, CU\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, ë¡¯ë°ë§ˆíŠ¸\r\nì£¼ìœ  : SKì—ë„ˆì§€, GSì¹¼í…ìŠ¤\r\ní†µì‹  : SKT/KT/LG U+\r\nì˜¨ë¼ì¸ì‡¼í•‘ : ì¿ íŒ¡, Gë§ˆì¼“\r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±"
     }
 },
 {
@@ -156,7 +156,7 @@
         "online_shopping": "5%",
         "offline_shopping": "5%",
         "delivery": "5%",
-        "details": "Àü¿ù ½ÇÀû : 50¸¸¿ø\r\n¿Â¶óÀÎ ¼îÇÎ : G¸¶ÄÏ, ¿Á¼Ç, 11¹ø°¡, ÄíÆÎ, Æ¼¸ó, À§¸ÞÇÁ\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·, ¸¶ÄÏÄÃ¸®\r\n¼îÇÎ : ¹éÈ­Á¡\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Ä¿ÇÇºó\r\nÆíÀÇÁ¡ : GS25, CU\r\n´ëÁß±³Åë : ¹ö½º/ÁöÇÏÃ¶\r\nÀÌµ¿Åë½Å : SKT, KT, LG U+"
+        "details": "ì „ì›” ì‹¤ì  : 50ë§Œì›\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : Gë§ˆì¼“, ì˜¥ì…˜, 11ë²ˆê°€, ì¿ íŒ¡, í‹°ëª¬, ìœ„ë©”í”„\r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±, ë§ˆì¼“ì»¬ë¦¬\r\nì‡¼í•‘ : ë°±í™”ì \r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì»¤í”¼ë¹ˆ\r\níŽ¸ì˜ì  : GS25, CU\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤/ì§€í•˜ì² \r\nì´ë™í†µì‹  : SKT, KT, LG U+"
     }
 },
 {
@@ -166,7 +166,7 @@
         "card": 9,
         "convenience_store": "0",
         "telecom": "10%",
-        "fuel": "60¿ø/L",
+        "fuel": "60ì›/L",
         "OTT": "0",
         "cafe": "0",
         "food": "0",
@@ -176,7 +176,7 @@
         "online_shopping": "0",
         "offline_shopping": "10%",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n¼îÇÎ : ÀÌ¸¶Æ®, ·Ôµ¥¸¶Æ®, È¨ÇÃ·¯½º"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, ë¡¯ë°ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤"
     }
 },
 {
@@ -196,7 +196,7 @@
         "online_shopping": "10%",
         "offline_shopping": "10%",
         "delivery": "10%",
-        "details": "Àü¿ù½ÇÀû : 30¸¸¿ø\r\n¿Â¶óÀÎ ¼îÇÎ : ³×ÀÌ¹ö¼îÇÎ, 11¹ø°¡, G¸¶ÄÏ, ¿Á¼Ç, SSG.COM, ·Ôµ¥ON, ÀÎÅÍÆÄÅ©, ¸¶ÄÏÄÃ¸®, ÄíÆÎ\r\n¼îÇÎ : ÀÌ¸¶Æ®, ·Ôµ¥¸¶Æ®, È¨ÇÃ·¯½º, ³óÇùÇÏ³ª·Î¸¶Æ®\r\nÅë½Å : SKT, KT, LG U+, Liiv M\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·, ÄíÆÎÀÌÃ÷, ¿ä±â¿ä"
+        "details": "ì „ì›”ì‹¤ì  : 30ë§Œì›\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : ë„¤ì´ë²„ì‡¼í•‘, 11ë²ˆê°€, Gë§ˆì¼“, ì˜¥ì…˜, SSG.COM, ë¡¯ë°ON, ì¸í„°íŒŒí¬, ë§ˆì¼“ì»¬ë¦¬, ì¿ íŒ¡\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, ë¡¯ë°ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤, ë†í˜‘í•˜ë‚˜ë¡œë§ˆíŠ¸\r\ní†µì‹  : SKT, KT, LG U+, Liiv M\r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±, ì¿ íŒ¡ì´ì¸ , ìš”ê¸°ìš”"
     }
 },
 {
@@ -216,7 +216,7 @@
         "online_shopping": "5%",
         "offline_shopping": "5%",
         "delivery": "5%",
-        "details": "Àü¿ù ½ÇÀû : 50¸¸¿ø\r\n¿Â¶óÀÎ ¼îÇÎ : G¸¶ÄÏ, ¿Á¼Ç, 11¹ø°¡, ÄíÆÎ, Æ¼¸ó, À§¸ÞÇÁ\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·, ¸¶ÄÏÄÃ¸®\r\n¼îÇÎ : ÀÌ¸¶Æ®, ·Ôµ¥¸¶Æ®, È¨ÇÃ·¯½º, ¹éÈ­Á¡\r\nÁÖÀ¯ : SK, GSÁÖÀ¯¼Ò(ÃæÀü¼Ò Æ÷ÇÔ)\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Ä¿ÇÇºó\r\nÆíÀÇÁ¡ : GS25, CU\r\nÅë½Å : SKT, KT, LG U+, Liiv M"
+        "details": "ì „ì›” ì‹¤ì  : 50ë§Œì›\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : Gë§ˆì¼“, ì˜¥ì…˜, 11ë²ˆê°€, ì¿ íŒ¡, í‹°ëª¬, ìœ„ë©”í”„\r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±, ë§ˆì¼“ì»¬ë¦¬\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, ë¡¯ë°ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤, ë°±í™”ì \r\nì£¼ìœ  : SK, GSì£¼ìœ ì†Œ(ì¶©ì „ì†Œ í¬í•¨)\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì»¤í”¼ë¹ˆ\r\níŽ¸ì˜ì  : GS25, CU\r\ní†µì‹  : SKT, KT, LG U+, Liiv M"
     }
 },
 {
@@ -236,7 +236,7 @@
         "online_shopping": "0",
         "offline_shopping": "1000",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 30¸¸¿ø\r\nÆíÀÇÁ¡ : CU\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\n¿µÈ­ : CGV\r\n¼îÇÎ : ÅÙ¹ÙÀÌÅÙ(ÆíÀÇÁ¡, Ä¿ÇÇ, ¿µÈ­, ¼îÇÎ -> ÀÌ¿ë±Ý¾× °Ç´ç 1¸¸¿ø ÀÌ»ó ½Ã ÇÒÀÎ)\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(ÀÌ¿ë±Ý¾× °Ç´ç 3¸¸¿ø ÀÌ»ó ½Ã ÇÒÀÎ)"
+        "details": "ì „ì›”ì‹¤ì  : 30ë§Œì›\r\níŽ¸ì˜ì  : CU\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nì˜í™” : CGV\r\nì‡¼í•‘ : í…ë°”ì´í…(íŽ¸ì˜ì , ì»¤í”¼, ì˜í™”, ì‡¼í•‘ -> ì´ìš©ê¸ˆì•¡ ê±´ë‹¹ 1ë§Œì› ì´ìƒ ì‹œ í• ì¸)\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ì´ìš©ê¸ˆì•¡ ê±´ë‹¹ 3ë§Œì› ì´ìƒ ì‹œ í• ì¸)"
     }
 },
 {
@@ -256,7 +256,7 @@
         "online_shopping": "0",
         "offline_shopping": "1000",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 30¸¸¿ø\r\nÆíÀÇÁ¡ : CU\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\n¿µÈ­ : CGV\r\n¼îÇÎ : ÅÙ¹ÙÀÌÅÙ(ÆíÀÇÁ¡, Ä¿ÇÇ, ¿µÈ­, ¼îÇÎ -> ÀÌ¿ë±Ý¾× °Ç´ç 1¸¸¿ø ÀÌ»ó ½Ã ÇÒÀÎ)\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(ÀÌ¿ë±Ý¾× °Ç´ç 3¸¸¿ø ÀÌ»ó ½Ã ÇÒÀÎ)"
+        "details": "ì „ì›”ì‹¤ì  : 30ë§Œì›\r\níŽ¸ì˜ì  : CU\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nì˜í™” : CGV\r\nì‡¼í•‘ : í…ë°”ì´í…(íŽ¸ì˜ì , ì»¤í”¼, ì˜í™”, ì‡¼í•‘ -> ì´ìš©ê¸ˆì•¡ ê±´ë‹¹ 1ë§Œì› ì´ìƒ ì‹œ í• ì¸)\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ì´ìš©ê¸ˆì•¡ ê±´ë‹¹ 3ë§Œì› ì´ìƒ ì‹œ í• ì¸)"
     }
 },
 {
@@ -276,7 +276,7 @@
         "online_shopping": "0",
         "offline_shopping": "1000",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 30¸¸¿ø\r\nÆíÀÇÁ¡ : CU\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\n¿µÈ­ : CGV\r\n¼îÇÎ : ÅÙ¹ÙÀÌÅÙ(ÆíÀÇÁ¡, Ä¿ÇÇ, ¿µÈ­, ¼îÇÎ -> ÀÌ¿ë±Ý¾× °Ç´ç 1¸¸¿ø ÀÌ»ó ½Ã ÇÒÀÎ)\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(ÀÌ¿ë±Ý¾× °Ç´ç 3¸¸¿ø ÀÌ»ó ½Ã ÇÒÀÎ)"
+        "details": "ì „ì›”ì‹¤ì  : 30ë§Œì›\r\níŽ¸ì˜ì  : CU\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nì˜í™” : CGV\r\nì‡¼í•‘ : í…ë°”ì´í…(íŽ¸ì˜ì , ì»¤í”¼, ì˜í™”, ì‡¼í•‘ -> ì´ìš©ê¸ˆì•¡ ê±´ë‹¹ 1ë§Œì› ì´ìƒ ì‹œ í• ì¸)\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ì´ìš©ê¸ˆì•¡ ê±´ë‹¹ 3ë§Œì› ì´ìƒ ì‹œ í• ì¸)"
     }
 },
 {
@@ -296,7 +296,7 @@
         "online_shopping": "0",
         "offline_shopping": "5%",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 30¸¸¿ø\r\nº´¿ø/¾à±¹ : ÀÌ¿ë ±Ý¾× °Ç´ç 5Ãµ¿ø ÀÌ»ó ½Ã Àû¸³\r\n¼îÇÎ : ÀÌ¸¶Æ®, ·Ôµ¥¸¶Æ®, È¨ÇÃ·¯½º(ÀÌ¿ë ±Ý¾× °Ç´ç 3¸¸¿ø ÀÌ»ó ½Ã)\r\nÁÖÀ¯ : SKÁÖÀ¯¼Ò(ÀÌ¿ë ±Ý¾× °Ç´ç 3¸¸¿ø ÀÌ»ó ½Ã)"
+        "details": "ì „ì›”ì‹¤ì  : 30ë§Œì›\r\në³‘ì›/ì•½êµ­ : ì´ìš© ê¸ˆì•¡ ê±´ë‹¹ 5ì²œì› ì´ìƒ ì‹œ ì ë¦½\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, ë¡¯ë°ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤(ì´ìš© ê¸ˆì•¡ ê±´ë‹¹ 3ë§Œì› ì´ìƒ ì‹œ)\r\nì£¼ìœ  : SKì£¼ìœ ì†Œ(ì´ìš© ê¸ˆì•¡ ê±´ë‹¹ 3ë§Œì› ì´ìƒ ì‹œ)"
     }
 },
 {
@@ -316,7 +316,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\nº´¿ø/¾à±¹ : ¾à±¹ ¾÷Á¾¸¸ ÇØ´ç(°Ç´ç 3¸¸¿ø ÀÌ»ó½Ã ÇÒÀÎ)\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\në³‘ì›/ì•½êµ­ : ì•½êµ­ ì—…ì¢…ë§Œ í•´ë‹¹(ê±´ë‹¹ 3ë§Œì› ì´ìƒì‹œ í• ì¸)\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² "
     }
 },
 {
@@ -336,7 +336,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 5¸¸¿ø\r\n½ºÆ®¸®¹Ö : À¯Æ©ºê ÇÁ¸®¹Ì¾ö(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 3Ãµ¿ø)\r\nÆíÀÇÁ¡ : GS25, CU(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 5Ãµ¿ø)\r\nÀ½½Ä : ÆÐ½ºÆ®ÇªµåÁ¡(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 7Ãµ¿ø)\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 1¸¸¿ø)"
+        "details": "ì „ì›” ì‹¤ì  : 5ë§Œì›\r\nìŠ¤íŠ¸ë¦¬ë° : ìœ íŠœë¸Œ í”„ë¦¬ë¯¸ì—„(ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 3ì²œì›)\r\níŽ¸ì˜ì  : GS25, CU(ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 5ì²œì›)\r\nìŒì‹ : íŒ¨ìŠ¤íŠ¸í‘¸ë“œì (ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 7ì²œì›)\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 1ë§Œì›)"
     }
 },
 {
@@ -356,7 +356,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 5¸¸¿ø\r\n½ºÆ®¸®¹Ö : À¯Æ©ºê ÇÁ¸®¹Ì¾ö(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 3Ãµ¿ø)\r\nÆíÀÇÁ¡ : GS25, CU(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 5Ãµ¿ø)\r\nÀ½½Ä : ÆÐ½ºÆ®ÇªµåÁ¡(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 7Ãµ¿ø)\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(°Ç´ç ÃÖ¼ÒÀÌ¿ë±Ý¾× 1¸¸¿ø)"
+        "details": "ì „ì›” ì‹¤ì  : 5ë§Œì›\r\nìŠ¤íŠ¸ë¦¬ë° : ìœ íŠœë¸Œ í”„ë¦¬ë¯¸ì—„(ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 3ì²œì›)\r\níŽ¸ì˜ì  : GS25, CU(ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 5ì²œì›)\r\nìŒì‹ : íŒ¨ìŠ¤íŠ¸í‘¸ë“œì (ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 7ì²œì›)\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ê±´ë‹¹ ìµœì†Œì´ìš©ê¸ˆì•¡ 1ë§Œì›)"
     }
 },
 {
@@ -376,7 +376,7 @@
         "online_shopping": "7%",
         "offline_shopping": "5%",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n¼îÇÎ : ¹éÈ­Á¡(°Ç´ç 3~10¸¸¿ø±îÁö ÇÒÀÎ)\r\n¿Â¶óÀÎ ¼îÇÎ : G¸¶ÄÏ, ¿Á¼Ç(°Ç´ç 3~5¸¸¿ø±îÁö ÇÒÀÎ)\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(¿ù 3¸¸¿ø±îÁö ÇÒÀÎ)"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nì‡¼í•‘ : ë°±í™”ì (ê±´ë‹¹ 3~10ë§Œì›ê¹Œì§€ í• ì¸)\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : Gë§ˆì¼“, ì˜¥ì…˜(ê±´ë‹¹ 3~5ë§Œì›ê¹Œì§€ í• ì¸)\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ì›” 3ë§Œì›ê¹Œì§€ í• ì¸)"
     }
 },
 {
@@ -396,7 +396,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\nÀ½½Ä : ÇÑ½Ä(ÆòÀÏ, °Ç´ç 2~5¸¸¿ø±îÁö ÇÒÀÎ)\r\nÄ¿ÇÇ : ÆòÀÏ, °Ç´ç 1~5¸¸¿ø±îÁö ÇÒÀÎ\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nìŒì‹ : í•œì‹(í‰ì¼, ê±´ë‹¹ 2~5ë§Œì›ê¹Œì§€ í• ì¸)\r\nì»¤í”¼ : í‰ì¼, ê±´ë‹¹ 1~5ë§Œì›ê¹Œì§€ í• ì¸\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² "
     }
 },
 {
@@ -406,7 +406,7 @@
         "card": 21,
         "convenience_store": "0",
         "telecom": "2500",
-        "fuel": "60¿ø/L",
+        "fuel": "60ì›/L",
         "OTT": "0",
         "cafe": "0",
         "food": "10%",
@@ -416,7 +416,7 @@
         "online_shopping": "0",
         "offline_shopping": "5%",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n¼îÇÎ : ÀÌ¸¶Æ®, ·Ôµ¥¸¶Æ®, È¨ÇÃ·¯½º(°Ç´ç 3¸¸¿ø ÀÌ»ó ÀÌ¿ë½Ã)\r\nÁÖÀ¯ : °Ç´ç ÀÌ¿ë±Ý¾× 10¸¸¿ø±îÁö\r\nÀ½½Ä : ÆÐ½ºÆ®Çªµå ¾÷Á¾(°Ç´ç 1¸¸¿ø ÀÌ»ó ÀÌ¿ë½Ã)\r\nÅë½Å¿ä±Ý : ÀÚµ¿ÀÌÃ¼±Ý¾× 5¸¸¿ø ÀÌ»ó ½Ã\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, ë¡¯ë°ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤(ê±´ë‹¹ 3ë§Œì› ì´ìƒ ì´ìš©ì‹œ)\r\nì£¼ìœ  : ê±´ë‹¹ ì´ìš©ê¸ˆì•¡ 10ë§Œì›ê¹Œì§€\r\nìŒì‹ : íŒ¨ìŠ¤íŠ¸í‘¸ë“œ ì—…ì¢…(ê±´ë‹¹ 1ë§Œì› ì´ìƒ ì´ìš©ì‹œ)\r\ní†µì‹ ìš”ê¸ˆ : ìžë™ì´ì²´ê¸ˆì•¡ 5ë§Œì› ì´ìƒ ì‹œ\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² "
     }
 },
 {
@@ -436,7 +436,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\nÆíÀÇÁ¡ : GS25\r\nÅë½Å¿ä±Ý : Liiv M\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\nOTT/½ºÆ®¸®¹Ö : ¸á·Ð, Áö´Ï, ³ÝÇÃ¸¯½º, ¿þÀÌºê ¿ùÁ¤¾× °áÁ¦½Ã"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\níŽ¸ì˜ì  : GS25\r\ní†µì‹ ìš”ê¸ˆ : Liiv M\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nOTT/ìŠ¤íŠ¸ë¦¬ë° : ë©œë¡ , ì§€ë‹ˆ, ë„·í”Œë¦­ìŠ¤, ì›¨ì´ë¸Œ ì›”ì •ì•¡ ê²°ì œì‹œ"
     }
 },
 {
@@ -456,7 +456,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\nÀ½½Ä : ÇÑ½Ä(ÆòÀÏ, °Ç´ç 2~5¸¸¿ø±îÁö ÇÒÀÎ)\r\nÄ¿ÇÇ : ÆòÀÏ, °Ç´ç 1~5¸¸¿ø±îÁö ÇÒÀÎ\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nìŒì‹ : í•œì‹(í‰ì¼, ê±´ë‹¹ 2~5ë§Œì›ê¹Œì§€ í• ì¸)\r\nì»¤í”¼ : í‰ì¼, ê±´ë‹¹ 1~5ë§Œì›ê¹Œì§€ í• ì¸\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² "
     }
 },
 {
@@ -476,7 +476,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\nOTT/½ºÆ®¸®¹Ö : ³ÝÇÃ¸¯½º, ¿þÀÌºê, Æ¼ºù, ¿ÓÃ­, ¸á·Ð, FLO"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nOTT/ìŠ¤íŠ¸ë¦¬ë° : ë„·í”Œë¦­ìŠ¤, ì›¨ì´ë¸Œ, í‹°ë¹™, ì™“ì± , ë©œë¡ , FLO"
     }
 },
 {
@@ -496,7 +496,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.2%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 10¸¸¿ø\r\n±âÅ¸ : ÁÖ¸»/°øÈÞÀÏ¿¡ 0.2% Ãß°¡ Àû¸³"
+        "details": "ì „ì›” ì‹¤ì  : 10ë§Œì›\r\nê¸°íƒ€ : ì£¼ë§/ê³µíœ´ì¼ì— 0.2% ì¶”ê°€ ì ë¦½"
     }
 },
 {
@@ -506,7 +506,7 @@
         "card": 26,
         "convenience_store": "5%",
         "telecom": "10%",
-        "fuel": "100¿ø/L",
+        "fuel": "100ì›/L",
         "OTT": "30%",
         "cafe": "0",
         "food": "0",
@@ -516,7 +516,7 @@
         "online_shopping": "10%",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n¿Â¶óÀÎ ¼îÇÎ : G¸¶ÄÏ, 11¹ø°¡, SSG.COM\r\nÁÖÀ¯ : SK¿¡³ÊÁö, GSÄ®ÅØ½º\r\nÆíÀÇÁ¡ : GS25, CU\r\nÅë½Å¿ä±Ý : SKT, KT, LG U+, Liiv M\r\nOTT : ³ÝÇÃ¸¯½º, À¯Æ©ºê ÇÁ¸®¹Ì¾ö, Wavve, Æ¼ºù, µðÁî´ÏÇÃ·¯½º"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : Gë§ˆì¼“, 11ë²ˆê°€, SSG.COM\r\nì£¼ìœ  : SKì—ë„ˆì§€, GSì¹¼í…ìŠ¤\r\níŽ¸ì˜ì  : GS25, CU\r\ní†µì‹ ìš”ê¸ˆ : SKT, KT, LG U+, Liiv M\r\nOTT : ë„·í”Œë¦­ìŠ¤, ìœ íŠœë¸Œ í”„ë¦¬ë¯¸ì—„, Wavve, í‹°ë¹™, ë””ì¦ˆë‹ˆí”ŒëŸ¬ìŠ¤"
     }
 },
 {
@@ -536,7 +536,7 @@
         "online_shopping": "0.7%",
         "offline_shopping": "0.7%",
         "delivery": "0.7%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ÁÖ¸»/°øÈÞÀÏ¿¡ 0.5% Ãß°¡ Àû¸³"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : ì£¼ë§/ê³µíœ´ì¼ì— 0.5% ì¶”ê°€ ì ë¦½"
     }
 },
 {
@@ -556,7 +556,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\nÆíÀÇÁ¡ : GS25, CU"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\níŽ¸ì˜ì  : GS25, CU"
     }
 },
 {
@@ -576,7 +576,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.2%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 10¸¸¿ø\r\n±âÅ¸ : ÁÖ¸»/°øÈÞÀÏ¿¡ 0.2% Ãß°¡ Àû¸³"
+        "details": "ì „ì›” ì‹¤ì  : 10ë§Œì›\r\nê¸°íƒ€ : ì£¼ë§/ê³µíœ´ì¼ì— 0.2% ì¶”ê°€ ì ë¦½"
     }
 },
 {
@@ -596,7 +596,7 @@
         "online_shopping": "3000",
         "offline_shopping": "3000",
         "delivery": "0",
-        "details": "Àü¿ø ½ÇÀû : 20¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Ä¿ÇÇºó, ÀÌµð¾ß, Åõ½æÇÃ·¹ÀÌ½º\r\nÆíÀÇÁ¡ : GS25, CU, ÀÌ¸¶Æ®24, ¼¼ºìÀÏ·¹ºì(´ëÁß±³Åë, Ä¿ÇÇ, ÆíÀÇÁ¡ ÃÖ´ë 10È¸ ÇÒÀÎ)\r\nOTT/±¸µ¶ : À¯Æ©ºê ÇÁ¸®¹Ì¾ö, ³ÝÇÃ¸¯½º, ÄíÆÎ ·ÎÄÏ¿Í¿ì\r\nÁÖÀ¯ : SK¿¡³ÊÁö, GSÄ®ÅØ½º, S-OIL, Çö´ë¿ÀÀÏ¹ðÅ©, EVÃæÀü\r\n¿Â¶óÀÎ¼îÇÎ : ÄíÆÎ, G¸¶ÄÏ, ¿Á¼Ç, 11¹ø°¡, ÀÎÅÍÆÄÅ©, À§¸ÞÇÁ\r\n¼îÇÎ : ´ëÇü¸¶Æ®, ¹éÈ­Á¡\r\nÅë½Å¿ä±Ý : SKT, KT, LGU+(OTT/±¸µ¶, ÁÖÀ¯, ¿Â¶óÀÎ¼îÇÎ, ¼îÇÎ, Åë½Å¿ä±Ý ÃÖ´ë 1È¸ ÇÒÀÎ)"
+        "details": "ì „ì› ì‹¤ì  : 20ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì»¤í”¼ë¹ˆ, ì´ë””ì•¼, íˆ¬ì¸í”Œë ˆì´ìŠ¤\r\níŽ¸ì˜ì  : GS25, CU, ì´ë§ˆíŠ¸24, ì„¸ë¸ì¼ë ˆë¸(ëŒ€ì¤‘êµí†µ, ì»¤í”¼, íŽ¸ì˜ì  ìµœëŒ€ 10íšŒ í• ì¸)\r\nOTT/êµ¬ë… : ìœ íŠœë¸Œ í”„ë¦¬ë¯¸ì—„, ë„·í”Œë¦­ìŠ¤, ì¿ íŒ¡ ë¡œì¼“ì™€ìš°\r\nì£¼ìœ  : SKì—ë„ˆì§€, GSì¹¼í…ìŠ¤, S-OIL, í˜„ëŒ€ì˜¤ì¼ë±…í¬, EVì¶©ì „\r\nì˜¨ë¼ì¸ì‡¼í•‘ : ì¿ íŒ¡, Gë§ˆì¼“, ì˜¥ì…˜, 11ë²ˆê°€, ì¸í„°íŒŒí¬, ìœ„ë©”í”„\r\nì‡¼í•‘ : ëŒ€í˜•ë§ˆíŠ¸, ë°±í™”ì \r\ní†µì‹ ìš”ê¸ˆ : SKT, KT, LGU+(OTT/êµ¬ë…, ì£¼ìœ , ì˜¨ë¼ì¸ì‡¼í•‘, ì‡¼í•‘, í†µì‹ ìš”ê¸ˆ ìµœëŒ€ 1íšŒ í• ì¸)"
     }
 },
 {
@@ -616,7 +616,7 @@
         "online_shopping": "1.8%",
         "offline_shopping": "1.8%",
         "delivery": "1.8%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ÇÏ³ª¿øÅ¥ÆäÀÌ °áÁ¦½Ã Àû¸³·ü 1.8% ÃÖ´ë 10¸¸¿ø Àû¸³, ÀÏ¹Ý°áÁ¦½Ã Àû¸³·ü 0.8%"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : í•˜ë‚˜ì›ííŽ˜ì´ ê²°ì œì‹œ ì ë¦½ë¥  1.8% ìµœëŒ€ 10ë§Œì› ì ë¦½, ì¼ë°˜ê²°ì œì‹œ ì ë¦½ë¥  0.8%"
     }
 },
 {
@@ -636,7 +636,7 @@
         "online_shopping": "1%",
         "offline_shopping": "1%",
         "delivery": "1%",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n¼îÇÎ : ¹éÈ­Á¡\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\n±âÅ¸ : º» »óÇ°Àº ÇÏ³ªÁõ±Ç °èÁÂ¸¦ Ä«µå °áÁ¦°èÁÂ·Î ÁöÁ¤ÇØ¾ß ½ÅÃ» ¹× ¼­ºñ½º¸¦ Á¦°ø ¹ÞÀ» ¼ö ÀÖÀ½"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nì‡¼í•‘ : ë°±í™”ì \r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\nê¸°íƒ€ : ë³¸ ìƒí’ˆì€ í•˜ë‚˜ì¦ê¶Œ ê³„ì¢Œë¥¼ ì¹´ë“œ ê²°ì œê³„ì¢Œë¡œ ì§€ì •í•´ì•¼ ì‹ ì²­ ë° ì„œë¹„ìŠ¤ë¥¼ ì œê³µ ë°›ì„ ìˆ˜ ìžˆìŒ"
     }
 },
 {
@@ -656,7 +656,7 @@
         "online_shopping": "1.7%",
         "offline_shopping": "0.7%",
         "delivery": "0.7%",
-        "details": "Àü¿ù½ÇÀû : 0¿ø\r\n¿Â¶óÀÎ¼îÇÎ : ÇÒÀÎÇÑµµ 10¸¸¿ø/¿ù"
+        "details": "ì „ì›”ì‹¤ì  : 0ì›\r\nì˜¨ë¼ì¸ì‡¼í•‘ : í• ì¸í•œë„ 10ë§Œì›/ì›”"
     }
 },
 {
@@ -676,7 +676,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 50¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(¿ù ÇÒÀÎÇÑµµ 1¸¸¿ø)\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Ä¿ÇÇºó(¿ù ÇÒÀÎÇÑµµ 5Ãµ¿ø)"
+        "details": "ì „ì›”ì‹¤ì  : 50ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ì›” í• ì¸í•œë„ 1ë§Œì›)\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì»¤í”¼ë¹ˆ(ì›” í• ì¸í•œë„ 5ì²œì›)"
     }
 },
 {
@@ -696,7 +696,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 0¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(¿ù Àû¸³ ÇÑµµ 3Ãµ¿ø)\r\n±âÅ¸ : Â÷ÀÌ¸Ó´Ï(Â÷ÀÌÄÚÆÛ·¹ÀÌ¼ÇÀÌ ¹ßÇàÇÏ´Â ¼±ºÒÀüÀÚÁö±Þ¼ö´Ü)·Î Àû¸³µÊ"
+        "details": "ì „ì›”ì‹¤ì  : 0ì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ì›” ì ë¦½ í•œë„ 3ì²œì›)\r\nê¸°íƒ€ : ì°¨ì´ë¨¸ë‹ˆ(ì°¨ì´ì½”í¼ë ˆì´ì…˜ì´ ë°œí–‰í•˜ëŠ” ì„ ë¶ˆì „ìžì§€ê¸‰ìˆ˜ë‹¨)ë¡œ ì ë¦½ë¨"
     }
 },
 {
@@ -716,7 +716,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 40¸¸¿ø\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Ä¿ÇÇºó(¿ù ÃÖ´ë 5Ãµ¿ø ÇÒÀÎ)\r\nÁÖÀ¯ : SK, GS, S-OIL, Çö´ë¿ÀÀÏ¹ðÅ©(¿ù ÃÖ´ë 1¸¸5Ãµ¿ø ÇÒÀÎ)"
+        "details": "ì „ì›”ì‹¤ì  : 40ë§Œì›\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì»¤í”¼ë¹ˆ(ì›” ìµœëŒ€ 5ì²œì› í• ì¸)\r\nì£¼ìœ  : SK, GS, S-OIL, í˜„ëŒ€ì˜¤ì¼ë±…í¬(ì›” ìµœëŒ€ 1ë§Œ5ì²œì› í• ì¸)"
     }
 },
 {
@@ -736,7 +736,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.6%",
         "delivery": "0.8%",
-        "details": "Àü¿ù½ÇÀû : 0¿ø\r\n¼îÇÎ : ÀÌ¸¶Æ®, È¨ÇÃ·¯½º, ·Ôµ¥¸¶Æ®, SSM, ¹éÈ­Á¡\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·, ¿ä±â¿ä\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\n±âÅ¸ : ¿ù ÅëÇÕ 5¸¸ ÇÏ³ª¸Ó´Ï Àû¸³"
+        "details": "ì „ì›”ì‹¤ì  : 0ì›\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤, ë¡¯ë°ë§ˆíŠ¸, SSM, ë°±í™”ì \r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±, ìš”ê¸°ìš”\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\nê¸°íƒ€ : ì›” í†µí•© 5ë§Œ í•˜ë‚˜ë¨¸ë‹ˆ ì ë¦½"
     }
 },
 {
@@ -756,7 +756,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "5%",
-        "details": "Àü¿ù½ÇÀû : 10¸¸¿ø\r\nÆíÀÇÁ¡ : GS25, CU, ÀÌ¸¶Áî24, ¼¼ºìÀÏ·¹ºì\r\nµô¸®¹ö¸® : ¹è´ÞÀÇ¹ÎÁ·, ¿ä±â¿ä\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Åõ½æÇÃ·¹ÀÌ½º"
+        "details": "ì „ì›”ì‹¤ì  : 10ë§Œì›\r\níŽ¸ì˜ì  : GS25, CU, ì´ë§ˆì¦ˆ24, ì„¸ë¸ì¼ë ˆë¸\r\në”œë¦¬ë²„ë¦¬ : ë°°ë‹¬ì˜ë¯¼ì¡±, ìš”ê¸°ìš”\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, íˆ¬ì¸í”Œë ˆì´ìŠ¤"
     }
 },
 {
@@ -776,7 +776,7 @@
         "online_shopping": "0.5%",
         "offline_shopping": "0.5%",
         "delivery": "0",
-        "details": "Àü¿ù½ÇÀû : 25¸¸¿ø\r\n°Ç´ç 1¸¸¿ø ÀÌ»ó ÀÌ¿ë½Ã Á¦°ø\r\nÅë½Å¿ä±Ý : ¾Ë¶ãÆù Á¦¿Ü, ÀÚµ¿ÀÌÃ¼ ³³ºÎ½Ã Àû¿ë"
+        "details": "ì „ì›”ì‹¤ì  : 25ë§Œì›\r\nê±´ë‹¹ 1ë§Œì› ì´ìƒ ì´ìš©ì‹œ ì œê³µ\r\ní†µì‹ ìš”ê¸ˆ : ì•Œëœ°í° ì œì™¸, ìžë™ì´ì²´ ë‚©ë¶€ì‹œ ì ìš©"
     }
 },
 {
@@ -796,7 +796,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "5%",
-        "details": "Àü¿ù½ÇÀû : 10¸¸¿ø\r\nÆíÀÇÁ¡ : GS25, CU, ÀÌ¸¶Áî24, ¼¼ºìÀÏ·¹ºì\r\nµô¸®¹ö¸® : ¹è´ÞÀÇ¹ÎÁ·, ¿ä±â¿ä\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Åõ½æÇÃ·¹ÀÌ½º"
+        "details": "ì „ì›”ì‹¤ì  : 10ë§Œì›\r\níŽ¸ì˜ì  : GS25, CU, ì´ë§ˆì¦ˆ24, ì„¸ë¸ì¼ë ˆë¸\r\në”œë¦¬ë²„ë¦¬ : ë°°ë‹¬ì˜ë¯¼ì¡±, ìš”ê¸°ìš”\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, íˆ¬ì¸í”Œë ˆì´ìŠ¤"
     }
 },
 {
@@ -816,7 +816,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶(¿ù 3Ãµ¿ø ÇÑµµ)"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² (ì›” 3ì²œì› í•œë„)"
     }
 },
 {
@@ -836,7 +836,7 @@
         "online_shopping": "0.4%",
         "offline_shopping": "0.4%",
         "delivery": "0.4%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ÇÏ³ª¿øÅ¥ÆäÀÌ, ÆäÀÌ°áÁ¦ ½Ã 0.4% ÆäÀÌ¹é, ÀÏ¹Ý°áÁ¦ ½Ã 0.3% ÆäÀÌ¹é"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : í•˜ë‚˜ì›ííŽ˜ì´, íŽ˜ì´ê²°ì œ ì‹œ 0.4% íŽ˜ì´ë°±, ì¼ë°˜ê²°ì œ ì‹œ 0.3% íŽ˜ì´ë°±"
     }
 },
 {
@@ -856,7 +856,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.3%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n¸¶Æ® : ÀÌ¸¶Æ®, È¨ÇÃ·¯½º, ·Ôµ¥¸¶Æ®\r\nº´¿ø/¾à±¹ : µ¿¹°º´¿ø Æ÷ÇÔ"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\në§ˆíŠ¸ : ì´ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤, ë¡¯ë°ë§ˆíŠ¸\r\në³‘ì›/ì•½êµ­ : ë™ë¬¼ë³‘ì› í¬í•¨"
     }
 },
 {
@@ -876,7 +876,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 20¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶, Ã¶µµ(¿ù 5¸¸¿ø ÀÌ»ó »ç¿ë½Ã ÇÏ³ª¸Ó´Ï Àû¸³)\r\nÆíÀÇÁ¡ : CU, GS25, ¼¼ºìÀÏ·¹ºì(1¸¸¿ø ÀÌ»ó »ç¿ë½Ã ÇÏ³ª¸Ó´Ï Àû¸³)\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Ä¿ÇÇºó(1¸¸¿ø ÀÌ»ó »ç¿ë½Ã ÇÏ³ª¸Ó´Ï Àû¸³)"
+        "details": "ì „ì›” ì‹¤ì  : 20ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² , ì² ë„(ì›” 5ë§Œì› ì´ìƒ ì‚¬ìš©ì‹œ í•˜ë‚˜ë¨¸ë‹ˆ ì ë¦½)\r\níŽ¸ì˜ì  : CU, GS25, ì„¸ë¸ì¼ë ˆë¸(1ë§Œì› ì´ìƒ ì‚¬ìš©ì‹œ í•˜ë‚˜ë¨¸ë‹ˆ ì ë¦½)\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì»¤í”¼ë¹ˆ(1ë§Œì› ì´ìƒ ì‚¬ìš©ì‹œ í•˜ë‚˜ë¨¸ë‹ˆ ì ë¦½)"
     }
 },
 {
@@ -896,7 +896,7 @@
         "online_shopping": "0",
         "offline_shopping": "10%",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 50¸¸¿ø\r\nº´¿ø/¾à±¹ : º´/ÀÇ¿ø, ¾à±¹\r\n¼îÇÎ : ÀÌ¸¶Æ®, Æ®·¹ÀÌ´õ½º È¦¼¼ÀÏ Å¬·´, ·Ôµ¥¸¶Æ®, È¨ÇÃ·¯½º, ³óÇù ÇÏ³ª·Î¸¶Æ®"
+        "details": "ì „ì›” ì‹¤ì  : 50ë§Œì›\r\në³‘ì›/ì•½êµ­ : ë³‘/ì˜ì›, ì•½êµ­\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, íŠ¸ë ˆì´ë”ìŠ¤ í™€ì„¸ì¼ í´ëŸ½, ë¡¯ë°ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤, ë†í˜‘ í•˜ë‚˜ë¡œë§ˆíŠ¸"
     }
 },
 {
@@ -916,7 +916,7 @@
         "online_shopping": "50%",
         "offline_shopping": "1%",
         "delivery": "1%",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø\r\n¿µÈ­ : 10000¿ø ÀÌ»ó °áÁ¦½Ã 3000¿ø ÇÒÀÎ\r\n¿Â¶óÀÎ ¼îÇÎ : ÄíÆÎ ·ÎÄÏ¿Í¿ì ¸â¹ö½Ê, ¸¶ÄÏÄÃ¸® ÄÃ¸®ÆÐ½º, ³×ÀÌ¹öÇÃ·¯½º ¸â¹ö½Ê\r\n±âÅ¸ : ±¹³»¿Ü °¡¸ÍÁ¡¿¡¼­ °Çº° 10¸¸¿ø ÀÌ»ó °áÁ¦½Ã 1% ÇÒÀÎ"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›\r\nì˜í™” : 10000ì› ì´ìƒ ê²°ì œì‹œ 3000ì› í• ì¸\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : ì¿ íŒ¡ ë¡œì¼“ì™€ìš° ë©¤ë²„ì‹­, ë§ˆì¼“ì»¬ë¦¬ ì»¬ë¦¬íŒ¨ìŠ¤, ë„¤ì´ë²„í”ŒëŸ¬ìŠ¤ ë©¤ë²„ì‹­\r\nê¸°íƒ€ : êµ­ë‚´ì™¸ ê°€ë§¹ì ì—ì„œ ê±´ë³„ 10ë§Œì› ì´ìƒ ê²°ì œì‹œ 1% í• ì¸"
     }
 },
 {
@@ -936,7 +936,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 50¸¸¿ø\r\nÁÖÀ¯ : SK¿¡³ÊÁö, GSÄ®ÅØ½º, S-OIL, Çö´ë¿ÀÀÏ¹ðÅ©(¿ù ÇÕ»ê 30000¿ø±îÁö ÇÒÀÎ)\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º µå¶óÀÌºê ½º·ç ÇÒÀÎ\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶, ÅÃ½Ã"
+        "details": "ì „ì›” ì‹¤ì  : 50ë§Œì›\r\nì£¼ìœ  : SKì—ë„ˆì§€, GSì¹¼í…ìŠ¤, S-OIL, í˜„ëŒ€ì˜¤ì¼ë±…í¬(ì›” í•©ì‚° 30000ì›ê¹Œì§€ í• ì¸)\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤ ë“œë¼ì´ë¸Œ ìŠ¤ë£¨ í• ì¸\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² , íƒì‹œ"
     }
 },
 {
@@ -956,7 +956,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\n½ºÆ®¸®¹Ö : ³ÝÇÃ¸¯½º, ¿þÀÌºê, Æ¼ºù, ¿ÓÃ­, ¸á·Ð, FLO Á¤±â°áÁ¦°Ç\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶, ÅÃ½Ã\r\nÄ«Æä : ½ºÅ¸¹÷½º, ÀÌµð¾ßÄ¿ÇÇ, Åõ½æÇÃ·¹ÀÌ½º, Ä¿ÇÇºó, ºí·çº¸Æ²\r\nÆíÀÇÁ¡ : CU, GS25, ¼¼ºìÀÏ·¹ºì, ¹Ì´Ï½ºÅé, ÀÌ¸¶Æ®24"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nìŠ¤íŠ¸ë¦¬ë° : ë„·í”Œë¦­ìŠ¤, ì›¨ì´ë¸Œ, í‹°ë¹™, ì™“ì± , ë©œë¡ , FLO ì •ê¸°ê²°ì œê±´\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² , íƒì‹œ\r\nì¹´íŽ˜ : ìŠ¤íƒ€ë²…ìŠ¤, ì´ë””ì•¼ì»¤í”¼, íˆ¬ì¸í”Œë ˆì´ìŠ¤, ì»¤í”¼ë¹ˆ, ë¸”ë£¨ë³´í‹€\r\níŽ¸ì˜ì  : CU, GS25, ì„¸ë¸ì¼ë ˆë¸, ë¯¸ë‹ˆìŠ¤í†±, ì´ë§ˆíŠ¸24"
     }
 },
 {
@@ -966,7 +966,7 @@
         "card": 49,
         "convenience_store": "1.5%",
         "telecom": "0.5%",
-        "fuel": "70¿ø/L",
+        "fuel": "70ì›/L",
         "OTT": "0.5%",
         "cafe": "1.5%",
         "food": "0.5%",
@@ -976,7 +976,7 @@
         "online_shopping": "1.5%",
         "offline_shopping": "1.5%",
         "delivery": "1.5%",
-        "details": "Àü¿ù ½ÇÀû : 50¸¸¿ø\r\n¼îÇÎ : ÀÌ¸¶Æ®, ÀÌ¸¶Æ® Æ®·¹ÀÌ´õ½º, ·Ôµ¥¸¶Æ®, È¨ÇÃ·¯½º\r\n¿Â¶óÀÎ ¼îÇÎ : ÄíÆÎ, Æ¼¸ó, À§¸ÞÇÁ, SSG.COM, G¸¶ÄÏ, ¿Á¼Ç, 11¹ø°¡, ÀÎÅÍÆÄÅ©, »ï¼ºÄ«µå ¼îÇÎ\r\nÆíÀÇÁ¡ : CU, GS25, ¼¼ºìÀÏ·¹ºì, ¹Ì´Ï½ºÅé, ÀÌ¸¶Æ®24\r\n¹è´Þ : ¹è´ÞÀÇ¹ÎÁ·, ¿ä±â¿ä\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, ÀÌµð¾ßÄ¿ÇÇ, Åõ½æÇÃ·¹ÀÌ½º, Ä«Æäº£³×, Å½¾ØÅ½½º, Ä¿ÇÇºó, ¿£Á©¸®³Ê½º, ÇÒ¸®½ºÄ¿ÇÇ, ÆÄ½ºÄíÂî, ¾ÆÆ¼Á¦, Æú ¹Ù¼Â, ºí·çº¸Æ²\r\n¿µÈ­ : 12000¿ø ÀÌ»ó °áÁ¦½Ã 5000¿ø ÇÒÀÎ"
+        "details": "ì „ì›” ì‹¤ì  : 50ë§Œì›\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, ì´ë§ˆíŠ¸ íŠ¸ë ˆì´ë”ìŠ¤, ë¡¯ë°ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : ì¿ íŒ¡, í‹°ëª¬, ìœ„ë©”í”„, SSG.COM, Gë§ˆì¼“, ì˜¥ì…˜, 11ë²ˆê°€, ì¸í„°íŒŒí¬, ì‚¼ì„±ì¹´ë“œ ì‡¼í•‘\r\níŽ¸ì˜ì  : CU, GS25, ì„¸ë¸ì¼ë ˆë¸, ë¯¸ë‹ˆìŠ¤í†±, ì´ë§ˆíŠ¸24\r\në°°ë‹¬ : ë°°ë‹¬ì˜ë¯¼ì¡±, ìš”ê¸°ìš”\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, ì´ë””ì•¼ì»¤í”¼, íˆ¬ì¸í”Œë ˆì´ìŠ¤, ì¹´íŽ˜ë² ë„¤, íƒì•¤íƒìŠ¤, ì»¤í”¼ë¹ˆ, ì—”ì ¤ë¦¬ë„ˆìŠ¤, í• ë¦¬ìŠ¤ì»¤í”¼, íŒŒìŠ¤ì¿ ì°Œ, ì•„í‹°ì œ, í´ ë°”ì…‹, ë¸”ë£¨ë³´í‹€\r\nì˜í™” : 12000ì› ì´ìƒ ê²°ì œì‹œ 5000ì› í• ì¸"
     }
 },
 {
@@ -996,7 +996,7 @@
         "online_shopping": "0.5%",
         "offline_shopping": "0.5%",
         "delivery": "0.5%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1016,7 +1016,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "8%",
-        "details": "Àü¿ù ½ÇÀû : 10¸¸¿ø\r\nÄ¿ÇÇ : ÀÌµð¾ßÄ¿ÇÇ, ½ºÅ¸¹÷½º\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶"
+        "details": "ì „ì›” ì‹¤ì  : 10ë§Œì›\r\nì»¤í”¼ : ì´ë””ì•¼ì»¤í”¼, ìŠ¤íƒ€ë²…ìŠ¤\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² "
     }
 },
 {
@@ -1026,7 +1026,7 @@
         "card": 52,
         "convenience_store": "10%",
         "telecom": "0",
-        "fuel": "60¿ø/L",
+        "fuel": "60ì›/L",
         "OTT": "0",
         "cafe": "10%",
         "food": "0",
@@ -1036,7 +1036,7 @@
         "online_shopping": "1%",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›"
     }
 },
 {
@@ -1056,7 +1056,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.2%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ÁÖ¸»/°øÈÞÀÏ¿¡ 0.2% Ãß°¡ Àû¸³"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : ì£¼ë§/ê³µíœ´ì¼ì— 0.2% ì¶”ê°€ ì ë¦½"
     }
 },
 {
@@ -1076,7 +1076,7 @@
         "online_shopping": "0.7%",
         "offline_shopping": "0.7%",
         "delivery": "0.7%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1096,7 +1096,7 @@
         "online_shopping": "5%",
         "offline_shopping": "0.7%",
         "delivery": "0.7%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n¿Â¶óÀÎ ¼îÇÎ : Àü¿ù ½ÇÀû 50¸¸¿ø ½Ã Àû¿ë, ¸â¹ö½Ê ¹ÌÀÌ¿ë½Ã 2% ÇÒÀÎ"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nì˜¨ë¼ì¸ ì‡¼í•‘ : ì „ì›” ì‹¤ì  50ë§Œì› ì‹œ ì ìš©, ë©¤ë²„ì‹­ ë¯¸ì´ìš©ì‹œ 2% í• ì¸"
     }
 },
 {
@@ -1116,7 +1116,7 @@
         "online_shopping": "1.5%",
         "offline_shopping": "1.2%",
         "delivery": "1.2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1136,7 +1136,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "60%",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Åõ½æÇÃ·¹ÀÌ½º, Æú¹Ù¼Â\r\n±âÅ¸ : °áÁ¦ÀÏ ÇÒÀÎ"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, íˆ¬ì¸í”Œë ˆì´ìŠ¤, í´ë°”ì…‹\r\nê¸°íƒ€ : ê²°ì œì¼ í• ì¸"
     }
 },
 {
@@ -1156,7 +1156,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\nÁÖÀ¯ : SK¿¡³ÊÁö, S-OIL, GSÄ®ÅØ½º, Çö´ë¿ÀÀÏ¹ðÅ©\r\n¿µÈ­ : ·Ôµ¥½Ã³×¸¶, CGV, ¸Þ°¡¹Ú½º\r\nOTT/½ºÆ®¸®¹Ö : ³ÝÇÃ¸¯½º, ¿ÓÃ­, À¯Æ©ºê, ¸á·Ð, Áö´Ï\r\n±âÅ¸ : °áÁ¦ÀÏ ÇÒÀÎ"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nì£¼ìœ  : SKì—ë„ˆì§€, S-OIL, GSì¹¼í…ìŠ¤, í˜„ëŒ€ì˜¤ì¼ë±…í¬\r\nì˜í™” : ë¡¯ë°ì‹œë„¤ë§ˆ, CGV, ë©”ê°€ë°•ìŠ¤\r\nOTT/ìŠ¤íŠ¸ë¦¬ë° : ë„·í”Œë¦­ìŠ¤, ì™“ì± , ìœ íŠœë¸Œ, ë©œë¡ , ì§€ë‹ˆ\r\nê¸°íƒ€ : ê²°ì œì¼ í• ì¸"
     }
 },
 {
@@ -1176,7 +1176,7 @@
         "online_shopping": "10%",
         "offline_shopping": "10%",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 150¸¸¿ø\r\nÆíÀÇÁ¡ : ¼¼ºìÀÏ·¹ºì, GS25, CU\r\n¿Â¶óÀÎ¼îÇÎ : ÄíÆÎ, À§¸ÞÇÁ, Æ¼¸ó, G¸¶ÄÏ, ¿Á¼Ç, 11¹ø°¡\r\n¼îÇÎ : ÀÌ¸¶Æ®, È¨ÇÃ·¯½º, ·Ôµ¥¸¶Æ®"
+        "details": "ì „ì›” ì‹¤ì  : 150ë§Œì›\r\níŽ¸ì˜ì  : ì„¸ë¸ì¼ë ˆë¸, GS25, CU\r\nì˜¨ë¼ì¸ì‡¼í•‘ : ì¿ íŒ¡, ìœ„ë©”í”„, í‹°ëª¬, Gë§ˆì¼“, ì˜¥ì…˜, 11ë²ˆê°€\r\nì‡¼í•‘ : ì´ë§ˆíŠ¸, í™ˆí”ŒëŸ¬ìŠ¤, ë¡¯ë°ë§ˆíŠ¸"
     }
 },
 {
@@ -1196,7 +1196,7 @@
         "online_shopping": "60%",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\nÆíÀÇÁ¡ : ¼¼ºìÀÏ·¹ºì, GS25, CU\r\n¿Â¶óÀÎ¼îÇÎ : ÄíÆÎ, À§¸ÞÇÁ, Æ¼¸ó"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\níŽ¸ì˜ì  : ì„¸ë¸ì¼ë ˆë¸, GS25, CU\r\nì˜¨ë¼ì¸ì‡¼í•‘ : ì¿ íŒ¡, ìœ„ë©”í”„, í‹°ëª¬"
     }
 },
 {
@@ -1216,7 +1216,7 @@
         "online_shopping": "60%",
         "offline_shopping": "0",
         "delivery": "5%",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\n¿µÈ­ : ·Ôµ¥½Ã³×¸¶, CGV\r\n´ëÁß±³Åë : ½Ã³»¹ö½º, ÁöÇÏÃ¶\r\nÅë½Å¿ä±Ý : SKT, KT, LG U+\r\n¹è´Þ : ¹è´ÞÀÇ ¹ÎÁ·, ÄíÆÎÀÌÃ÷"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nì˜í™” : ë¡¯ë°ì‹œë„¤ë§ˆ, CGV\r\nëŒ€ì¤‘êµí†µ : ì‹œë‚´ë²„ìŠ¤, ì§€í•˜ì² \r\ní†µì‹ ìš”ê¸ˆ : SKT, KT, LG U+\r\në°°ë‹¬ : ë°°ë‹¬ì˜ ë¯¼ì¡±, ì¿ íŒ¡ì´ì¸ "
     }
 },
 {
@@ -1236,7 +1236,7 @@
         "online_shopping": "1%",
         "offline_shopping": "1%",
         "delivery": "1%",
-        "details": "Àü¿ù ½ÇÀû : 75¸¸¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 75ë§Œì›"
     }
 },
 {
@@ -1256,7 +1256,7 @@
         "online_shopping": "0.5%",
         "offline_shopping": "0.5%",
         "delivery": "0.5%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1276,7 +1276,7 @@
         "online_shopping": "5%",
         "offline_shopping": "0",
         "delivery": "10%",
-        "details": "Àü¿ù ½ÇÀû : 150¸¸¿ø\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º, Æú¹Ù¼Â, »ª´Ù¹æ, Åõ½æÇÃ·¹ÀÌ½º\r\nOTT/½ºÆ®¸®¹Ö : ³ÝÇÃ¸¯½º, À¯Æ©ºê, ¿ÓÃ­, ¸á·Ð, Áö´Ï¹ÂÁ÷\r\n±³Åë : ¹ö½º, ÁöÇÏÃ¶, ÅÃ½Ã\r\n¹è´Þ¾Û : ¹è´ÞÀÇ¹ÎÁ·, ¿ä±â¿ä\r\n¿Â¶óÀÎ¼îÇÎ : ÄíÆÎ, SSG´åÄÄ, ¸¶ÄÏÄÃ¸®"
+        "details": "ì „ì›” ì‹¤ì  : 150ë§Œì›\r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤, í´ë°”ì…‹, ë¹½ë‹¤ë°©, íˆ¬ì¸í”Œë ˆì´ìŠ¤\r\nOTT/ìŠ¤íŠ¸ë¦¬ë° : ë„·í”Œë¦­ìŠ¤, ìœ íŠœë¸Œ, ì™“ì± , ë©œë¡ , ì§€ë‹ˆë®¤ì§\r\nêµí†µ : ë²„ìŠ¤, ì§€í•˜ì² , íƒì‹œ\r\në°°ë‹¬ì•± : ë°°ë‹¬ì˜ë¯¼ì¡±, ìš”ê¸°ìš”\r\nì˜¨ë¼ì¸ì‡¼í•‘ : ì¿ íŒ¡, SSGë‹·ì»´, ë§ˆì¼“ì»¬ë¦¬"
     }
 },
 {
@@ -1286,7 +1286,7 @@
         "card": 65,
         "convenience_store": "5%",
         "telecom": "0",
-        "fuel": "100¿ø/L",
+        "fuel": "100ì›/L",
         "OTT": "0",
         "cafe": "0",
         "food": "0",
@@ -1296,7 +1296,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "5%",
-        "details": "Àü¿ù ½ÇÀû : 150¸¸¿ø\r\nÁÖÀ¯ : SK ¿¡³ÊÁö¡¤S-OIL¡¤GSÄ®ÅØ½º¡¤Çö´ë¿ÀÀÏ¹ðÅ©\r\nÆíÀÇÁ¡ : GS25¡¤CU¡¤¼¼ºìÀÏ·¹ºì\r\n¹è´Þ : ¹è´ÞÀÇ¹ÎÁ·¡¤¿ä±â¿ä"
+        "details": "ì „ì›” ì‹¤ì  : 150ë§Œì›\r\nì£¼ìœ  : SK ì—ë„ˆì§€Â·S-OILÂ·GSì¹¼í…ìŠ¤Â·í˜„ëŒ€ì˜¤ì¼ë±…í¬\r\níŽ¸ì˜ì  : GS25Â·CUÂ·ì„¸ë¸ì¼ë ˆë¸\r\në°°ë‹¬ : ë°°ë‹¬ì˜ë¯¼ì¡±Â·ìš”ê¸°ìš”"
     }
 },
 {
@@ -1316,7 +1316,7 @@
         "online_shopping": "0",
         "offline_shopping": "5%",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 150¸¸¿ø\r\nº´¿ø/¾à±¹ : º´¿ø¡¤¾à±¹¡¤µ¿¹°º´¿ø\r\n¼îÇÎ : ¹éÈ­Á¡, ½´ÆÛ\r\n´ëÁß±³Åë : ¹ö½º¡¤ÁöÇÏÃ¶"
+        "details": "ì „ì›” ì‹¤ì  : 150ë§Œì›\r\në³‘ì›/ì•½êµ­ : ë³‘ì›Â·ì•½êµ­Â·ë™ë¬¼ë³‘ì›\r\nì‡¼í•‘ : ë°±í™”ì , ìŠˆí¼\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤Â·ì§€í•˜ì² "
     }
 },
 {
@@ -1336,7 +1336,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.2%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ÈÄºÒ ¹× ¼±ºÒ ±³Åë¼­ºñ½º"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : í›„ë¶ˆ ë° ì„ ë¶ˆ êµí†µì„œë¹„ìŠ¤"
     }
 },
 {
@@ -1356,7 +1356,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.2%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 30¸¸¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 30ë§Œì›"
     }
 },
 {
@@ -1376,7 +1376,7 @@
         "online_shopping": "0.5%",
         "offline_shopping": "0.5%",
         "delivery": "0.5%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ±¹³»¼± µ¿¹ÝÀÚ ¹«·á Ç×°ø±Ç"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : êµ­ë‚´ì„  ë™ë°˜ìž ë¬´ë£Œ í•­ê³µê¶Œ"
     }
 },
 {
@@ -1386,7 +1386,7 @@
         "card": 70,
         "convenience_store": "0.5%",
         "telecom": "0.5%",
-        "fuel": "50¿ø/L",
+        "fuel": "50ì›/L",
         "OTT": "0.5%",
         "cafe": "0.5%",
         "food": "0.5%",
@@ -1396,7 +1396,7 @@
         "online_shopping": "0.5%",
         "offline_shopping": "0.5%",
         "delivery": "0.5%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\nÁÖÀ¯ : SKÁÖÀ¯¼Ò(Àü¿ù½ÇÀû 30¸¸¿ø)"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nì£¼ìœ  : SKì£¼ìœ ì†Œ(ì „ì›”ì‹¤ì  30ë§Œì›)"
     }
 },
 {
@@ -1416,7 +1416,7 @@
         "online_shopping": "2%",
         "offline_shopping": "2%",
         "delivery": "2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ·ÎÄ«ÄÚÀÎ Àû¸³"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : ë¡œì¹´ì½”ì¸ ì ë¦½"
     }
 },
 {
@@ -1436,7 +1436,7 @@
         "online_shopping": "2%",
         "offline_shopping": "2%",
         "delivery": "2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ·ÎÄ«ÄÚÀÎ Àû¸³, ºñÁî´Ï½º ¼¼¹«Áö¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : ë¡œì¹´ì½”ì¸ ì ë¦½, ë¹„ì¦ˆë‹ˆìŠ¤ ì„¸ë¬´ì§€ì›"
     }
 },
 {
@@ -1456,7 +1456,7 @@
         "online_shopping": "50%",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 40¸¸¿ø\r\n´ëÁß±³Åë : ¹ö½º, ÁöÇÏÃ¶\r\nÄ¿ÇÇ : ½ºÅ¸¹÷½º\r\n¿Â¶óÀÎ¼îÇÎ : ÄíÆÎ, À§¸ÞÇÁ, Æ¼¸ó\r\nOTT/½ºÆ®¸®¹Ö : ³ÝÇÃ¸¯½º, À¯Æ©ºê, ¿ÓÃ­, ¸á·Ð, Áö´Ï¹ÂÁ÷, µðÁî´ÏÇÃ·¯½º"
+        "details": "ì „ì›” ì‹¤ì  : 40ë§Œì›\r\nëŒ€ì¤‘êµí†µ : ë²„ìŠ¤, ì§€í•˜ì² \r\nì»¤í”¼ : ìŠ¤íƒ€ë²…ìŠ¤\r\nì˜¨ë¼ì¸ì‡¼í•‘ : ì¿ íŒ¡, ìœ„ë©”í”„, í‹°ëª¬\r\nOTT/ìŠ¤íŠ¸ë¦¬ë° : ë„·í”Œë¦­ìŠ¤, ìœ íŠœë¸Œ, ì™“ì± , ë©œë¡ , ì§€ë‹ˆë®¤ì§, ë””ì¦ˆë‹ˆí”ŒëŸ¬ìŠ¤"
     }
 },
 {
@@ -1466,7 +1466,7 @@
         "card": 74,
         "convenience_store": "0.2%",
         "telecom": "0.2%",
-        "fuel": "50¿ø/L",
+        "fuel": "50ì›/L",
         "OTT": "0.2%",
         "cafe": "0.2%",
         "food": "0.2%",
@@ -1476,7 +1476,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.2%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\nÁÖÀ¯ : SKÁÖÀ¯¼Ò¿¡¼­ Æ÷ÀÎÆ® Àû¸³"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nì£¼ìœ  : SKì£¼ìœ ì†Œì—ì„œ í¬ì¸íŠ¸ ì ë¦½"
     }
 },
 {
@@ -1496,7 +1496,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1516,7 +1516,7 @@
         "online_shopping": "0",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1536,7 +1536,7 @@
         "online_shopping": "3%",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1556,7 +1556,7 @@
         "online_shopping": "3%",
         "offline_shopping": "0",
         "delivery": "0",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›"
     }
 },
 {
@@ -1576,7 +1576,7 @@
         "online_shopping": "0.2%",
         "offline_shopping": "0.2%",
         "delivery": "0.2%",
-        "details": "Àü¿ù ½ÇÀû : 0¿ø\r\n±âÅ¸ : ÁÖ¸» ¹× °øÈÞÀÏ 0.2% Ãß°¡ Ä³½Ã¹é"
+        "details": "ì „ì›” ì‹¤ì  : 0ì›\r\nê¸°íƒ€ : ì£¼ë§ ë° ê³µíœ´ì¼ 0.2% ì¶”ê°€ ìºì‹œë°±"
     }
 }
 ]

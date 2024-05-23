@@ -9,7 +9,9 @@
         "cardName": "K-패스카드",
         "annualFee": "8000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09321",
-        "like_users": []
+        "like_users": [
+            21
+        ]
     }
 },
 {
@@ -22,7 +24,9 @@
         "cardName": "K-패스체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09322",
-        "like_users": []
+        "like_users": [
+            25
+        ]
     }
 },
 {
@@ -35,7 +39,9 @@
         "cardName": "WE:SH All 카드",
         "annualFee": "20000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09122",
-        "like_users": []
+        "like_users": [
+            20
+        ]
     }
 },
 {
@@ -49,7 +55,10 @@
         "annualFee": "15000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09123",
         "like_users": [
-            17
+            17,
+            20,
+            25,
+            26
         ]
     }
 },
@@ -63,7 +72,13 @@
         "cardName": "Our WE:SH 카드",
         "annualFee": "15000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09124",
-        "like_users": []
+        "like_users": [
+            2,
+            5,
+            6,
+            20,
+            21
+        ]
     }
 },
 {
@@ -76,7 +91,9 @@
         "cardName": "톡톡 with카드",
         "annualFee": "12000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09272",
-        "like_users": []
+        "like_users": [
+            25
+        ]
     }
 },
 {
@@ -89,7 +106,10 @@
         "cardName": "마이핏카드(할인형)",
         "annualFee": "10000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09248",
-        "like_users": []
+        "like_users": [
+            3,
+            24
+        ]
     }
 },
 {
@@ -102,7 +122,9 @@
         "cardName": "Easy on카드",
         "annualFee": "20000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09244",
-        "like_users": []
+        "like_users": [
+            25
+        ]
     }
 },
 {
@@ -115,7 +137,13 @@
         "cardName": "굿데이올림카드",
         "annualFee": "15000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09063",
-        "like_users": []
+        "like_users": [
+            3,
+            6,
+            7,
+            20,
+            25
+        ]
     }
 },
 {
@@ -129,7 +157,10 @@
         "annualFee": "12000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09205",
         "like_users": [
-            17
+            1,
+            17,
+            20,
+            26
         ]
     }
 },
@@ -143,7 +174,9 @@
         "cardName": "Easy pick카드",
         "annualFee": "20000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09243",
-        "like_users": []
+        "like_users": [
+            20
+        ]
     }
 },
 {
@@ -157,7 +190,11 @@
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07960",
         "like_users": [
-            17
+            1,
+            17,
+            20,
+            25,
+            26
         ]
     }
 },
@@ -171,7 +208,9 @@
         "cardName": "위글위글 첵첵 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01918",
-        "like_users": []
+        "like_users": [
+            25
+        ]
     }
 },
 {
@@ -184,7 +223,9 @@
         "cardName": "첵첵 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01914",
-        "like_users": []
+        "like_users": [
+            25
+        ]
     }
 },
 {
@@ -197,7 +238,9 @@
         "cardName": "골든대로 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01770",
-        "like_users": []
+        "like_users": [
+            25
+        ]
     }
 },
 {
@@ -210,7 +253,10 @@
         "cardName": "훈 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01930",
-        "like_users": []
+        "like_users": [
+            8,
+            24
+        ]
     }
 },
 {
@@ -223,7 +269,10 @@
         "cardName": "쏘영 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01570",
-        "like_users": []
+        "like_users": [
+            8,
+            24
+        ]
     }
 },
 {
@@ -236,7 +285,14 @@
         "cardName": "샘 쏘영 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01574",
-        "like_users": []
+        "like_users": [
+            2,
+            5,
+            6,
+            8,
+            20,
+            21
+        ]
     }
 },
 {
@@ -249,7 +305,10 @@
         "cardName": "정 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01928",
-        "like_users": []
+        "like_users": [
+            4,
+            17
+        ]
     }
 },
 {
@@ -262,7 +321,14 @@
         "cardName": "음 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01932",
-        "like_users": []
+        "like_users": [
+            3,
+            6,
+            7,
+            8,
+            20,
+            22
+        ]
     }
 },
 {
@@ -275,7 +341,10 @@
         "cardName": "민 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01560",
-        "like_users": []
+        "like_users": [
+            8,
+            24
+        ]
     }
 },
 {
@@ -288,7 +357,13 @@
         "cardName": "새로이 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01774",
-        "like_users": []
+        "like_users": [
+            1,
+            19,
+            20,
+            22,
+            26
+        ]
     }
 },
 {
@@ -301,7 +376,10 @@
         "cardName": "총무 체크카드(홀로)",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=07981",
-        "like_users": []
+        "like_users": [
+            8,
+            17
+        ]
     }
 },
 {
@@ -314,7 +392,10 @@
         "cardName": "taptap DIGITAL",
         "annualFee": "10000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1666",
-        "like_users": []
+        "like_users": [
+            8,
+            24
+        ]
     }
 },
 {
@@ -327,7 +408,10 @@
         "cardName": "ONE 체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01946",
-        "like_users": []
+        "like_users": [
+            8,
+            24
+        ]
     }
 },
 {
@@ -341,7 +425,12 @@
         "annualFee": "19000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09115",
         "like_users": [
-            17
+            1,
+            4,
+            17,
+            20,
+            23,
+            24
         ]
     }
 },
@@ -355,7 +444,10 @@
         "cardName": "가온올림카드(실속형)",
         "annualFee": "15000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09157",
-        "like_users": []
+        "like_users": [
+            8,
+            24
+        ]
     }
 },
 {
@@ -368,7 +460,11 @@
         "cardName": "톡톡 Pay카드",
         "annualFee": "20000",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=09231",
-        "like_users": []
+        "like_users": [
+            7,
+            8,
+            24
+        ]
     }
 },
 {
@@ -381,7 +477,10 @@
         "cardName": "가온체크카드",
         "annualFee": "0",
         "site": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?mainCC=a&cooperationcode=01720",
-        "like_users": []
+        "like_users": [
+            23,
+            25
+        ]
     }
 },
 {
@@ -394,7 +493,10 @@
         "cardName": "#MY WAY 카드",
         "annualFee": "20000",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41015444P&CD_PD_SEQ=15444&",
-        "like_users": []
+        "like_users": [
+            7,
+            17
+        ]
     }
 },
 {
@@ -407,7 +509,10 @@
         "cardName": "하나 원큐 카드",
         "annualFee": "15000",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012942P&CD_PD_SEQ=12942&",
-        "like_users": []
+        "like_users": [
+            7,
+            17
+        ]
     }
 },
 {
@@ -420,7 +525,10 @@
         "cardName": "하나증권 캐시백 투자 카드",
         "annualFee": "15000",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016936P&CD_PD_SEQ=16936&",
-        "like_users": []
+        "like_users": [
+            7,
+            17
+        ]
     }
 },
 {
@@ -433,7 +541,10 @@
         "cardName": "ANY PLUS 카드",
         "annualFee": "15000",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41009051P&CD_PD_SEQ=9051&",
-        "like_users": []
+        "like_users": [
+            7,
+            23
+        ]
     }
 },
 {
@@ -446,7 +557,10 @@
         "cardName": "K-패스 하나 신용카드",
         "annualFee": "17000",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017016P&CD_PD_SEQ=17016&",
-        "like_users": []
+        "like_users": [
+            7,
+            23
+        ]
     }
 },
 {
@@ -459,7 +573,10 @@
         "cardName": "차이 신용카드",
         "annualFee": "12000",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41014443P&CD_PD_SEQ=14443&",
-        "like_users": []
+        "like_users": [
+            7,
+            23
+        ]
     }
 },
 {
@@ -472,7 +589,10 @@
         "cardName": "MULTI Oil 모바일카드",
         "annualFee": "15000",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012932P&CD_PD_SEQ=12932&",
-        "like_users": []
+        "like_users": [
+            6,
+            23
+        ]
     }
 },
 {
@@ -485,7 +605,10 @@
         "cardName": "MULTI Any 체크카드",
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013823P&CD_PD_SEQ=13823&",
-        "like_users": []
+        "like_users": [
+            6,
+            23
+        ]
     }
 },
 {
@@ -498,7 +621,10 @@
         "cardName": "Young Hana+ 체크카드",
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013798P&CD_PD_SEQ=13798&",
-        "like_users": []
+        "like_users": [
+            6,
+            23
+        ]
     }
 },
 {
@@ -511,7 +637,10 @@
         "cardName": "국민행복 체크카드",
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012794P&CD_PD_SEQ=12794&",
-        "like_users": []
+        "like_users": [
+            6,
+            22
+        ]
     }
 },
 {
@@ -524,7 +653,10 @@
         "cardName": "금쪽이 Young Hana+ 체크카드",
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016143P&CD_PD_SEQ=16143&",
-        "like_users": []
+        "like_users": [
+            4,
+            17
+        ]
     }
 },
 {
@@ -537,7 +669,10 @@
         "cardName": "K-패스 하나 체크카드",
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41017033P&CD_PD_SEQ=17033&",
-        "like_users": []
+        "like_users": [
+            6,
+            17
+        ]
     }
 },
 {
@@ -550,7 +685,10 @@
         "cardName": "모두의 일상 체크카드",
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012782P&CD_PD_SEQ=12782&",
-        "like_users": []
+        "like_users": [
+            6,
+            22
+        ]
     }
 },
 {
@@ -563,7 +701,10 @@
         "cardName": "모두의 건강 체크카드",
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013539P&CD_PD_SEQ=13539&",
-        "like_users": []
+        "like_users": [
+            6,
+            22
+        ]
     }
 },
 {
@@ -577,7 +718,12 @@
         "annualFee": "0",
         "site": "https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41004094P&CD_PD_SEQ=4094&",
         "like_users": [
-            17
+            1,
+            2,
+            4,
+            17,
+            24,
+            25
         ]
     }
 },
@@ -591,7 +737,14 @@
         "cardName": "삼성 iD VITA 카드",
         "annualFee": "20000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1790",
-        "like_users": []
+        "like_users": [
+            3,
+            5,
+            6,
+            7,
+            19,
+            25
+        ]
     }
 },
 {
@@ -604,7 +757,10 @@
         "cardName": "삼성 iD SIMPLE 카드",
         "annualFee": "7000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1767",
-        "like_users": []
+        "like_users": [
+            5,
+            19
+        ]
     }
 },
 {
@@ -617,7 +773,10 @@
         "cardName": "삼성 iD ENERGY 카드",
         "annualFee": "20000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1753",
-        "like_users": []
+        "like_users": [
+            5,
+            22
+        ]
     }
 },
 {
@@ -630,7 +789,10 @@
         "cardName": "삼성 iD MOVE 카드",
         "annualFee": "20000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1762",
-        "like_users": []
+        "like_users": [
+            5,
+            22
+        ]
     }
 },
 {
@@ -643,7 +805,11 @@
         "cardName": "삼성 iD AUTO 카드",
         "annualFee": "49000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1766",
-        "like_users": []
+        "like_users": [
+            17,
+            20,
+            21
+        ]
     }
 },
 {
@@ -656,7 +822,10 @@
         "cardName": "삼성 BIZ iD BENEFIT 카드",
         "annualFee": "30000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1758",
-        "like_users": []
+        "like_users": [
+            5,
+            22
+        ]
     }
 },
 {
@@ -670,7 +839,12 @@
         "annualFee": "1000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1746",
         "like_users": [
-            17
+            4,
+            17,
+            20,
+            21,
+            22,
+            23
         ]
     }
 },
@@ -684,7 +858,10 @@
         "cardName": "taptap DRIVE",
         "annualFee": "10000",
         "site": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1667",
-        "like_users": []
+        "like_users": [
+            5,
+            22
+        ]
     }
 },
 {
@@ -697,7 +874,10 @@
         "cardName": "LIKIT all 체크카드",
         "annualFee": "0",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12667-A12667",
-        "like_users": []
+        "like_users": [
+            4,
+            21
+        ]
     }
 },
 {
@@ -710,7 +890,10 @@
         "cardName": "디지로카 London",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14718-A14718",
-        "like_users": []
+        "like_users": [
+            4,
+            17
+        ]
     }
 },
 {
@@ -723,7 +906,11 @@
         "cardName": "디지로카 Paris",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14728-A14728",
-        "like_users": []
+        "like_users": [
+            21,
+            23,
+            24
+        ]
     }
 },
 {
@@ -736,7 +923,10 @@
         "cardName": "LOCA LIKIT 1.2",
         "annualFee": "10000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13937-A13937",
-        "like_users": []
+        "like_users": [
+            5,
+            21
+        ]
     }
 },
 {
@@ -749,7 +939,10 @@
         "cardName": "LOCA LIKIT Eat",
         "annualFee": "10000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13943-A13943",
-        "like_users": []
+        "like_users": [
+            5,
+            21
+        ]
     }
 },
 {
@@ -762,7 +955,10 @@
         "cardName": "LOCA LIKIT Play",
         "annualFee": "10000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13949-A13949",
-        "like_users": []
+        "like_users": [
+            4,
+            21
+        ]
     }
 },
 {
@@ -775,7 +971,10 @@
         "cardName": "LOCA for Shopping",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13395-A13395&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
+        "like_users": [
+            4,
+            21
+        ]
     }
 },
 {
@@ -788,7 +987,14 @@
         "cardName": "LOCA LIKIT Shop",
         "annualFee": "10000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13955-A13955",
-        "like_users": []
+        "like_users": [
+            3,
+            5,
+            6,
+            7,
+            21,
+            23
+        ]
     }
 },
 {
@@ -802,7 +1008,12 @@
         "annualFee": "10000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13746-A13746",
         "like_users": [
-            17
+            1,
+            4,
+            17,
+            20,
+            23,
+            24
         ]
     }
 },
@@ -816,7 +1027,10 @@
         "cardName": "LOCA 100 카드",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13586-A13586",
-        "like_users": []
+        "like_users": [
+            4,
+            17
+        ]
     }
 },
 {
@@ -829,7 +1043,10 @@
         "cardName": "LOCA CLASSIC",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13379-A13379&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
+        "like_users": [
+            3,
+            19
+        ]
     }
 },
 {
@@ -843,7 +1060,9 @@
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13391-A13391&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
         "like_users": [
-            17
+            3,
+            17,
+            25
         ]
     }
 },
@@ -857,7 +1076,10 @@
         "cardName": "LOCA for Auto",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13399-A13399&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
+        "like_users": [
+            19,
+            22
+        ]
     }
 },
 {
@@ -870,7 +1092,14 @@
         "cardName": "LOCA for Health",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDXAA_V001.lc?vtCdKndC=P13407-A13407&deviceType=WEB&newPrdCd=N&url=https%3A%2F%2Fwww.lottecard.co.kr%2Fapp%2FLPCDADB_V100.lc&sUrl=https%3A%2F%2Fm.lottecard.co.kr&cardPath=%2FUploadFiles%2FecenterPath%2FcdInfo%2F&bnnPath=%2FUploadFiles%2FecenterPath%2FbnnInfo%2F",
-        "like_users": []
+        "like_users": [
+            2,
+            5,
+            7,
+            17,
+            21,
+            24
+        ]
     }
 },
 {
@@ -883,7 +1112,10 @@
         "cardName": "롯데교통카드",
         "annualFee": "5000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-B00294",
-        "like_users": []
+        "like_users": [
+            19,
+            26
+        ]
     }
 },
 {
@@ -896,7 +1128,10 @@
         "cardName": "롯데카드",
         "annualFee": "5000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00646-A00646",
-        "like_users": []
+        "like_users": [
+            19,
+            26
+        ]
     }
 },
 {
@@ -909,7 +1144,10 @@
         "cardName": "롯데 뉴라인 골드 아멕스카드",
         "annualFee": "80000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00421-A00421",
-        "like_users": []
+        "like_users": [
+            19,
+            26
+        ]
     }
 },
 {
@@ -922,7 +1160,11 @@
         "cardName": "롯데 뉴라인 아멕스카드",
         "annualFee": "25000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00422-A00422",
-        "like_users": []
+        "like_users": [
+            3,
+            19,
+            26
+        ]
     }
 },
 {
@@ -935,7 +1177,11 @@
         "cardName": "LOCA MONEY 카드",
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13561-A13561",
-        "like_users": []
+        "like_users": [
+            3,
+            18,
+            26
+        ]
     }
 },
 {
@@ -949,7 +1195,8 @@
         "annualFee": "20000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13644-A13644",
         "like_users": [
-            17
+            17,
+            19
         ]
     }
 },
@@ -963,7 +1210,11 @@
         "cardName": "LOCA Mobility 반띵 카드",
         "annualFee": "17000",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14285-A14285",
-        "like_users": []
+        "like_users": [
+            8,
+            18,
+            26
+        ]
     }
 },
 {
@@ -976,7 +1227,10 @@
         "cardName": "롯데체크카드",
         "annualFee": "0",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C00041-A00041",
-        "like_users": []
+        "like_users": [
+            18,
+            26
+        ]
     }
 },
 {
@@ -990,7 +1244,8 @@
         "annualFee": "0",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12758-A12758",
         "like_users": [
-            17
+            17,
+            21
         ]
     }
 },
@@ -1004,7 +1259,14 @@
         "cardName": "LIKIT fun 체크카드",
         "annualFee": "0",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12794-A12794",
-        "like_users": []
+        "like_users": [
+            2,
+            6,
+            7,
+            18,
+            24,
+            26
+        ]
     }
 },
 {
@@ -1017,7 +1279,10 @@
         "cardName": "LIKIT on 체크플러스 카드",
         "annualFee": "0",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12846-A12846",
-        "like_users": []
+        "like_users": [
+            19,
+            20
+        ]
     }
 },
 {
@@ -1030,7 +1295,14 @@
         "cardName": "LIKIT on 체크카드",
         "annualFee": "0",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12833-A12833",
-        "like_users": []
+        "like_users": [
+            3,
+            5,
+            6,
+            7,
+            18,
+            25
+        ]
     }
 },
 {
@@ -1043,7 +1315,11 @@
         "cardName": "LIKIT all 체크플러스 카드",
         "annualFee": "0",
         "site": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=C12807-A12807",
-        "like_users": []
+        "like_users": [
+            18,
+            23,
+            26
+        ]
     }
 }
 ]
