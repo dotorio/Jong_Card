@@ -6,80 +6,95 @@
           <div class="col-4 img mt-5">
             <div class="card-left d-flex flex-column align-items-center" 
             v-if="cardBenefits">
+              <span v-if="cardBenefits.category === 1" class="badge text-bg-primary">할인카드</span>
+              <span v-if="cardBenefits.category === 2" class="badge text-bg-success">적립카드</span>
               <p class="cardName">{{ cardBenefits.cardName }}</p>
               <img :src="cardImg" alt="#" @click="contentDetail" class="main-img">
               <a :href="cardBenefits.site" class="site mt-4"
               >카드 홈페이지</a>
             </div>
           </div>
-          <div class="col-8">
-            <div class="row btn" @click="contentChange">
-              <button :class="[option.convenience_store, {active: activeBenefit.convenience_store}]" class="convenience_store col-2" :disabled="option.convenience_store"
-              ><img src="../assets/sort/convenience_store.svg" alt="#">
-              편의점</button>
-              <button :class="[option.telecom, {active: activeBenefit.telecom}]" class="telecom col-2"
-              :disabled="option.telecom"
-        
-              ><img src="../assets/sort/telecom.svg" alt="#">
-              통신요금</button>
-              <button :class="[option.OTT, { active: activeBenefit.OTT}]" class="OTT col-2"
-              :disabled="option.OTT"
-        
-              ><img src="../assets/sort/OTT.svg" alt="#">
-              OTT</button>
-              <button :class="[option.fuel, {active: activeBenefit.fuel}]" class="fuel col-2"
-              :disabled="option.fuel"
-        
-              ><img src="../assets/sort/fuel.svg" alt="#">
-              주유요금</button>
-              <button :class="[option.cafe, {active: activeBenefit.cafe}]" class="cafe col-2"
-              :disabled="option.cafe"
-        
-              ><img src="../assets/sort/cafe.svg" alt="#">
-              카페</button>
-              <button :class="[option.food, {active: activeBenefit.food}]" class="food col-2"
-              :disabled="option.food"
-        
-              ><img src="../assets/sort/food.svg" alt="#">
-              음식점</button>
-              <button :class="[option.public_transport, {active: activeBenefit.public_transport}]" class="public_transport col-2"
-              :disabled="option.public_transport"
-        
-              ><img src="../assets/sort/public_transport.svg" alt="#">
-              대중교통</button>
-              <button :class="[option.hospital, {active: activeBenefit.hospital}]" class="hospital col-2"
-              :disabled="option.hospital"
-        
-              ><img src="../assets/sort/hospital.svg" alt="#">
-              병원</button>
-              <button :class="[option.movie, {active: activeBenefit.movie}]" class="movie col-2"
-              :disabled="option.movie"
-        
-              ><img src="../assets/sort/movie.svg" alt="#">
-              영화</button>
-              <button :class="[option.online_shopping, {active: activeBenefit.online_shopping}]" class="online_shopping col-2"
-              :disabled="option.online_shopping"
-        
-              ><img src="../assets/sort/online_shopping.svg" alt="#">
-              온라인 쇼핑</button>
-              <button :class="[option.offline_shopping, {active: activeBenefit.offline_shopping}]" class="offline_shopping col-2"
-              :disabled="option.offline_shopping"
-        
-              ><img src="../assets/sort/offline_shopping.svg" alt="#">
-              쇼핑</button>
-              <button :class="[option.delivery, {active: activeBenefit.delivery}]" class="delivery col-2"
-              :disabled="option.delivery"
-        
-              ><img src="../assets/sort/delivery.svg" alt="#">
-              배달</button>
-            </div>
-            <div class="content" v-if="cardBenefits">
-              <CardDetailItem class="animate__animated" :class="contentClass"
-              :content="cardBenefits[currentBenefit]"
-              :benefit="currentBenefit"
-              :category="cardBenefits.category"
-              :site="cardBenefits.site"
-              />
+          <div class="col-7">
+            <div class="row mt-3" @click="contentChange">
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.convenience_store, {active: activeBenefit.convenience_store}]" class="convenience_store" :disabled="option.convenience_store"
+                ><img src="../assets/sort/convenience_store.svg" alt="#">
+                편의점</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.telecom, {active: activeBenefit.telecom}]" class="telecom"
+                :disabled="option.telecom">
+                <img src="../assets/sort/telecom.svg" alt="#">
+                통신요금</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.OTT, { active: activeBenefit.OTT}]" class="OTT"
+                :disabled="option.OTT">
+                <img src="../assets/sort/OTT.svg" alt="#">
+                OTT</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.fuel, {active: activeBenefit.fuel}]" class="fuel"
+                :disabled="option.fuel">
+                <img src="../assets/sort/fuel.svg" alt="#">
+                주유요금</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.cafe, {active: activeBenefit.cafe}]" class="cafe"
+                :disabled="option.cafe">
+                <img src="../assets/sort/cafe.svg" alt="#">
+                카페</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.food, {active: activeBenefit.food}]" class="food"
+                :disabled="option.food">
+                <img src="../assets/sort/food.svg" alt="#">
+                음식점</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.public_transport, {active: activeBenefit.public_transport}]" class="public_transport"
+                :disabled="option.public_transport">
+                <img src="../assets/sort/public_transport.svg" alt="#">
+                대중교통</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.hospital, {active: activeBenefit.hospital}]" class="hospital"
+                :disabled="option.hospital">
+                <img src="../assets/sort/hospital.svg" alt="#">
+                병원</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.movie, {active: activeBenefit.movie}]" class="movie"
+                :disabled="option.movie">
+                <img src="../assets/sort/movie.svg" alt="#">
+                영화</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.online_shopping, {active: activeBenefit.online_shopping}]" class="online_shopping"
+                :disabled="option.online_shopping">
+                <img src="../assets/sort/online_shopping.svg" alt="#">
+                온라인 쇼핑</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.offline_shopping, {active: activeBenefit.offline_shopping}]" class="offline_shopping"
+                :disabled="option.offline_shopping">
+                <img src="../assets/sort/offline_shopping.svg" alt="#">
+                쇼핑</button>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-6">
+                <button :class="[option.delivery, {active: activeBenefit.delivery}]" class="delivery"
+                :disabled="option.delivery">
+                <img src="../assets/sort/delivery.svg" alt="#">
+                배달</button>
+              </div>
+              <div class="content col-12" v-if="cardBenefits">
+                <CardDetailItem class="animate__animated" :class="contentClass"
+                :content="cardBenefits[currentBenefit]"
+                :benefit="currentBenefit"
+                :category="cardBenefits.category"
+                :site="cardBenefits.site"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -96,9 +111,9 @@ import CardDetailItem from '@/components/CardDetailItem.vue'
 
 const route = useRoute()
 const contentClass = ref('')
-
 const cardImg = `/src/assets/cards/${route.params.card_id}.svg`
 const cardBenefits = ref(null)
+
 const option = ref({
   convenience_store: false,
   telecom: false,
@@ -137,7 +152,6 @@ onMounted(() => {
   })
   .then(res => {
     cardBenefits.value = res.data
-    console.log(res.data)
     for (const element in res.data) {
       for (const temp in res.data[element]) {
         if (res.data[element][temp].length === 1) {
@@ -183,7 +197,7 @@ const contentDetail = function (event) {
   margin: 20px auto;
   background-color: #B4D9D3;
   height: 720px;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
 }
 
@@ -206,6 +220,10 @@ const contentDetail = function (event) {
   border: 2px solid #184D59;
   border-radius: 10px;
 }
+.badge {
+  position: absolute;
+  font-size: 20px;
+}
 .site:hover {
   transition: all 0.5s;
   color: #F0F9E8;
@@ -225,7 +243,7 @@ div > img {
 }
 button {
   width: 120px;
-  margin: 15px;
+  margin: 10px;
   height: 35px;
   font-size: 15px;
   font-weight: 700;
@@ -235,7 +253,7 @@ button {
 }
 .content {
   width: 80%;
-  margin: 20px auto;
+  margin: 50px auto;
   /* border: 1px solid black; */
   height: 500px;
 }
