@@ -249,7 +249,7 @@ button {
   font-weight: 700;
   border-radius: 5px;
   position: relative;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .content {
   width: 80%;
@@ -260,8 +260,8 @@ button {
 button > img {
   position: absolute;
   z-index: 1;
-  left: -15px;
-  top: 0;
+  left: -5px;
+  top: -5px;
   scale: 1.2;
 }
 .main-img {
